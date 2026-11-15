@@ -15,7 +15,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -35,7 +36,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -53,7 +55,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -71,7 +74,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -91,7 +95,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -109,7 +114,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -127,7 +133,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -145,7 +152,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -163,7 +171,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -183,7 +192,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -205,7 +215,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -223,7 +234,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -241,7 +253,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -259,7 +272,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -280,7 +294,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -298,7 +313,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -321,7 +337,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -342,7 +359,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -360,7 +378,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -376,9 +395,10 @@
     "position": "Goleiro",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -399,7 +419,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -417,7 +438,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -437,7 +459,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -457,7 +480,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -475,7 +499,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -495,7 +520,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -511,9 +537,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -532,7 +559,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -552,7 +580,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": true
     }
   },
   {
@@ -570,7 +599,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -588,7 +618,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": true
     }
   },
   {
@@ -606,7 +637,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -624,7 +656,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -644,7 +677,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -662,7 +696,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -680,7 +715,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -698,7 +734,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -718,7 +755,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -736,7 +774,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -757,7 +796,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -775,7 +815,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -796,7 +837,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -812,9 +854,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -830,9 +873,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -853,7 +897,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -876,7 +921,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -894,7 +940,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -912,7 +959,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -930,7 +978,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -952,7 +1001,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -970,7 +1020,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -988,7 +1039,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -1006,7 +1058,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1024,7 +1077,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1042,7 +1096,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1060,7 +1115,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1078,7 +1134,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1096,7 +1153,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1114,7 +1172,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1132,7 +1191,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1150,7 +1210,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1166,9 +1227,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -1186,7 +1248,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1204,7 +1267,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1222,7 +1286,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1240,7 +1305,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1258,7 +1324,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -1278,7 +1345,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -1296,7 +1364,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -1314,7 +1383,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1332,7 +1402,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1350,7 +1421,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1368,7 +1440,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1386,7 +1459,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1404,7 +1478,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1422,7 +1497,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1440,7 +1516,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1458,7 +1535,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1476,7 +1554,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -1494,7 +1573,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1512,7 +1592,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1530,7 +1611,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -1548,7 +1630,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1566,7 +1649,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1584,7 +1668,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1602,7 +1687,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1620,7 +1706,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -1638,7 +1725,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1656,7 +1744,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1674,7 +1763,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1692,7 +1782,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1710,7 +1801,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1728,7 +1820,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1746,7 +1839,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1764,7 +1858,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1782,7 +1877,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1800,7 +1896,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1821,7 +1918,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1839,7 +1937,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1857,7 +1956,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1875,7 +1975,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1891,9 +1992,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -1911,7 +2013,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1929,7 +2032,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1947,7 +2051,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1965,7 +2070,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -1983,7 +2089,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2001,7 +2108,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2019,7 +2127,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2035,9 +2144,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -2055,7 +2165,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2073,7 +2184,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2091,7 +2203,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2109,7 +2222,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2127,7 +2241,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2143,9 +2258,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -2163,7 +2279,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2181,7 +2298,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2199,7 +2317,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2217,7 +2336,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2235,7 +2355,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2253,7 +2374,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -2271,7 +2393,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2287,9 +2410,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -2307,7 +2431,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2325,7 +2450,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2343,7 +2469,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2361,7 +2488,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2379,7 +2507,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2397,7 +2526,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2415,7 +2545,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -2433,7 +2564,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2449,9 +2581,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -2469,7 +2602,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2485,9 +2619,10 @@
     "position": "Goleiro",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -2505,7 +2640,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2523,7 +2659,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2541,7 +2678,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2559,7 +2697,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2577,7 +2716,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2595,7 +2735,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2613,7 +2754,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2631,7 +2773,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2649,7 +2792,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2667,7 +2811,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2685,7 +2830,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2706,7 +2852,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -2724,7 +2871,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2742,7 +2890,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2760,7 +2909,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2778,7 +2928,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2796,7 +2947,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2814,7 +2966,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2832,7 +2985,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2850,7 +3004,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -2866,9 +3021,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -2886,7 +3042,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2904,7 +3061,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2922,7 +3080,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2940,7 +3099,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2958,7 +3118,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2976,7 +3137,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -2994,7 +3156,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3012,7 +3175,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3030,7 +3194,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3048,7 +3213,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3066,7 +3232,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3087,7 +3254,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3105,7 +3273,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3123,7 +3292,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3141,7 +3311,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3157,9 +3328,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3177,7 +3349,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3195,7 +3368,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3213,7 +3387,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3231,7 +3406,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -3249,7 +3425,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3267,7 +3444,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3285,7 +3463,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3303,7 +3482,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -3321,7 +3501,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3337,9 +3518,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3355,9 +3537,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3375,7 +3558,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -3393,7 +3577,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3411,7 +3596,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3429,7 +3615,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3447,7 +3634,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3463,9 +3651,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3481,9 +3670,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3501,7 +3691,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3517,27 +3708,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 63289,
-    "name": "Edenílson",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/220x220.png",
-    "team": "Botafogo",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
-    "careerTeams": [
-      "Botafogo"
-    ],
-    "age": 26,
-    "position": "Meia",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3559,7 +3733,27 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 63289,
+    "name": "Edenílson",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/220x220.png",
+    "team": "Botafogo",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
+    "careerTeams": [
+      "Botafogo"
+    ],
+    "age": 26,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3577,7 +3771,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3595,7 +3790,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3613,7 +3809,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3633,7 +3830,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3651,7 +3849,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3669,7 +3868,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3687,7 +3887,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3705,7 +3906,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3723,7 +3925,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3739,9 +3942,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -3759,7 +3963,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3777,7 +3982,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3795,7 +4001,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3813,7 +4020,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3831,7 +4039,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3849,7 +4058,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3867,7 +4077,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3885,7 +4096,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3903,7 +4115,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3921,7 +4134,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3939,7 +4153,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3960,7 +4175,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3978,7 +4194,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -3996,7 +4213,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4014,7 +4232,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4032,7 +4251,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4050,7 +4270,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4068,7 +4289,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4086,7 +4308,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4107,7 +4330,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -4123,9 +4347,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -4143,7 +4368,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4161,7 +4387,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4178,8 +4405,9 @@
     "nationality": "Brasil",
     "trophies": {
       "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "copaDoBrasil": true,
+      "libertadores": false,
+      "sulamericana": true
     }
   },
   {
@@ -4197,7 +4425,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4218,7 +4447,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -4236,7 +4466,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4254,7 +4485,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4272,7 +4504,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4290,7 +4523,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4311,7 +4545,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -4329,7 +4564,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4347,7 +4583,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4365,7 +4602,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4383,7 +4621,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4401,7 +4640,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4419,7 +4659,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4440,7 +4681,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4463,7 +4705,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4481,7 +4724,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4502,7 +4746,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -4520,7 +4765,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -4538,7 +4784,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4556,7 +4803,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4574,7 +4822,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4592,7 +4841,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4610,7 +4860,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4628,7 +4879,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4646,7 +4898,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4664,7 +4917,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4682,7 +4936,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4700,7 +4955,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4721,7 +4977,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -4742,7 +4999,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -4764,7 +5022,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4782,7 +5041,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4800,7 +5060,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4818,7 +5079,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4836,7 +5098,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4856,7 +5119,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4874,7 +5138,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4891,8 +5156,9 @@
     "nationality": "Brasil",
     "trophies": {
       "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "copaDoBrasil": true,
+      "libertadores": false,
+      "sulamericana": true
     }
   },
   {
@@ -4910,7 +5176,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4928,7 +5195,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4946,7 +5214,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4964,7 +5233,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -4982,7 +5252,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5000,7 +5271,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5018,7 +5290,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5036,7 +5309,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5054,7 +5328,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5070,9 +5345,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -5090,7 +5366,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5108,7 +5385,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5126,7 +5404,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5144,7 +5423,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -5163,7 +5443,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -5181,7 +5462,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5199,7 +5481,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5217,7 +5500,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5235,7 +5519,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5253,7 +5538,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5271,7 +5557,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5289,7 +5576,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5307,7 +5595,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5327,7 +5616,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": true
     }
   },
   {
@@ -5345,7 +5635,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -5363,7 +5654,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5381,7 +5673,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5399,7 +5692,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5415,9 +5709,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -5435,7 +5730,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5453,7 +5749,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5471,7 +5768,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5492,7 +5790,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -5510,7 +5809,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5528,7 +5828,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5544,9 +5845,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -5564,7 +5866,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5582,7 +5885,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5600,7 +5904,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5618,7 +5923,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5636,7 +5942,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5654,7 +5961,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5672,7 +5980,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5690,7 +5999,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5708,7 +6018,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5726,7 +6037,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5744,7 +6056,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5762,7 +6075,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5780,7 +6094,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5798,7 +6113,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5816,7 +6132,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5834,7 +6151,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5852,7 +6170,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5870,7 +6189,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5888,7 +6208,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5909,7 +6230,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -5930,7 +6252,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -5948,7 +6271,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -5966,7 +6290,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -5984,7 +6309,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6002,7 +6328,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6020,7 +6347,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6038,7 +6366,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6059,7 +6388,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -6077,7 +6407,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6095,7 +6426,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6113,7 +6445,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6131,7 +6464,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6149,7 +6483,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6167,7 +6502,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6188,7 +6524,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6206,7 +6543,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6224,7 +6562,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6242,7 +6581,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6260,7 +6600,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6278,7 +6619,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6296,7 +6638,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -6314,7 +6657,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6332,7 +6676,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6350,7 +6695,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6368,7 +6714,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6386,7 +6733,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6404,7 +6752,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6422,7 +6771,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6440,7 +6790,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6458,7 +6809,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6474,9 +6826,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -6494,7 +6847,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6512,7 +6866,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6530,7 +6885,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6548,7 +6904,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6566,7 +6923,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6584,7 +6942,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6602,7 +6961,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6620,7 +6980,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6638,7 +6999,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6656,7 +7018,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6674,7 +7037,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6692,7 +7056,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6710,7 +7075,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6728,7 +7094,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6746,7 +7113,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6764,7 +7132,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6782,7 +7151,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6803,7 +7173,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -6821,7 +7192,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6839,7 +7211,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6857,7 +7230,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6875,7 +7249,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6893,7 +7268,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6913,7 +7289,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -6931,7 +7308,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -6947,9 +7325,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -6970,7 +7349,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -6988,7 +7368,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7006,7 +7387,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7024,7 +7406,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7045,7 +7428,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7063,7 +7447,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7081,7 +7466,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7097,27 +7483,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 104649,
-    "name": "Heitor",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CHA/220x220.png",
-    "team": "Chapecoense",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CHA/60x60.png",
-    "careerTeams": [
-      "Chapecoense"
-    ],
-    "age": 26,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -7135,7 +7504,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 104649,
+    "name": "Heitor",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CHA/220x220.png",
+    "team": "Chapecoense",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CHA/60x60.png",
+    "careerTeams": [
+      "Chapecoense"
+    ],
+    "age": 26,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7156,7 +7545,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -7174,7 +7564,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7197,7 +7588,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7218,7 +7610,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -7236,7 +7629,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7254,7 +7648,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7272,7 +7667,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7290,7 +7686,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7308,7 +7705,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7326,7 +7724,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7344,7 +7743,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7362,7 +7762,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7380,7 +7781,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7398,7 +7800,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7416,7 +7819,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7432,9 +7836,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -7452,7 +7857,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7470,7 +7876,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7488,7 +7895,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -7506,7 +7914,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7522,9 +7931,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -7542,7 +7952,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7560,7 +7971,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7578,7 +7990,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7596,7 +8009,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7614,7 +8028,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7630,9 +8045,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -7650,7 +8066,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7668,7 +8085,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7686,7 +8104,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7704,7 +8123,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7722,7 +8142,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -7743,7 +8164,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -7761,7 +8183,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7779,7 +8202,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7797,7 +8221,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7815,7 +8240,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7831,9 +8257,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -7854,7 +8281,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -7872,7 +8300,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7890,7 +8319,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7908,7 +8338,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7924,9 +8355,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -7948,7 +8380,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7966,7 +8399,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -7982,9 +8416,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -8002,7 +8437,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8020,7 +8456,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8038,7 +8475,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8057,7 +8495,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -8073,9 +8512,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -8093,7 +8533,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8111,7 +8552,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8127,9 +8569,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -8147,7 +8590,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8165,7 +8609,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8183,7 +8628,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8201,7 +8647,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8219,7 +8666,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8235,9 +8683,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -8253,9 +8702,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -8277,7 +8727,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8295,7 +8746,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8313,7 +8765,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8331,7 +8784,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8349,7 +8803,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8367,7 +8822,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8385,7 +8841,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -8403,7 +8860,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8421,7 +8879,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8439,7 +8898,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8455,9 +8915,10 @@
     "position": "Goleiro",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -8475,7 +8936,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8493,7 +8955,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8511,7 +8974,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8529,7 +8993,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8547,7 +9012,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8565,7 +9031,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8583,7 +9050,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8601,7 +9069,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -8619,7 +9088,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8637,7 +9107,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8655,7 +9126,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8673,7 +9145,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8691,7 +9164,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8709,7 +9183,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8727,7 +9202,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8745,7 +9221,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8763,7 +9240,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8781,7 +9259,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8799,7 +9278,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8817,7 +9297,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8835,7 +9316,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8853,7 +9335,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8871,7 +9354,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8889,7 +9373,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8907,7 +9392,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8925,7 +9411,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8943,7 +9430,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8961,7 +9449,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8979,7 +9468,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -8995,9 +9485,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -9015,7 +9506,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9033,7 +9525,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9054,7 +9547,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9072,7 +9566,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9090,7 +9585,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9108,7 +9604,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9126,7 +9623,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -9144,7 +9642,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9162,7 +9661,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9180,7 +9680,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9198,7 +9699,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9216,7 +9718,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9234,7 +9737,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9250,9 +9754,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -9268,9 +9773,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -9286,9 +9792,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -9309,7 +9816,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": true
     }
   },
   {
@@ -9327,7 +9835,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9345,7 +9854,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9363,7 +9873,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9381,7 +9892,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9399,7 +9911,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9417,7 +9930,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9438,7 +9952,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -9456,7 +9971,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9474,7 +9990,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9492,7 +10009,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9510,7 +10028,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9528,7 +10047,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9546,7 +10066,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9564,7 +10085,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9582,7 +10104,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9600,7 +10123,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9618,7 +10142,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9634,9 +10159,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -9654,7 +10180,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -9672,7 +10199,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9690,7 +10218,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9708,7 +10237,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9726,7 +10256,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9744,7 +10275,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -9762,7 +10294,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9780,7 +10313,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9796,9 +10330,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -9816,7 +10351,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9832,9 +10368,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -9852,7 +10389,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9870,7 +10408,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9888,7 +10427,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9906,7 +10446,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9924,7 +10465,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9945,7 +10487,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -9963,7 +10506,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9981,7 +10525,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -9999,7 +10544,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10015,9 +10561,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -10035,7 +10582,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10051,9 +10599,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -10071,7 +10620,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10089,7 +10639,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10107,7 +10658,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10125,7 +10677,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10143,7 +10696,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10161,7 +10715,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10179,7 +10734,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10197,7 +10753,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10215,7 +10772,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10233,7 +10791,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10251,7 +10810,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10269,7 +10829,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10287,7 +10848,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10305,7 +10867,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10323,7 +10886,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10341,7 +10905,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10357,9 +10922,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -10377,7 +10943,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10395,7 +10962,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10415,7 +10983,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10433,7 +11002,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10451,7 +11021,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10471,7 +11042,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -10487,9 +11059,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -10507,7 +11080,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10525,7 +11099,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10543,7 +11118,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10561,7 +11137,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10579,7 +11156,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10597,7 +11175,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10615,7 +11194,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10631,9 +11211,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -10651,7 +11232,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10669,7 +11251,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10687,7 +11270,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10705,7 +11289,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10723,7 +11308,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10741,7 +11327,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10757,9 +11344,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -10776,8 +11364,9 @@
     "nationality": "Brasil",
     "trophies": {
       "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "copaDoBrasil": true,
+      "libertadores": false,
+      "sulamericana": true
     }
   },
   {
@@ -10795,7 +11384,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10813,7 +11403,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10829,9 +11420,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -10849,7 +11441,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10867,7 +11460,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10885,7 +11479,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10903,7 +11498,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10921,7 +11517,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10939,7 +11536,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -10957,7 +11555,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10975,7 +11574,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -10993,7 +11593,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11011,7 +11612,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11029,7 +11631,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11047,7 +11650,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11065,7 +11669,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11083,7 +11688,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11101,7 +11707,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11119,7 +11726,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11137,7 +11745,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11155,7 +11764,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11176,7 +11786,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -11194,7 +11805,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11212,7 +11824,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11230,7 +11843,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11248,7 +11862,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11266,7 +11881,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11284,7 +11900,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11300,9 +11917,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -11320,7 +11938,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11338,7 +11957,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11356,7 +11976,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11374,7 +11995,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11392,7 +12014,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11410,7 +12033,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11428,7 +12052,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11446,7 +12071,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11464,7 +12090,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11482,7 +12109,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11500,7 +12128,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11518,7 +12147,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11536,7 +12166,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11554,7 +12185,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11572,7 +12204,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11590,7 +12223,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11608,7 +12242,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11626,7 +12261,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11644,7 +12280,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11662,7 +12299,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11680,25 +12318,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 131753,
-    "name": "Felipe Longo",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/COR/220x220.png",
-    "team": "Corinthians",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
-    "careerTeams": [
-      "Corinthians"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11716,7 +12337,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 131753,
+    "name": "Felipe Longo",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/COR/220x220.png",
+    "team": "Corinthians",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
+    "careerTeams": [
+      "Corinthians"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11734,7 +12375,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11750,9 +12392,10 @@
     "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -11770,7 +12413,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11788,7 +12432,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11806,7 +12451,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11824,7 +12470,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11842,7 +12489,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11860,7 +12508,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11878,7 +12527,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11895,8 +12545,9 @@
     "nationality": "Brasil",
     "trophies": {
       "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "copaDoBrasil": true,
+      "libertadores": false,
+      "sulamericana": true
     }
   },
   {
@@ -11912,9 +12563,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -11932,7 +12584,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11950,7 +12603,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11968,7 +12622,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -11986,7 +12641,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12004,7 +12660,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12022,7 +12679,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12040,7 +12698,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12058,7 +12717,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12076,7 +12736,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12094,7 +12755,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12112,7 +12774,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12130,7 +12793,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12148,7 +12812,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12166,7 +12831,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12184,7 +12850,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12205,7 +12872,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -12223,7 +12891,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -12241,7 +12910,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12259,7 +12929,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12277,7 +12948,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12299,7 +12971,27 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 151405,
+    "name": "Victor Hugo",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/220x220.png",
+    "team": "Botafogo",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
+    "careerTeams": [
+      "Botafogo"
+    ],
+    "age": 22,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -12317,25 +13009,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 151405,
-    "name": "Victor Hugo",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/220x220.png",
-    "team": "Botafogo",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
-    "careerTeams": [
-      "Botafogo"
-    ],
-    "age": 22,
-    "position": "Meia",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12353,25 +13028,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 146964,
-    "name": "Filipe Sirio",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/220x220.png",
-    "team": "Internacional",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/INT/60x60.png",
-    "careerTeams": [
-      "Internacional"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12389,7 +13047,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 146964,
+    "name": "Filipe Sirio",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/220x220.png",
+    "team": "Internacional",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/INT/60x60.png",
+    "careerTeams": [
+      "Internacional"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12407,7 +13085,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 131762,
+    "name": "Isac",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/220x220.png",
+    "team": "São Paulo",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/60x60.png",
+    "careerTeams": [
+      "São Paulo"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12425,7 +13123,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12443,7 +13142,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 145781,
+    "name": "Bruno André",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png",
+    "team": "Vasco",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
+    "careerTeams": [
+      "Vasco"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12464,79 +13183,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
-    }
-  },
-  {
-    "id": 145781,
-    "name": "Bruno André",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png",
-    "team": "Vasco",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
-    "careerTeams": [
-      "Vasco"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 130252,
-    "name": "Euder",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png",
-    "team": "Vasco",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
-    "careerTeams": [
-      "Vasco"
-    ],
-    "age": 22,
-    "position": "Meia",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 141954,
-    "name": "Khensane",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/220x220.png",
-    "team": "Coritiba",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
-    "careerTeams": [
-      "Coritiba"
-    ],
-    "age": 22,
-    "position": "Meia",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 141335,
-    "name": "Lucas Crepaldi",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/220x220.png",
-    "team": "Coritiba",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
-    "careerTeams": [
-      "Coritiba"
-    ],
-    "age": 22,
-    "position": "Atacante",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -12559,25 +13207,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 140167,
-    "name": "Luizinho",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/COR/220x220.png",
-    "team": "Corinthians",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
-    "careerTeams": [
-      "Corinthians"
-    ],
-    "age": 22,
-    "position": "Atacante",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12595,12 +13226,51 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
-    "id": 151825,
-    "name": "Gabriel Ibson",
+    "id": 130252,
+    "name": "Euder",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png",
+    "team": "Vasco",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
+    "careerTeams": [
+      "Vasco"
+    ],
+    "age": 22,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 140167,
+    "name": "Luizinho",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/COR/220x220.png",
+    "team": "Corinthians",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
+    "careerTeams": [
+      "Corinthians"
+    ],
+    "age": 22,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
+    }
+  },
+  {
+    "id": 141335,
+    "name": "Lucas Crepaldi",
     "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/220x220.png",
     "team": "Coritiba",
     "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
@@ -12608,12 +13278,32 @@
       "Coritiba"
     ],
     "age": 22,
-    "position": "Defensor",
+    "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 141954,
+    "name": "Khensane",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/220x220.png",
+    "team": "Coritiba",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
+    "careerTeams": [
+      "Coritiba"
+    ],
+    "age": 22,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12631,7 +13321,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 151825,
+    "name": "Gabriel Ibson",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CFC/220x220.png",
+    "team": "Coritiba",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
+    "careerTeams": [
+      "Coritiba"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12649,7 +13359,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12667,7 +13378,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12685,7 +13397,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12705,28 +13418,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
-    }
-  },
-  {
-    "id": 141610,
-    "name": "João Pedro",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/220x220.png",
-    "team": "São Paulo",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/60x60.png",
-    "careerTeams": [
-      "Fluminense",
-      "Fiorentina",
-      "Flamengo",
-      "São Paulo"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": true,
-      "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -12744,7 +13437,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12762,7 +13456,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12783,43 +13478,30 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
-    "id": 149175,
-    "name": "Andrés González",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/REM/220x220.png",
-    "team": "Remo",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/REM/60x60.png",
+    "id": 141610,
+    "name": "João Pedro",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/220x220.png",
+    "team": "São Paulo",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/60x60.png",
     "careerTeams": [
-      "Remo"
+      "Fluminense",
+      "Fiorentina",
+      "Flamengo",
+      "São Paulo"
     ],
     "age": 22,
-    "position": "Atacante",
+    "position": "Goleiro",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 152260,
-    "name": "Emanuel",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/GRE/220x220.png",
-    "team": "Grêmio",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/60x60.png",
-    "careerTeams": [
-      "Grêmio"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -12840,7 +13522,46 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 149175,
+    "name": "Andrés González",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/REM/220x220.png",
+    "team": "Remo",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/REM/60x60.png",
+    "careerTeams": [
+      "Remo"
+    ],
+    "age": 22,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 152260,
+    "name": "Emanuel",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/GRE/220x220.png",
+    "team": "Grêmio",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/60x60.png",
+    "careerTeams": [
+      "Grêmio"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12858,25 +13579,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 152424,
-    "name": "Léo Cerci",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
-    "team": "Athletico-PR",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
-    "careerTeams": [
-      "Athletico-PR"
-    ],
-    "age": 22,
-    "position": "Meia",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12894,7 +13598,84 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 142641,
+    "name": "Wanderson",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/220x220.png",
+    "team": "Atlético-MG",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/60x60.png",
+    "careerTeams": [
+      "Atlético-MG"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 141464,
+    "name": "Henrique Menke",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/220x220.png",
+    "team": "Internacional",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/INT/60x60.png",
+    "careerTeams": [
+      "Internacional"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 152424,
+    "name": "Léo Cerci",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
+    "team": "Athletico-PR",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
+    "careerTeams": [
+      "Athletico-PR"
+    ],
+    "age": 22,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 152616,
+    "name": "Vinícius Almeida",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/220x220.png",
+    "team": "Atlético-MG",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/60x60.png",
+    "careerTeams": [
+      "Atlético-MG"
+    ],
+    "age": 22,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -12915,43 +13696,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
-    }
-  },
-  {
-    "id": 141464,
-    "name": "Henrique Menke",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/INT/220x220.png",
-    "team": "Internacional",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/INT/60x60.png",
-    "careerTeams": [
-      "Internacional"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 142641,
-    "name": "Wanderson",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/220x220.png",
-    "team": "Atlético-MG",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/60x60.png",
-    "careerTeams": [
-      "Atlético-MG"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -12969,43 +13715,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 131762,
-    "name": "Isac",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/220x220.png",
-    "team": "São Paulo",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/60x60.png",
-    "careerTeams": [
-      "São Paulo"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 152616,
-    "name": "Vinícius Almeida",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/220x220.png",
-    "team": "Atlético-MG",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/60x60.png",
-    "careerTeams": [
-      "Atlético-MG"
-    ],
-    "age": 22,
-    "position": "Meia",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13023,7 +13734,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13039,9 +13751,10 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -13057,63 +13770,10 @@
     "position": "Goleiro",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 122316,
-    "name": "Batata",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
-    "team": "Athletico-PR",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
-    "careerTeams": [
-      "Athletico-PR"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 130842,
-    "name": "Matheus Soares",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
-    "team": "Athletico-PR",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
-    "careerTeams": [
-      "Athletico-PR"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 143532,
-    "name": "Carlos Eduardo",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
-    "team": "Athletico-PR",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
-    "careerTeams": [
-      "Athletico-PR"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -13131,7 +13791,65 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 122316,
+    "name": "Batata",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
+    "team": "Athletico-PR",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
+    "careerTeams": [
+      "Athletico-PR"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 130842,
+    "name": "Matheus Soares",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
+    "team": "Athletico-PR",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
+    "careerTeams": [
+      "Athletico-PR"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 143532,
+    "name": "Carlos Eduardo",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
+    "team": "Athletico-PR",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
+    "careerTeams": [
+      "Athletico-PR"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13149,7 +13867,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13167,7 +13886,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13185,7 +13905,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13203,25 +13924,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 144423,
-    "name": "Nicolas Pontes",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/220x220.png",
-    "team": "Cruzeiro",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CRU/60x60.png",
-    "careerTeams": [
-      "Cruzeiro"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13239,7 +13943,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 144423,
+    "name": "Nicolas Pontes",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/220x220.png",
+    "team": "Cruzeiro",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CRU/60x60.png",
+    "careerTeams": [
+      "Cruzeiro"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13257,7 +13981,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13275,7 +14000,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 141551,
+    "name": "Índio",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/220x220.png",
+    "team": "Atlético-MG",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/60x60.png",
+    "careerTeams": [
+      "Atlético-MG"
+    ],
+    "age": 22,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -13293,7 +14038,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 130698,
+    "name": "Kadu",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/220x220.png",
+    "team": "Botafogo",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
+    "careerTeams": [
+      "Botafogo"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -13311,25 +14076,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 130698,
-    "name": "Kadu",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/220x220.png",
-    "team": "Botafogo",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
-    "careerTeams": [
-      "Botafogo"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13347,7 +14095,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13365,7 +14114,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13383,7 +14133,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13404,7 +14155,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -13422,25 +14174,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 141551,
-    "name": "Índio",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/220x220.png",
-    "team": "Atlético-MG",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/60x60.png",
-    "careerTeams": [
-      "Atlético-MG"
-    ],
-    "age": 22,
-    "position": "Meia",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13458,25 +14193,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 130393,
-    "name": "Luiz Gustavo",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BAH/220x220.png",
-    "team": "Bahia",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/60x60.png",
-    "careerTeams": [
-      "Bahia"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13494,25 +14212,46 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
-    "id": 133671,
-    "name": "Gustavo Reis",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/220x220.png",
-    "team": "Red Bull Bragantino",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/60x60.png",
+    "id": 130393,
+    "name": "Luiz Gustavo",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BAH/220x220.png",
+    "team": "Bahia",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/60x60.png",
     "careerTeams": [
-      "Red Bull Bragantino"
+      "Bahia"
     ],
     "age": 22,
-    "position": "Goleiro",
+    "position": "Defensor",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
+    }
+  },
+  {
+    "id": 143465,
+    "name": "Keven Samuel",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/FLU/220x220.png",
+    "team": "Fluminense",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLU/60x60.png",
+    "careerTeams": [
+      "Fluminense"
+    ],
+    "age": 22,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -13533,25 +14272,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
-    }
-  },
-  {
-    "id": 143465,
-    "name": "Keven Samuel",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/FLU/220x220.png",
-    "team": "Fluminense",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLU/60x60.png",
-    "careerTeams": [
-      "Fluminense"
-    ],
-    "age": 22,
-    "position": "Atacante",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
@@ -13567,9 +14289,29 @@
     "position": "Atacante",
     "nationality": "Brasil",
     "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
+    }
+  },
+  {
+    "id": 133671,
+    "name": "Gustavo Reis",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/RBB/220x220.png",
+    "team": "Red Bull Bragantino",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/60x60.png",
+    "careerTeams": [
+      "Red Bull Bragantino"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13585,9 +14327,10 @@
     "position": "Meia",
     "nationality": "Brasil",
     "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -13605,25 +14348,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 141184,
-    "name": "Walace Falcão",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png",
-    "team": "Vasco",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
-    "careerTeams": [
-      "Vasco"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13641,7 +14367,27 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 141184,
+    "name": "Walace Falcão",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png",
+    "team": "Vasco",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
+    "careerTeams": [
+      "Vasco"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13659,7 +14405,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13677,43 +14424,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 130309,
-    "name": "Rodrigo Falcão",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/220x220.png",
-    "team": "Santos",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAN/60x60.png",
-    "careerTeams": [
-      "Santos"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 130399,
-    "name": "Igor Felisberto",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/220x220.png",
-    "team": "São Paulo",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/60x60.png",
-    "careerTeams": [
-      "São Paulo"
-    ],
-    "age": 22,
-    "position": "Defensor",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13736,7 +14448,46 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 130309,
+    "name": "Rodrigo Falcão",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAN/220x220.png",
+    "team": "Santos",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAN/60x60.png",
+    "careerTeams": [
+      "Santos"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 130233,
+    "name": "Iuri",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BAH/220x220.png",
+    "team": "Bahia",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/60x60.png",
+    "careerTeams": [
+      "Bahia"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
     }
   },
   {
@@ -13757,53 +14508,18 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
     }
   },
   {
-    "id": 130233,
-    "name": "Iuri",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BAH/220x220.png",
-    "team": "Bahia",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/60x60.png",
+    "id": 130399,
+    "name": "Igor Felisberto",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/SAO/220x220.png",
+    "team": "São Paulo",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAO/60x60.png",
     "careerTeams": [
-      "Bahia"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 129665,
-    "name": "Pablo",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png",
-    "team": "Vasco",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
-    "careerTeams": [
-      "Vasco"
-    ],
-    "age": 22,
-    "position": "Goleiro",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 144898,
-    "name": "Vitinho",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
-    "team": "Athletico-PR",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
-    "careerTeams": [
-      "Athletico-PR"
+      "São Paulo"
     ],
     "age": 22,
     "position": "Defensor",
@@ -13811,7 +14527,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13829,7 +14546,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13847,7 +14565,46 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 129665,
+    "name": "Pablo",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png",
+    "team": "Vasco",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
+    "careerTeams": [
+      "Vasco"
+    ],
+    "age": 22,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": false,
+      "sulamericana": true
+    }
+  },
+  {
+    "id": 144898,
+    "name": "Vitinho",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAP/220x220.png",
+    "team": "Athletico-PR",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
+    "careerTeams": [
+      "Athletico-PR"
+    ],
+    "age": 22,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13865,7 +14622,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13886,7 +14644,46 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": true
+      "libertadores": true,
+      "sulamericana": false
+    }
+  },
+  {
+    "id": 144889,
+    "name": "Victor Gabriel",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/220x220.png",
+    "team": "Palmeiras",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/PAL/60x60.png",
+    "careerTeams": [
+      "Palmeiras"
+    ],
+    "age": 22,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true,
+      "sulamericana": true
+    }
+  },
+  {
+    "id": 151003,
+    "name": "Eduardo",
+    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/220x220.png",
+    "team": "Palmeiras",
+    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/PAL/60x60.png",
+    "careerTeams": [
+      "Palmeiras"
+    ],
+    "age": 22,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13909,7 +14706,8 @@
     "trophies": {
       "brasileirao": true,
       "copaDoBrasil": true,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13927,7 +14725,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   },
   {
@@ -13945,43 +14744,8 @@
     "trophies": {
       "brasileirao": false,
       "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 151003,
-    "name": "Eduardo",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/220x220.png",
-    "team": "Palmeiras",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/PAL/60x60.png",
-    "careerTeams": [
-      "Palmeiras"
-    ],
-    "age": 22,
-    "position": "Atacante",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
-    }
-  },
-  {
-    "id": 144889,
-    "name": "Victor Gabriel",
-    "photo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/PAL/220x220.png",
-    "team": "Palmeiras",
-    "teamLogo": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/PAL/60x60.png",
-    "careerTeams": [
-      "Palmeiras"
-    ],
-    "age": 22,
-    "position": "Meia",
-    "nationality": "Brasil",
-    "trophies": {
-      "brasileirao": false,
-      "copaDoBrasil": false,
-      "libertadores": false
+      "libertadores": false,
+      "sulamericana": false
     }
   }
 ]

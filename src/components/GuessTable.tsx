@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowUp, ArrowDown } from 'lucide-react';
 import type { GuessResult, MatchStatus } from '../types/player';
 import { getCountryFlagUrl } from '../utils/flags';
-import { TrophyGroup } from './TrophyBadge';
+import { TournamentPatchGrid } from './TournamentPatch';
 
 interface GuessTableProps {
   guesses: GuessResult[];
@@ -173,14 +173,14 @@ export const GuessTable: React.FC<GuessTableProps> = ({ guesses }) => {
                   </span>
                 </div>
 
-                {/* 6. Títulos (Ícones de Taças Estilo Narutodle) */}
+                {/* 6. Títulos (Patches Oficiais de Camisa Sem Ano no Grid 2x2) */}
                 <div
                   style={{ animationDelay: isLatest ? '750ms' : '0ms' }}
-                  className={`flex flex-col items-center justify-center p-1 border-2 border-black shadow-arcade-sm h-16 sm:h-20 text-center ${getBgColor(
+                  className={`flex items-center justify-center p-1 border-2 border-black shadow-arcade-sm h-16 sm:h-20 text-center ${getBgColor(
                     guess.trophiesMatch.status
                   )} ${isLatest ? 'animate-flip' : ''}`}
                 >
-                  <TrophyGroup trophies={guess.player.trophies} size="sm" />
+                  <TournamentPatchGrid trophies={guess.player.trophies} />
                 </div>
               </div>
             );

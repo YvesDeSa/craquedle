@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, ArrowUp, ArrowDown } from 'lucide-react';
-import { TrophyBadge } from './TrophyBadge';
+import { TournamentPatch } from './TournamentPatch';
 
 interface HowToPlayModalProps {
   isOpen: boolean;
@@ -88,21 +88,27 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({ isOpen, onClose 
             </div>
           </div>
 
-          {/* Troféus explicados */}
+          {/* Patches de Torneios Explicados */}
           <div className="bg-[#04160E] p-2.5 border border-[#FFDF00]/30 space-y-1.5">
-            <strong className="text-[#FFDF00] font-display">SELO DOS TROFÉUS CONSIDERADOS:</strong>
-            <div className="flex flex-wrap gap-2 text-[11px] font-display">
-              <div className="flex items-center gap-1">
-                <TrophyBadge type="BR" size="sm" />
+            <strong className="text-[#FFDF00] font-display text-[11px] tracking-wide">
+              PATCHES OFICIAIS DE CAMISA (4 TÍTULOS CONSIDERADOS):
+            </strong>
+            <div className="grid grid-cols-2 gap-2 text-[11px] font-display mt-1">
+              <div className="flex items-center gap-2">
+                <TournamentPatch type="brasileirao" size={30} />
                 <span>Brasileirão Série A</span>
               </div>
-              <div className="flex items-center gap-1">
-                <TrophyBadge type="CDB" size="sm" />
+              <div className="flex items-center gap-2">
+                <TournamentPatch type="copaDoBrasil" size={30} />
                 <span>Copa do Brasil</span>
               </div>
-              <div className="flex items-center gap-1">
-                <TrophyBadge type="LIB" size="sm" />
-                <span>Libertadores</span>
+              <div className="flex items-center gap-2">
+                <TournamentPatch type="libertadores" size={30} />
+                <span>CONMEBOL Libertadores</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <TournamentPatch type="sulamericana" size={30} />
+                <span>Copa Sul-Americana</span>
               </div>
             </div>
           </div>

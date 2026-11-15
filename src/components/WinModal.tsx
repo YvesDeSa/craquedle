@@ -4,7 +4,7 @@ import { Trophy, Share2, Check, Clock, X } from 'lucide-react';
 import type { Player, GuessResult } from '../types/player';
 import { generateShareText, getTimeUntilMidnightBrasilia } from '../utils/gameLogic';
 import { getCountryFlagUrl } from '../utils/flags';
-import { TrophyGroup } from './TrophyBadge';
+import { TournamentPatchGrid } from './TournamentPatch';
 import { PlayerAvatar } from './PlayerAvatar';
 
 interface WinModalProps {
@@ -115,8 +115,8 @@ export const WinModal: React.FC<WinModalProps> = ({
               <span>•</span>
               <span>{secretPlayer.age} anos</span>
             </div>
-            <div className="mt-1.5">
-              <TrophyGroup trophies={secretPlayer.trophies} size="sm" />
+            <div className="mt-1.5 flex items-center">
+              <TournamentPatchGrid trophies={secretPlayer.trophies} />
             </div>
           </div>
         </div>

@@ -91,20 +91,22 @@ export function compareGuess(guessed: Player, secret: Player): GuessResult {
   const nationalityMatch: MatchStatus =
     normalizeText(guessed.nationality) === normalizeText(secret.nationality) ? 'CORRECT' : 'INCORRECT';
 
-  // 5. Títulos (Brasileirão, Copa do Brasil, Libertadores)
+  // 5. Títulos (Brasileirão, Copa do Brasil, Libertadores, Sul-Americana)
   const gTrophies = guessed.trophies;
   const sTrophies = secret.trophies;
 
   const isExactTrophies =
     gTrophies.brasileirao === sTrophies.brasileirao &&
     gTrophies.copaDoBrasil === sTrophies.copaDoBrasil &&
-    gTrophies.libertadores === sTrophies.libertadores;
+    gTrophies.libertadores === sTrophies.libertadores &&
+    gTrophies.sulamericana === sTrophies.sulamericana;
 
   // Verifica se há pelo menos 1 título em comum positivo
   const hasCommonPositive =
     (gTrophies.brasileirao && sTrophies.brasileirao) ||
     (gTrophies.copaDoBrasil && sTrophies.copaDoBrasil) ||
-    (gTrophies.libertadores && sTrophies.libertadores);
+    (gTrophies.libertadores && sTrophies.libertadores) ||
+    (gTrophies.sulamericana && sTrophies.sulamericana);
 
   let trophiesStatus: MatchStatus = 'INCORRECT';
   if (isExactTrophies) {
@@ -139,6 +141,7 @@ export function formatTrophiesSummary(trophies: Player['trophies']): string {
   if (trophies.brasileirao) parts.push('BR');
   if (trophies.copaDoBrasil) parts.push('CdB');
   if (trophies.libertadores) parts.push('LIB');
+  if (trophies.sulamericana) parts.push('SULA');
   return parts.length > 0 ? parts.join(', ') : 'Nenhum';
 }
 

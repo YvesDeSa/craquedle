@@ -4,6 +4,7 @@ export interface PlayerTrophies {
   brasileirao: boolean;
   copaDoBrasil: boolean;
   libertadores: boolean;
+  sulamericana: boolean;
 }
 
 export interface Player {
