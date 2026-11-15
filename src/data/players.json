@@ -1,0 +1,722 @@
+[
+  {
+    "id": 10255,
+    "name": "Pedro",
+    "photo": "https://media.api-sports.io/football/players/10255.png",
+    "team": "Flamengo",
+    "teamLogo": "https://media.api-sports.io/football/teams/127.png",
+    "careerTeams": ["Fluminense", "Fiorentina", "Flamengo"],
+    "age": 27,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 10228,
+    "name": "Giorgian de Arrascaeta",
+    "photo": "https://media.api-sports.io/football/players/10228.png",
+    "team": "Flamengo",
+    "teamLogo": "https://media.api-sports.io/football/teams/127.png",
+    "careerTeams": ["Defensor Sporting", "Cruzeiro", "Flamengo"],
+    "age": 30,
+    "position": "Meia",
+    "nationality": "Uruguai",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 10232,
+    "name": "Gerson",
+    "photo": "https://media.api-sports.io/football/players/10232.png",
+    "team": "Flamengo",
+    "teamLogo": "https://media.api-sports.io/football/teams/127.png",
+    "careerTeams": ["Fluminense", "Roma", "Fiorentina", "Marseille", "Flamengo"],
+    "age": 27,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 6127,
+    "name": "Nicolás de la Cruz",
+    "photo": "https://media.api-sports.io/football/players/6127.png",
+    "team": "Flamengo",
+    "teamLogo": "https://media.api-sports.io/football/teams/127.png",
+    "careerTeams": ["Liverpool Montevideo", "River Plate", "Flamengo"],
+    "age": 27,
+    "position": "Meia",
+    "nationality": "Uruguai",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 6121,
+    "name": "Agustín Rossi",
+    "photo": "https://media.api-sports.io/football/players/6121.png",
+    "team": "Flamengo",
+    "teamLogo": "https://media.api-sports.io/football/teams/127.png",
+    "careerTeams": ["Chacarita Juniors", "Estudiantes", "Defensa y Justicia", "Boca Juniors", "Antofagasta", "Lanús", "Al-Nassr", "Flamengo"],
+    "age": 29,
+    "position": "Goleiro",
+    "nationality": "Argentina",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 41103,
+    "name": "Hulk",
+    "photo": "https://media.api-sports.io/football/players/41103.png",
+    "team": "Atlético-MG",
+    "teamLogo": "https://media.api-sports.io/football/teams/1062.png",
+    "careerTeams": ["Vitória", "Kawasaki Frontale", "Consadole Sapporo", "Tokyo Verdy", "Porto", "Zenit", "Shanghai SIPG", "Atlético-MG"],
+    "age": 38,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 1406,
+    "name": "Paulinho",
+    "photo": "https://media.api-sports.io/football/players/1406.png",
+    "team": "Atlético-MG",
+    "teamLogo": "https://media.api-sports.io/football/teams/1062.png",
+    "careerTeams": ["Vasco", "Bayer Leverkusen", "Atlético-MG"],
+    "age": 24,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 1587,
+    "name": "Guilherme Arana",
+    "photo": "https://media.api-sports.io/football/players/1587.png",
+    "team": "Atlético-MG",
+    "teamLogo": "https://media.api-sports.io/football/teams/1062.png",
+    "careerTeams": ["Corinthians", "Athletico-PR", "Sevilla", "Atalanta", "Atlético-MG"],
+    "age": 27,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 385802,
+    "name": "Estêvão",
+    "photo": "https://media.api-sports.io/football/players/385802.png",
+    "team": "Palmeiras",
+    "teamLogo": "https://media.api-sports.io/football/teams/121.png",
+    "careerTeams": ["Palmeiras"],
+    "age": 17,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10091,
+    "name": "Raphael Veiga",
+    "photo": "https://media.api-sports.io/football/players/10091.png",
+    "team": "Palmeiras",
+    "teamLogo": "https://media.api-sports.io/football/teams/121.png",
+    "careerTeams": ["Coritiba", "Athletico-PR", "Palmeiras"],
+    "age": 29,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 2697,
+    "name": "Gustavo Gómez",
+    "photo": "https://media.api-sports.io/football/players/2697.png",
+    "team": "Palmeiras",
+    "teamLogo": "https://media.api-sports.io/football/teams/121.png",
+    "careerTeams": ["Libertad", "Lanús", "Milan", "Palmeiras"],
+    "age": 31,
+    "position": "Defensor",
+    "nationality": "Paraguai",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 10078,
+    "name": "Weverton",
+    "photo": "https://media.api-sports.io/football/players/10078.png",
+    "team": "Palmeiras",
+    "teamLogo": "https://media.api-sports.io/football/teams/121.png",
+    "careerTeams": ["Corinthians", "Remo", "Oeste", "América-RN", "Botafogo-SP", "Portuguesa", "Athletico-PR", "Palmeiras"],
+    "age": 36,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 18884,
+    "name": "Jonathan Calleri",
+    "photo": "https://media.api-sports.io/football/players/18884.png",
+    "team": "São Paulo",
+    "teamLogo": "https://media.api-sports.io/football/teams/126.png",
+    "careerTeams": ["All Boys", "Boca Juniors", "Deportivo Maldonado", "West Ham", "Las Palmas", "Espanyol", "Osasuna", "São Paulo"],
+    "age": 31,
+    "position": "Atacante",
+    "nationality": "Argentina",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 169,
+    "name": "Lucas Moura",
+    "photo": "https://media.api-sports.io/football/players/169.png",
+    "team": "São Paulo",
+    "teamLogo": "https://media.api-sports.io/football/teams/126.png",
+    "careerTeams": ["São Paulo", "Paris Saint-Germain", "Tottenham", "São Paulo"],
+    "age": 32,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10565,
+    "name": "Luciano",
+    "photo": "https://media.api-sports.io/football/players/10565.png",
+    "team": "São Paulo",
+    "teamLogo": "https://media.api-sports.io/football/teams/126.png",
+    "careerTeams": ["Atlético Goianiense", "Avaí", "Corinthians", "Leganés", "Panathinaikos", "Fluminense", "Grêmio", "São Paulo"],
+    "age": 31,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10508,
+    "name": "Yuri Alberto",
+    "photo": "https://media.api-sports.io/football/players/10508.png",
+    "team": "Corinthians",
+    "teamLogo": "https://media.api-sports.io/football/teams/131.png",
+    "careerTeams": ["Santos", "Internacional", "Zenit", "Corinthians"],
+    "age": 23,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 140417,
+    "name": "Rodrigo Garro",
+    "photo": "https://media.api-sports.io/football/players/140417.png",
+    "team": "Corinthians",
+    "teamLogo": "https://media.api-sports.io/football/teams/131.png",
+    "careerTeams": ["Instituto", "Talleres", "Corinthians"],
+    "age": 26,
+    "position": "Meia",
+    "nationality": "Argentina",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 964,
+    "name": "Memphis Depay",
+    "photo": "https://media.api-sports.io/football/players/964.png",
+    "team": "Corinthians",
+    "teamLogo": "https://media.api-sports.io/football/teams/131.png",
+    "careerTeams": ["PSV Eindhoven", "Manchester United", "Lyon", "Barcelona", "Atlético Madrid", "Corinthians"],
+    "age": 30,
+    "position": "Atacante",
+    "nationality": "Holanda",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10221,
+    "name": "Hugo Souza",
+    "photo": "https://media.api-sports.io/football/players/10221.png",
+    "team": "Corinthians",
+    "teamLogo": "https://media.api-sports.io/football/teams/131.png",
+    "careerTeams": ["Flamengo", "Chaves", "Corinthians"],
+    "age": 25,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 6059,
+    "name": "Pablo Vegetti",
+    "photo": "https://media.api-sports.io/football/players/6059.png",
+    "team": "Vasco",
+    "teamLogo": "https://media.api-sports.io/football/teams/133.png",
+    "careerTeams": ["Villa San Carlos", "Rangers", "Ferro Carril Oeste", "Gimnasia", "Colón", "Boca Unidos", "Instituto", "Belgrano", "Vasco"],
+    "age": 36,
+    "position": "Atacante",
+    "nationality": "Argentina",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 139,
+    "name": "Philippe Coutinho",
+    "photo": "https://media.api-sports.io/football/players/139.png",
+    "team": "Vasco",
+    "teamLogo": "https://media.api-sports.io/football/teams/133.png",
+    "careerTeams": ["Vasco", "Inter de Milão", "Espanyol", "Liverpool", "Barcelona", "Bayern de Munique", "Aston Villa", "Al-Duhail"],
+    "age": 32,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10323,
+    "name": "Léo Jardim",
+    "photo": "https://media.api-sports.io/football/players/10323.png",
+    "team": "Vasco",
+    "teamLogo": "https://media.api-sports.io/football/teams/133.png",
+    "careerTeams": ["Grêmio", "Rio Ave", "Lille", "Boavista", "Vasco"],
+    "age": 29,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 253,
+    "name": "Thiago Silva",
+    "photo": "https://media.api-sports.io/football/players/253.png",
+    "team": "Fluminense",
+    "teamLogo": "https://media.api-sports.io/football/teams/124.png",
+    "careerTeams": ["RS Futebol", "Juventude", "Porto", "Dynamo Moscou", "Fluminense", "Milan", "Paris Saint-Germain", "Chelsea"],
+    "age": 40,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 7892,
+    "name": "Jhon Arias",
+    "photo": "https://media.api-sports.io/football/players/7892.png",
+    "team": "Fluminense",
+    "teamLogo": "https://media.api-sports.io/football/teams/124.png",
+    "careerTeams": ["Dorados de Sinaloa", "Tijuana", "Patriotas Boyacá", "América de Cali", "Santa Fe", "Fluminense"],
+    "age": 27,
+    "position": "Meia",
+    "nationality": "Colômbia",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 10344,
+    "name": "Paulo Henrique Ganso",
+    "photo": "https://media.api-sports.io/football/players/10344.png",
+    "team": "Fluminense",
+    "teamLogo": "https://media.api-sports.io/football/teams/124.png",
+    "careerTeams": ["Santos", "São Paulo", "Sevilla", "Amiens", "Fluminense"],
+    "age": 35,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 9976,
+    "name": "Fábio",
+    "photo": "https://media.api-sports.io/football/players/9976.png",
+    "team": "Fluminense",
+    "teamLogo": "https://media.api-sports.io/football/teams/124.png",
+    "careerTeams": ["União Bandeirante", "Athletico-PR", "Vasco", "Cruzeiro", "Fluminense"],
+    "age": 44,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 10398,
+    "name": "Alan Patrick",
+    "photo": "https://media.api-sports.io/football/players/10398.png",
+    "team": "Internacional",
+    "teamLogo": "https://media.api-sports.io/football/teams/119.png",
+    "careerTeams": ["Santos", "Shakhtar Donetsk", "Internacional", "Palmeiras", "Flamengo"],
+    "age": 33,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 6138,
+    "name": "Rafael Borré",
+    "photo": "https://media.api-sports.io/football/players/6138.png",
+    "team": "Internacional",
+    "teamLogo": "https://media.api-sports.io/football/teams/119.png",
+    "careerTeams": ["Deportivo Cali", "Atlético Madrid", "Villarreal", "River Plate", "Eintracht Frankfurt", "Werder Bremen", "Internacional"],
+    "age": 29,
+    "position": "Atacante",
+    "nationality": "Colômbia",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 110915,
+    "name": "Alexandro Bernabei",
+    "photo": "https://media.api-sports.io/football/players/110915.png",
+    "team": "Internacional",
+    "teamLogo": "https://media.api-sports.io/football/teams/119.png",
+    "careerTeams": ["Lanús", "Celtic", "Internacional"],
+    "age": 24,
+    "position": "Defensor",
+    "nationality": "Argentina",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 35300,
+    "name": "Jefferson Savarino",
+    "photo": "https://media.api-sports.io/football/players/35300.png",
+    "team": "Botafogo",
+    "teamLogo": "https://media.api-sports.io/football/teams/120.png",
+    "careerTeams": ["Zulia", "Real Salt Lake", "Atlético-MG", "Botafogo"],
+    "age": 28,
+    "position": "Atacante",
+    "nationality": "Venezuela",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 140419,
+    "name": "Igor Jesus",
+    "photo": "https://media.api-sports.io/football/players/140419.png",
+    "team": "Botafogo",
+    "teamLogo": "https://media.api-sports.io/football/teams/120.png",
+    "careerTeams": ["Coritiba", "Shabab Al-Ahli", "Botafogo"],
+    "age": 23,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 140420,
+    "name": "Luiz Henrique",
+    "photo": "https://media.api-sports.io/football/players/140420.png",
+    "team": "Botafogo",
+    "teamLogo": "https://media.api-sports.io/football/teams/120.png",
+    "careerTeams": ["Fluminense", "Real Betis", "Botafogo"],
+    "age": 24,
+    "position": "Atacante",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 2801,
+    "name": "Bastos",
+    "photo": "https://media.api-sports.io/football/players/2801.png",
+    "team": "Botafogo",
+    "teamLogo": "https://media.api-sports.io/football/teams/120.png",
+    "careerTeams": ["Petro Luanda", "Rostov", "Lazio", "Al-Ain", "Al-Ahli", "Botafogo"],
+    "age": 33,
+    "position": "Defensor",
+    "nationality": "Angola",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 10244,
+    "name": "Everton Ribeiro",
+    "photo": "https://media.api-sports.io/football/players/10244.png",
+    "team": "Bahia",
+    "teamLogo": "https://media.api-sports.io/football/teams/118.png",
+    "careerTeams": ["Corinthians", "São Caetano", "Coritiba", "Cruzeiro", "Al-Ahli", "Flamengo", "Bahia"],
+    "age": 35,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 140421,
+    "name": "Luciano Juba",
+    "photo": "https://media.api-sports.io/football/players/140421.png",
+    "team": "Bahia",
+    "teamLogo": "https://media.api-sports.io/football/teams/118.png",
+    "careerTeams": ["Sport Recife", "Confiança", "Bahia"],
+    "age": 25,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 18274,
+    "name": "Matheus Pereira",
+    "photo": "https://media.api-sports.io/football/players/18274.png",
+    "team": "Cruzeiro",
+    "teamLogo": "https://media.api-sports.io/football/teams/135.png",
+    "careerTeams": ["Sporting CP", "Chaves", "Nürnberg", "West Bromwich Albion", "Al-Hilal", "Al-Wahda", "Cruzeiro"],
+    "age": 28,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10124,
+    "name": "Cássio",
+    "photo": "https://media.api-sports.io/football/players/10124.png",
+    "team": "Cruzeiro",
+    "teamLogo": "https://media.api-sports.io/football/teams/135.png",
+    "careerTeams": ["Grêmio", "PSV Eindhoven", "Sparta Rotterdam", "Corinthians", "Cruzeiro"],
+    "age": 37,
+    "position": "Goleiro",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": true,
+      "copaDoBrasil": false,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 19163,
+    "name": "Yannick Bolasie",
+    "photo": "https://media.api-sports.io/football/players/19163.png",
+    "team": "Criciúma",
+    "teamLogo": "https://media.api-sports.io/football/teams/146.png",
+    "careerTeams": ["Plymouth", "Barnet", "Bristol City", "Crystal Palace", "Everton", "Aston Villa", "Anderlecht", "Sporting CP", "Middlesbrough", "Çaykur Rizespor", "Swansea", "Criciúma"],
+    "age": 35,
+    "position": "Atacante",
+    "nationality": "República Democrática do Congo",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 47343,
+    "name": "Yeferson Soteldo",
+    "photo": "https://media.api-sports.io/football/players/47343.png",
+    "team": "Grêmio",
+    "teamLogo": "https://media.api-sports.io/football/teams/130.png",
+    "careerTeams": ["Zamora", "Huachipato", "Universidad de Chile", "Santos", "Toronto FC", "Tigres UANL", "Grêmio"],
+    "age": 27,
+    "position": "Atacante",
+    "nationality": "Venezuela",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 1378,
+    "name": "Martin Braithwaite",
+    "photo": "https://media.api-sports.io/football/players/1378.png",
+    "team": "Grêmio",
+    "teamLogo": "https://media.api-sports.io/football/teams/130.png",
+    "careerTeams": ["Esbjerg", "Toulouse", "Middlesbrough", "Bordeaux", "Leganés", "Barcelona", "Espanyol", "Grêmio"],
+    "age": 33,
+    "position": "Atacante",
+    "nationality": "Dinamarca",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10309,
+    "name": "Walter Kannemann",
+    "photo": "https://media.api-sports.io/football/players/10309.png",
+    "team": "Grêmio",
+    "teamLogo": "https://media.api-sports.io/football/teams/130.png",
+    "careerTeams": ["San Lorenzo", "Atlas", "Grêmio"],
+    "age": 33,
+    "position": "Defensor",
+    "nationality": "Argentina",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": true,
+      "libertadores": true
+    }
+  },
+  {
+    "id": 10134,
+    "name": "Lucas Piton",
+    "photo": "https://media.api-sports.io/football/players/10134.png",
+    "team": "Vasco",
+    "teamLogo": "https://media.api-sports.io/football/teams/133.png",
+    "careerTeams": ["Corinthians", "Vasco"],
+    "age": 24,
+    "position": "Defensor",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10198,
+    "name": "Caio Alexandre",
+    "photo": "https://media.api-sports.io/football/players/10198.png",
+    "team": "Bahia",
+    "teamLogo": "https://media.api-sports.io/football/teams/118.png",
+    "careerTeams": ["Botafogo", "Vancouver Whitecaps", "Fortaleza", "Bahia"],
+    "age": 25,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 6223,
+    "name": "Juan Martín Lucero",
+    "photo": "https://media.api-sports.io/football/players/6223.png",
+    "team": "Fortaleza",
+    "teamLogo": "https://media.api-sports.io/football/teams/154.png",
+    "careerTeams": ["Defensa y Justicia", "Independiente", "Johor DT", "Tijuana", "Godoy Cruz", "Vélez Sarsfield", "Colo-Colo", "Fortaleza"],
+    "age": 33,
+    "position": "Atacante",
+    "nationality": "Argentina",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  },
+  {
+    "id": 10609,
+    "name": "Yago Pikachu",
+    "photo": "https://media.api-sports.io/football/players/10609.png",
+    "team": "Fortaleza",
+    "teamLogo": "https://media.api-sports.io/football/teams/154.png",
+    "careerTeams": ["Paysandu", "Vasco", "Shimizu S-Pulse", "Fortaleza"],
+    "age": 32,
+    "position": "Meia",
+    "nationality": "Brasil",
+    "trophies": {
+      "brasileirao": false,
+      "copaDoBrasil": false,
+      "libertadores": false
+    }
+  }
+]
