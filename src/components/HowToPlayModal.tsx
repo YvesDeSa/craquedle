@@ -1,5 +1,6 @@
 import React from 'react';
 import { X, ArrowUp, ArrowDown } from 'lucide-react';
+import { TrophyBadge } from './TrophyBadge';
 
 interface HowToPlayModalProps {
   isOpen: boolean;
@@ -11,38 +12,38 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({ isOpen, onClose 
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm">
-      <div className="relative w-full max-w-lg bg-[#0A0B1E] border-4 border-[#6D28D9] p-6 shadow-arcade-lg text-white max-h-[90vh] overflow-y-auto">
+      <div className="relative w-full max-w-lg bg-[#061A12] border-4 border-[#FFDF00] p-5 shadow-arcade-lg text-white max-h-[85vh] overflow-y-auto">
         {/* Cantoneiras Pixel */}
-        <div className="absolute top-1 left-1 w-3 h-3 bg-[#B8FF01]" />
-        <div className="absolute top-1 right-1 w-3 h-3 bg-[#B8FF01]" />
-        <div className="absolute bottom-1 left-1 w-3 h-3 bg-[#B8FF01]" />
-        <div className="absolute bottom-1 right-1 w-3 h-3 bg-[#B8FF01]" />
+        <div className="absolute top-1 left-1 w-3 h-3 bg-[#00DF81]" />
+        <div className="absolute top-1 right-1 w-3 h-3 bg-[#FFFFFF]" />
+        <div className="absolute bottom-1 left-1 w-3 h-3 bg-[#FFFFFF]" />
+        <div className="absolute bottom-1 right-1 w-3 h-3 bg-[#00DF81]" />
 
         <button
           onClick={onClose}
-          className="absolute top-3 right-3 text-gray-400 hover:text-white p-1 hover:bg-[#15193B] border border-transparent hover:border-black transition-all cursor-pointer"
+          className="absolute top-3 right-3 text-gray-400 hover:text-white p-1 hover:bg-[#0A2619] border border-transparent hover:border-black transition-all cursor-pointer"
         >
-          <X size={20} />
+          <X size={18} />
         </button>
 
-        <div className="text-center mb-5">
-          <span className="font-arcade text-[10px] text-[#B8FF01] tracking-widest">
-            ❖ MANUAL DO JOGADOR ❖
+        <div className="text-center mb-4">
+          <span className="font-arcade text-[10px] text-[#00DF81] tracking-widest">
+            ❖ MANUAL DO CRAQUEDLE ❖
           </span>
-          <h2 className="font-display font-black text-2xl sm:text-3xl italic tracking-tight text-white mt-1">
+          <h2 className="font-display font-black text-2xl sm:text-3xl italic tracking-tight text-white mt-0.5">
             COMO JOGAR?
           </h2>
         </div>
 
-        <div className="space-y-4 text-xs sm:text-sm font-sans text-gray-200">
+        <div className="space-y-3 text-xs font-sans text-gray-200">
           <p>
-            Adivinhe o <strong>craque secreto do Brasileirão Série A</strong> de hoje! A cada chute, as cores dos blocos revelam pistas sobre o jogador secreto:
+            Adivinhe o <strong>craque secreto do Brasileirão Série A</strong> de hoje! A cada chute selecionado no campo de busca, os blocos coloridos revelam pistas sobre o jogador secreto:
           </p>
 
           {/* Exemplos de cores */}
-          <div className="space-y-2 font-display">
-            <div className="flex items-center gap-3 bg-[#08091A] p-2 border border-black">
-              <div className="w-8 h-8 bg-[#22C55E] flex items-center justify-center font-bold text-white border border-black">
+          <div className="space-y-1.5 font-display">
+            <div className="flex items-center gap-2.5 bg-[#04160E] p-2 border border-black">
+              <div className="w-7 h-7 bg-[#22C55E] flex items-center justify-center font-bold text-white border border-black text-sm">
                 ✓
               </div>
               <div>
@@ -50,21 +51,21 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({ isOpen, onClose 
               </div>
             </div>
 
-            <div className="flex items-center gap-3 bg-[#08091A] p-2 border border-black">
-              <div className="w-8 h-8 bg-[#EAB308] flex items-center justify-center font-bold text-black border border-black">
+            <div className="flex items-center gap-2.5 bg-[#04160E] p-2 border border-black">
+              <div className="w-7 h-7 bg-[#EAB308] flex items-center justify-center font-bold text-black border border-black text-sm">
                 ~
               </div>
               <div>
                 <strong className="text-[#EAB308]">AMARELO (PARCIAL):</strong>
-                <ul className="list-disc list-inside text-xs text-gray-300 mt-0.5">
-                  <li><strong>Idade:</strong> Diferença de apenas 1 ou 2 anos.</li>
-                  <li><strong>Títulos:</strong> Tem pelo menos 1 título em comum.</li>
-                </ul>
+                <div className="text-[11px] text-gray-300">
+                  • <strong>Idade:</strong> Diferença de apenas 1 ou 2 anos.<br />
+                  • <strong>Títulos:</strong> Tem pelo menos 1 troféu em comum.
+                </div>
               </div>
             </div>
 
-            <div className="flex items-center gap-3 bg-[#08091A] p-2 border border-black">
-              <div className="w-8 h-8 bg-[#EF4444] flex items-center justify-center font-bold text-white border border-black">
+            <div className="flex items-center gap-2.5 bg-[#04160E] p-2 border border-black">
+              <div className="w-7 h-7 bg-[#EF4444] flex items-center justify-center font-bold text-white border border-black text-sm">
                 ✕
               </div>
               <div>
@@ -72,29 +73,48 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({ isOpen, onClose 
               </div>
             </div>
 
-            <div className="flex items-center gap-3 bg-[#08091A] p-2 border border-black">
-              <div className="w-8 h-8 bg-[#12163A] flex items-center justify-center text-[#38BDF8] border border-black">
-                <ArrowUp size={16} />
-                <ArrowDown size={16} />
+            <div className="flex items-center gap-2.5 bg-[#04160E] p-2 border border-black">
+              <div className="w-7 h-7 bg-[#0A2619] flex items-center justify-center text-[#FFDF00] border border-black">
+                <ArrowUp size={14} />
+                <ArrowDown size={14} />
               </div>
               <div>
-                <strong className="text-[#38BDF8]">SETAS DE IDADE:</strong>
-                <div className="text-xs text-gray-300 mt-0.5">
-                  <ArrowUp size={12} className="inline mr-1 text-[#38BDF8]" /> Segredo é <strong>mais velho</strong>.<br />
-                  <ArrowDown size={12} className="inline mr-1 text-[#38BDF8]" /> Segredo é <strong>mais novo</strong>.
+                <strong className="text-[#FFDF00]">SETAS DE IDADE:</strong>
+                <div className="text-[11px] text-gray-300">
+                  <ArrowUp size={11} className="inline mr-1 text-[#FFDF00]" /> Segredo é <strong>mais velho</strong>.<br />
+                  <ArrowDown size={11} className="inline mr-1 text-[#FFDF00]" /> Segredo é <strong>mais novo</strong>.
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-[#12163A] border-l-4 border-[#B8FF01] p-3 text-xs">
-            <strong>Dica Pro:</strong> Use o autocomplete com foto e nome. Chutes livres aleatórios não são permitidos para garantir a fidelidade às estatísticas reais!
+          {/* Troféus explicados */}
+          <div className="bg-[#04160E] p-2.5 border border-[#FFDF00]/30 space-y-1.5">
+            <strong className="text-[#FFDF00] font-display">SELO DOS TROFÉUS CONSIDERADOS:</strong>
+            <div className="flex flex-wrap gap-2 text-[11px] font-display">
+              <div className="flex items-center gap-1">
+                <TrophyBadge type="BR" size="sm" />
+                <span>Brasileirão Série A</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <TrophyBadge type="CDB" size="sm" />
+                <span>Copa do Brasil</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <TrophyBadge type="LIB" size="sm" />
+                <span>Libertadores</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-[#04160E] border-l-4 border-[#00DF81] p-2.5 text-[11px]">
+            <strong>Dica Pro:</strong> Digite o nome do jogador e clique no item correspondente na lista com foto e bandeira. Chutes avulsos sem seleção são bloqueados!
           </div>
         </div>
 
         <button
           onClick={onClose}
-          className="w-full mt-6 py-2.5 bg-[#B8FF01] hover:bg-[#a6e600] text-black font-arcade text-xs border-2 border-black shadow-arcade-sm transition-all cursor-pointer font-bold"
+          className="w-full mt-4 py-2 bg-[#FFDF00] hover:bg-[#e6c900] text-black font-display font-black text-xs border-2 border-black shadow-arcade-sm transition-all cursor-pointer"
         >
           ENTENDI, BORA JOGAR!
         </button>
