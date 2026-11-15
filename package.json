@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
+    "sync": "tsx scripts/sync-players.ts",
     "sync:players": "tsx scripts/sync-api-sports.ts"
   },
   "dependencies": {

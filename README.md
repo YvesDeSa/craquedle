@@ -1,19 +1,19 @@
-# ⚽🎮 Brasileirãodle ❖ O Jogo Diário do Brasileirão Série A
+# ⚽🎮 CRAQUEDLE ❖ O Jogo Diário do Brasileirão Série A
 
 <p align="center">
   <img src="https://media.api-sports.io/football/leagues/71.png" alt="Brasileirão Série A" width="90" />
 </p>
 
 <p align="center">
-  <strong>Jogo web diário de adivinhação de jogadores do Campeonato Brasileiro Série A com mecânica estilo Narutodle e Grid 3x3 (Futbol11 / Tiki-Taka-Toe), envelopado em direção de arte Retro Arcade & Pixel UI anos 90.</strong>
+  <strong>Jogo web diário de adivinhação de jogadores do Campeonato Brasileiro Série A com mecânica do Narutodle e Grid 3x3 do Brasileirão (Futbol11 Grid / Tiki-Taka-Toe), envelopado em direção de arte Brasil Retro Arcade (Verde Floresta, Amarelo Canarinho e Branco).</strong>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/CRAQUEDLE-2026-FFDF00?style=for-the-badge&logo=target" alt="Craquedle" />
   <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react" alt="React 19" />
   <img src="https://img.shields.io/badge/TypeScript-7.0-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/TailwindCSS-v4-38BDF8?style=for-the-badge&logo=tailwindcss" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/Vite-8.3-646CFF?style=for-the-badge&logo=vite" alt="Vite" />
-  <img src="https://img.shields.io/badge/100%25-Client--Side-B8FF01?style=for-the-badge" alt="Client-Side" />
+  <img src="https://img.shields.io/badge/TailwindCSS-v4-00DF81?style=for-the-badge&logo=tailwindcss" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Layout-Zero_Scroll_100vh-FFDF00?style=for-the-badge" alt="Zero Scroll" />
 </p>
 
 ---
@@ -21,17 +21,20 @@
 ## 🕹️ Modos de Jogo
 
 ### 1. ▶ Modo Clássico (Narutodle)
-* **Sorteio Determinístico Diário:** Todo dia à meia-noite (Horário de Brasília), um novo craque secreto é sorteado a partir de uma semente matemática (`hash(date) % players.length`).
-* **Autocomplete Instantâneo com Foto:** Digite o nome do atleta e selecione-o diretamente no dropdown arcade. Chute livre digitado sem seleção é bloqueado para manter integridade total dos dados.
+* **Sorteio Determinístico Diário:** Todo dia à meia-noite (Horário de Brasília), um novo craque secreto é sorteado a partir de semente matemática baseada na data (`YYYY-MM-DD`).
+* **Autocomplete Instantâneo com Foto e Bandeira:** Selecione o atleta no dropdown com foto real oficial, bandeira do país e clube atual. Chute livre digitado sem seleção é bloqueado.
 * **Linha de Comparação (6 Atributos em 16-bit):**
   * `JOGADOR`: Foto quadrada e nome do atleta.
   * `TIME`: 🟩 Correto / 🟥 Incorreto.
-  * `IDADE`: 🟩 Exata / 🟨 Parcial (±2 anos) / 🟥 Diferença ≥ 3 anos + Seta arcade de indicação (`↑` mais velho / `↓` mais novo).
-  * `POSIÇÃO`: Goleiro, Defensor, Meia ou Atacante.
-  * `PAÍS`: 🟩 Mesmo país / 🟥 País diferente.
-  * `TÍTULOS`: Brasileirão, Copa do Brasil e Libertadores (🟩 3 exatos / 🟨 Pelo menos 1 em comum / 🟥 Nenhum).
-* **Animação Flip Reveladora:** Revelação card a card com 150ms de delay entre as colunas.
-* **Modal High Score:** Placar final com foto, estatísticas, cronômetro até o próximo craque e botão **`▶ COPIAR RESULTADO`** gerando a grade de emojis (`🟩🟨🟥⬆️⬇️`) para WhatsApp e X/Twitter!
+  * `IDADE`: 🟩 Exata / 🟨 Parcial (±2 anos) / 🟥 Incorreto + Seta arcade indicando se o segredo é mais velho (`↑`) ou mais novo (`↓`).
+  * `POSIÇÃO`: Goleiro, Defensor, Meia ou Atacante (fonte Chakra Petch com suporte total a acentos).
+  * `PAÍS`: Bandeira oficial em alta definição (FlagCDN) + nome do país.
+  * `TÍTULOS`: Badges individuais com ícones das taças (estilo elementos do Narutodle):
+    * 🏆 **`BR`**: Campeão do Brasileirão Série A.
+    * 🥇 **`CdB`**: Campeão da Copa do Brasil.
+    * 🌟 **`LIB`**: Campeão da CONMEBOL Libertadores.
+* **Layout Zero Scroll:** A página cabe 100% na altura da tela (`100vh`) sem barra de rolagem na janela do navegador. As linhas de palpites contam com scroll vertical interno dedicado (`max-h-[40vh]`).
+* **Modal High Score:** Placar final com foto, estatísticas, cronômetro regressivo e botão **`▶ COPIAR RESULTADO`** para WhatsApp e X/Twitter!
 
 ### 2. 🏁 Grid do Brasileirão 3x3 (Futbol11 Grid / Tiki-Taka-Toe)
 * Tabuleiro 3x3 cruzando clubes e atributos (ex: *Flamengo*, *Palmeiras*, *Corinthians* vs. *Libertadores*, *Atacante*, *Brasil*).
@@ -40,10 +43,10 @@
 
 ---
 
-## 🎨 Direção de Arte "Retro Arcade"
-* **Background Fixo:** Fotografia da clássica mesa de pebolim Nike com vinheta escura e efeito sutil de *scanlines* de monitor CRT.
-* **Paleta PlayVerse:** Fundo azul meia-noite (`#0A0B1E`), moldura roxa vibrante (`#6D28D9`), cantoneiras em pixel art verde-limão (`#B8FF01`), ciano arcade (`#38BDF8`) e sombras duras (`box-shadow: 0 6px 0 #000`).
-* **Tipografia:** Google Fonts `'Press Start 2P'`, `'Silkscreen'` e `'Chakra Petch'`.
+## 🎨 Direção de Arte Brasil Retro Arcade
+* **Paleta Brasil Arcade:** Fundo verde floresta profundo (`#061A12` / `#0A2619`), moldura arcade em Amarelo Canarinho (`#FFDF00`), cantoneiras pixel em Verde Neon (`#00DF81`) e Branco (`#FFFFFF`), e sombras duras (`box-shadow: 0 5px 0 #000`).
+* **Background Fixo:** Fotografia da clássica mesa de pebolim Nike com vinheta escura e efeito sutil de *scanlines* de TV CRT.
+* **Tipografia:** Google Fonts `'Chakra Petch'`, `'Press Start 2P'`, `'Silkscreen'` e `'Inter'`.
 
 ---
 
@@ -71,18 +74,14 @@ Abra [http://localhost:5173](http://localhost:5173) no seu navegador.
 
 ---
 
-## ⚡ Sincronização com API-Sports
+## ⚡ Sincronização da Base de Jogadores
 
-O projeto já vem com uma base local pronta em `src/data/players.json` contendo mais de 40 estrelas da Série A. Caso queira atualizar os dados automaticamente direto da API-Sports:
+O projeto vem com **165+ atletas da Série A** já populados com fotos 100% reais verificadas e histórico de carreira:
 
-1. Crie um arquivo `.env` na raiz com:
-   ```env
-   VITE_API_SPORTS_KEY=sua_chave_aqui
-   ```
-2. Execute o script utilitário:
-   ```bash
-   npm run sync:players
-   ```
+```bash
+# Atualiza automaticamente a base de jogadores via Cartola FC e API-Sports
+npm run sync
+```
 
 ---
 
@@ -92,10 +91,4 @@ O projeto já vem com uma base local pronta em `src/data/players.json` contendo 
 npm run build
 ```
 
-Os arquivos estáticos otimizados serão gerados na pasta `dist/` prontos para deploy no Vercel, Netlify ou GitHub Pages sem necessidade de backend!
-
----
-
-## 📄 Licença
-
-Distribuído sob a licença MIT. Desenvolvido por [YvesDeSa](https://github.com/YvesDeSa).
+Arquivos estáticos gerados em `dist/`, prontos para deploy sem necessidade de backend!
