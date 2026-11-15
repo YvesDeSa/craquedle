@@ -146,7 +146,7 @@ export function formatTrophiesSummary(trophies: Player['trophies']): string {
 export function generateShareText(guesses: GuessResult[], isWon: boolean): string {
   const dayNumber = getDayNumber();
   const count = guesses.length;
-  let text = `⚽ BRASILEIRÃODLE #${dayNumber} ${isWon ? `(${count}/∞)` : '❌'}\n\n`;
+  let text = `⚽ CRAQUEDLE #${dayNumber} ${isWon ? `(${count}/∞)` : '❌'}\n\n`;
 
   guesses.forEach((g) => {
     // Time
@@ -178,7 +178,7 @@ export function generateShareText(guesses: GuessResult[], isWon: boolean): strin
     text += `${teamEmoji}${ageEmoji}${arrowEmoji}${posEmoji}${natEmoji}${tropEmoji}\n`;
   });
 
-  text += `\nJogue em: https://brasileiraodle.vercel.app`;
+  text += `\nJogue em: https://craquedle.vercel.app`;
   return text;
 }
 

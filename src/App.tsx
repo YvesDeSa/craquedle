@@ -32,7 +32,6 @@ export const App: React.FC = () => {
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false);
   const [isHowToPlayOpen, setIsHowToPlayOpen] = useState(false);
 
-  // Recalcular jogador secreto e sincronizar ao montar
   useEffect(() => {
     const dailySecret = getDailySecretPlayer(playersData as Player[]);
     setSecretPlayer(dailySecret);
@@ -58,22 +57,22 @@ export const App: React.FC = () => {
   const alreadyGuessedIds = guesses.map((g) => g.player.id);
 
   return (
-    <div className="relative min-h-screen text-white font-sans-body selection:bg-[#B8FF01] selection:text-black">
-      {/* Imagem de Fundo Fixa do Pebolim + Vinheta Escura */}
+    <div className="relative h-screen overflow-hidden flex flex-col justify-between text-white font-sans-body selection:bg-[#FFDF00] selection:text-black">
+      {/* Imagem de Fundo Fixa do Pebolim + Vinheta Escura Verde Floresta */}
       <div
         className="fixed inset-0 z-0 bg-cover bg-center bg-fixed pointer-events-none"
         style={{
           backgroundImage: `url('https://nelsonbalaban.com/wp-content/uploads/2020/04/nike-pebolim.jpg')`,
         }}
       />
-      <div className="fixed inset-0 z-0 bg-[#08091A]/80 backdrop-brightness-75 pointer-events-none" />
+      <div className="fixed inset-0 z-0 bg-[#061A12]/88 backdrop-brightness-75 pointer-events-none" />
 
       {/* Camada CRT Scanlines */}
       <div className="crt-overlay fixed inset-0 z-10 pointer-events-none" />
 
-      {/* Conteúdo Principal */}
-      <div className="relative z-20 flex flex-col min-h-screen">
-        {/* Header Superior */}
+      {/* Conteúdo Principal com Layout Zero Scroll */}
+      <div className="relative z-20 flex flex-col h-full justify-between">
+        {/* Header Superior Compacto (h-12) */}
         <Header
           currentScreen={currentScreen}
           onNavigate={(screen) => setCurrentScreen(screen)}
@@ -82,8 +81,8 @@ export const App: React.FC = () => {
           streak={stats.currentStreak}
         />
 
-        {/* Telas de Navegação */}
-        <main className="flex-1 flex flex-col items-center justify-start pb-12">
+        {/* Telas de Navegação (Zero Scroll na Janela) */}
+        <main className="flex-1 flex flex-col items-center justify-center overflow-hidden px-2 sm:px-4 py-1">
           {currentScreen === 'menu' && (
             <MainMenu
               onStartClassic={() => setCurrentScreen('classic')}
@@ -93,23 +92,20 @@ export const App: React.FC = () => {
           )}
 
           {currentScreen === 'classic' && (
-            <div className="w-full max-w-4xl px-4 py-4 animate-fadeIn">
+            <div className="w-full max-w-4xl px-2 py-1 my-auto flex flex-col max-h-[calc(100vh-76px)] overflow-hidden animate-fadeIn">
               {/* Painel Central Arcade do Modo Clássico */}
-              <div className="relative w-full bg-[#0A0B1E]/95 border-4 border-[#6D28D9] p-4 sm:p-6 shadow-arcade-lg">
-                {/* Cantoneiras Pixel Verde Limão */}
-                <div className="absolute top-1.5 left-1.5 w-3.5 h-3.5 bg-[#B8FF01]" />
-                <div className="absolute top-1.5 right-1.5 w-3.5 h-3.5 bg-[#B8FF01]" />
-                <div className="absolute bottom-1.5 left-1.5 w-3.5 h-3.5 bg-[#B8FF01]" />
-                <div className="absolute bottom-1.5 right-1.5 w-3.5 h-3.5 bg-[#B8FF01]" />
+              <div className="relative w-full bg-[#061A12]/95 border-4 border-[#FFDF00] p-3 sm:p-4 shadow-arcade-lg flex flex-col overflow-hidden">
+                {/* Cantoneiras Pixel Verde Neon e Branco */}
+                <div className="absolute top-1 left-1 w-3 h-3 bg-[#00DF81]" />
+                <div className="absolute top-1 right-1 w-3 h-3 bg-[#FFFFFF]" />
+                <div className="absolute bottom-1 left-1 w-3 h-3 bg-[#FFFFFF]" />
+                <div className="absolute bottom-1 right-1 w-3 h-3 bg-[#00DF81]" />
 
                 {/* Título do Painel */}
-                <div className="text-center mb-2">
-                  <span className="font-arcade text-xs sm:text-sm text-[#B8FF01] tracking-widest">
+                <div className="text-center mb-1 select-none">
+                  <span className="font-arcade text-[10px] sm:text-xs text-[#00DF81] tracking-widest uppercase">
                     ❖ ADIVINHE O CRAQUE DE HOJE! ❖
                   </span>
-                  <p className="font-sans text-xs text-gray-300 mt-1">
-                    Um jogador diferente do Brasileirão Série A a cada dia
-                  </p>
                 </div>
 
                 {/* Input de Busca com Autocomplete e Foto */}
@@ -120,22 +116,22 @@ export const App: React.FC = () => {
                   disabled={isWon}
                 />
 
-                {/* Se já acertou, banner de atalho para reabrir o modal */}
+                {/* Se já acertou, banner de atalho */}
                 {isWon && (
-                  <div className="my-3 text-center">
+                  <div className="my-1 text-center">
                     <button
                       onClick={() => setIsWinModalOpen(true)}
-                      className="px-4 py-2 bg-[#22C55E] hover:bg-[#1fa951] text-black font-arcade text-xs border-2 border-black shadow-arcade-sm cursor-pointer font-bold inline-flex items-center gap-2"
+                      className="px-3 py-1 bg-[#22C55E] hover:bg-[#1fa951] text-black font-display font-black text-xs border-2 border-black shadow-arcade-sm cursor-pointer inline-flex items-center gap-1.5"
                     >
                       ★ VER RESULTADO & COMPARTILHAR ★
                     </button>
                   </div>
                 )}
 
-                {/* Tabela de Chutes com Animação Flip */}
+                {/* Tabela de Chutes com Scroll Interno (Zero Scroll na Janela) */}
                 <GuessTable guesses={guesses} />
 
-                {/* Legenda de Cores */}
+                {/* Legenda de Cores em 1 Linha Compacta */}
                 <Legend />
               </div>
             </div>
@@ -149,9 +145,9 @@ export const App: React.FC = () => {
           )}
         </main>
 
-        {/* Rodapé Retrô */}
-        <footer className="w-full text-center py-4 border-t border-[#6D28D9]/40 bg-[#08091A]/80 text-[11px] font-arcade text-gray-400">
-          BRASILEIRÃODLE © 2026 ❖ FEITO COM PAIXÃO PELO FUTEBOL BRASILEIRO
+        {/* Rodapé Retrô Compacto */}
+        <footer className="w-full text-center py-1 border-t border-[#FFDF00]/30 bg-[#04160E]/90 text-[10px] font-display text-gray-300 select-none">
+          CRAQUEDLE © 2026 ❖ EDIÇÃO BRASILEIRÃO SÉRIE A ❖ FEITO COM PAIXÃO PELO FUTEBOL
         </footer>
       </div>
 

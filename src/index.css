@@ -32,7 +32,7 @@
   display: block;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.22) 50%), linear-gradient(90deg, rgba(0, 223, 129, 0.02), rgba(255, 223, 0, 0.02), rgba(0, 0, 0, 0.03));
   z-index: 10;
   background-size: 100% 3px, 6px 100%;
   pointer-events: none;
@@ -40,7 +40,7 @@
 
 /* Arcade Hard Shadows */
 .shadow-arcade {
-  box-shadow: 0 6px 0 #000000;
+  box-shadow: 0 5px 0 #000000;
 }
 
 .shadow-arcade-sm {
@@ -48,11 +48,15 @@
 }
 
 .shadow-arcade-lg {
-  box-shadow: 0 8px 0 #000000;
+  box-shadow: 0 7px 0 #000000;
 }
 
-.shadow-arcade-lime {
-  box-shadow: 0 4px 0 #7ec800;
+.shadow-arcade-gold {
+  box-shadow: 0 4px 0 #C9B000;
+}
+
+.shadow-arcade-green {
+  box-shadow: 0 4px 0 #009E5A;
 }
 
 /* Text Stroke utility for Arcade Logos */
@@ -79,24 +83,24 @@
 }
 
 .animate-flip {
-  animation: flipReveal 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation: flipReveal 0.35s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
 /* Custom scrollbars */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #08091a;
+  background: #04140D;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6d28d9;
+  background: #FFDF00;
   border: 1px solid #000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b8ff01;
+  background: #00DF81;
 }
