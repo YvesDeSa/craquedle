@@ -3,7 +3,6 @@ import { Search } from 'lucide-react';
 import type { Player } from '../types/player';
 import { normalizeText } from '../utils/gameLogic';
 import { getCountryFlagUrl } from '../utils/flags';
-import { PlayerAvatar } from './PlayerAvatar';
 
 interface PlayerSearchProps {
   players: Player[];
@@ -136,9 +135,9 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
         )}
       </div>
 
-      {/* Dropdown com Foto, Nome, Time e Bandeira */}
+      {/* Dropdown Limpo estilo Narutodle (sem revelar idade e posição) */}
       {isOpen && !disabled && (
-        <div className="absolute left-0 right-0 mt-1.5 z-50 bg-[#061A12] border-2 border-[#FFDF00] shadow-arcade-lg max-h-60 overflow-y-auto">
+        <div className="absolute left-0 right-0 mt-1.5 z-50 bg-[#061A12] border-2 border-[#FFDF00] shadow-arcade-lg max-h-64 overflow-y-auto divide-y divide-[#0A2E1C]">
           {filteredPlayers.length > 0 ? (
             <ul ref={listRef} className="divide-y divide-[#0A2E1C]">
               {filteredPlayers.map((player, idx) => {
@@ -156,40 +155,41 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
                         : 'text-white hover:bg-[#0A2619]'
                     }`}
                   >
-                    <div className="flex items-center gap-2.5">
-                      <PlayerAvatar
-                        photo={player.photo}
-                        name={player.name}
-                        className="w-9 h-9 rounded-none shadow-sm"
+                    {/* Foto Real do Rosto + Nome Grande */}
+                    <div className="flex items-center gap-3">
+                      <img
+                        src={player.photo}
+                        alt={player.name}
+                        referrerPolicy="no-referrer"
+                        className="w-12 h-12 rounded-lg object-cover bg-[#061A12] border-2 border-black flex-shrink-0"
+                        onError={(e) => {
+                          if (player.teamLogo) {
+                            (e.target as HTMLImageElement).src = player.teamLogo;
+                            (e.target as HTMLImageElement).className = "w-12 h-12 rounded-lg object-contain bg-[#061A12] p-1 border-2 border-black flex-shrink-0";
+                          }
+                        }}
                       />
-                      <div>
-                        <div className="font-display font-bold text-sm leading-tight">
+                      <div className="flex items-center gap-2">
+                        <span className="font-display font-black text-base sm:text-lg leading-tight">
                           {player.name}
-                        </div>
-                        <div
-                          className={`text-[11px] flex items-center gap-1.5 mt-0.5 ${
-                            isSelected ? 'text-black/80' : 'text-gray-300'
-                          }`}
-                        >
-                          <img
-                            src={flagUrl}
-                            alt={player.nationality}
-                            className="w-3.5 h-2.5 object-cover border border-black/40"
-                          />
-                          <span>{player.nationality}</span>
-                          <span>•</span>
-                          <span>{player.position}</span>
-                          <span>•</span>
-                          <span>{player.age} anos</span>
-                        </div>
+                        </span>
+                        <img
+                          src={flagUrl}
+                          alt={player.nationality}
+                          referrerPolicy="no-referrer"
+                          className="w-4 h-3 object-cover border border-black/40 shadow-sm"
+                          title={player.nationality}
+                        />
                       </div>
                     </div>
 
+                    {/* Escudo + Clube à Direita */}
                     <div className="flex items-center gap-2">
                       {player.teamLogo && (
                         <img
                           src={player.teamLogo}
                           alt={player.team}
+                          referrerPolicy="no-referrer"
                           className="w-5 h-5 object-contain"
                           onError={(e) => {
                             (e.target as HTMLElement).style.display = 'none';
@@ -197,7 +197,7 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
                         />
                       )}
                       <span
-                        className={`text-[10px] font-display font-bold px-1.5 py-0.5 border ${
+                        className={`text-xs font-display font-extrabold px-2 py-0.5 border ${
                           isSelected
                             ? 'bg-black text-[#FFDF00] border-black'
                             : 'bg-[#04160E] text-[#00DF81] border-[#00DF81]/40'

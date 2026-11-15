@@ -31,6 +31,7 @@ export const PlayerAvatar: React.FC<PlayerAvatarProps> = ({
     <img
       src={photo}
       alt={name}
+      referrerPolicy="no-referrer"
       onError={() => setHasError(true)}
       loading="lazy"
       className={`object-cover bg-[#04160E] border border-black ${className}`}

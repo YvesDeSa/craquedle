@@ -2,9 +2,9 @@ import type { Player, GuessResult, MatchStatus, Direction, GameStats } from '../
 import playersData from '../data/players.json';
 
 const STORAGE_KEYS = {
-  GUESSES: 'brasileiraodle_guesses_',
-  WON: 'brasileiraodle_won_',
-  STATS: 'brasileiraodle_stats',
+  GUESSES: 'craquedle_state_v4_guesses_',
+  WON: 'craquedle_state_v4_won_',
+  STATS: 'craquedle_state_v4_stats',
 };
 
 // Obter a data atual no Fuso Horário de Brasília (UTC-3)

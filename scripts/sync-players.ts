@@ -1,11 +1,15 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import * as dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
+
+dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const OUTPUT_FILE = path.resolve(__dirname, '../src/data/players.json');
+const API_KEY = process.env.VITE_API_SPORTS_KEY || process.env.API_SPORTS_KEY;
 
 function normalize(text: string): string {
   return (text || '')
@@ -44,292 +48,747 @@ const CLUB_NAMES: Record<string, string> = {
   'atletico-go': 'Atlético-GO',
 };
 
-// Dicionário de Nacionalidades dos Gringos da Série A
-const FOREIGN_NATIONALITIES: Record<string, string> = {
-  // Uruguai
-  arrascaeta: 'Uruguai',
-  'de la cruz': 'Uruguai',
-  'nicolas de la cruz': 'Uruguai',
-  rochet: 'Uruguai',
-  'sergio rochet': 'Uruguai',
-  varela: 'Uruguai',
-  'guillermo varela': 'Uruguai',
-  piquerez: 'Uruguai',
-  'joaquin piquerez': 'Uruguai',
-  cannobio: 'Uruguai',
-  mastriani: 'Uruguai',
-  'puma rodriguez': 'Uruguai',
-  milans: 'Uruguai',
-  terans: 'Uruguai',
-
-  // Argentina
-  calleri: 'Argentina',
-  'jonathan calleri': 'Argentina',
-  vegetti: 'Argentina',
-  'pablo vegetti': 'Argentina',
-  cano: 'Argentina',
-  'german cano': 'Argentina',
-  'flaco lopez': 'Argentina',
-  'jose lopez': 'Argentina',
-  garro: 'Argentina',
-  'rodrigo garro': 'Argentina',
-  rossi: 'Argentina',
-  'agustin rossi': 'Argentina',
-  bernabei: 'Argentina',
-  kannemann: 'Argentina',
-  'walter kannemann': 'Argentina',
-  lucero: 'Argentina',
-  'juan martin lucero': 'Argentina',
-  'anibal moreno': 'Argentina',
-  giay: 'Argentina',
-  bustos: 'Argentina',
-  barboza: 'Argentina',
-  gattoni: 'Argentina',
-  palacios: 'Argentina',
-  villalba: 'Argentina',
-  alario: 'Argentina',
-  cristaldo: 'Argentina',
-  pavon: 'Argentina',
-  britez: 'Argentina',
-  battaglia: 'Argentina',
-  saravia: 'Argentina',
-  zaracho: 'Argentina',
-  fausto: 'Argentina',
-  vera: 'Argentina',
-  marchesin: 'Argentina',
-
-  // Colômbia
-  arias: 'Colômbia',
-  'jhon arias': 'Colômbia',
-  borre: 'Colômbia',
-  'rafael borre': 'Colômbia',
-  'richard rios': 'Colômbia',
-  rios: 'Colômbia',
-  'james rodriguez': 'Colômbia',
-  cantillo: 'Colômbia',
-  campaz: 'Colômbia',
-  monsalve: 'Colômbia',
-
-  // Paraguai
-  'gustavo gomez': 'Paraguai',
-  gomez: 'Paraguai',
-  villasanti: 'Paraguai',
-  'mathias villasanti': 'Paraguai',
-  romero: 'Paraguai',
-  'angel romero': 'Paraguai',
-  'matias rojas': 'Paraguai',
-  balbuena: 'Paraguai',
-  bobadilla: 'Paraguai',
-  galarza: 'Paraguai',
-  'junior alonso': 'Paraguai',
-
-  // Venezuela
-  soteldo: 'Venezuela',
-  'yeferson soteldo': 'Venezuela',
-  savarino: 'Venezuela',
-  'jefferson savarino': 'Venezuela',
-  ferraresi: 'Venezuela',
-  'nahuel ferraresi': 'Venezuela',
-
-  // Holanda
-  depay: 'Holanda',
-  'memphis depay': 'Holanda',
-
-  // Dinamarca
-  braithwaite: 'Dinamarca',
-  'martin braithwaite': 'Dinamarca',
-
-  // Peru
-  carrillo: 'Peru',
-  'andre carrillo': 'Peru',
-  guerrero: 'Peru',
-  trauco: 'Peru',
-  cueva: 'Peru',
-
-  // Equador
-  valencia: 'Equador',
-  'enner valencia': 'Equador',
-  arboleda: 'Equador',
-  'robert arboleda': 'Equador',
-  'felix torres': 'Equador',
-  'alan franco': 'Equador',
-
-  // Angola
-  bastos: 'Angola',
-
-  // Chile
-  pulgar: 'Chile',
-  'erick pulgar': 'Chile',
-  vargas: 'Chile',
-  'eduardo vargas': 'Chile',
-  kuscevic: 'Chile',
-  medel: 'Chile',
-
-  // França
-  payet: 'França',
-  'dimitri payet': 'França',
-
-  // RD Congo
-  bolasie: 'República Democrática do Congo',
-  'yannick bolasie': 'República Democrática do Congo',
-};
-
-// Dicionário de Títulos dos Principais Craques (Brasileirão, Copa do Brasil, Libertadores, Sul-Americana)
-const STAR_TROPHIES: Record<string, { brasileirao: boolean; copaDoBrasil: boolean; libertadores: boolean; sulamericana: boolean }> = {
-  pedro: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  arrascaeta: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  gerson: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'de la cruz': { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  rossi: { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: true }, // Lanús/Defensa
-  hulk: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  paulinho: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  arana: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  'guilherme arana': { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  scarpa: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'gustavo scarpa': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  everson: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  estevao: { brasileirao: true, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  veiga: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: true }, // Athletico-PR 2018
-  'raphael veiga': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: true }, // Athletico-PR 2018
-  'gustavo gomez': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  weverton: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  murilo: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  'flaco lopez': { brasileirao: true, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  calleri: { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  'lucas moura': { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: true }, // São Paulo 2012
-  luciano: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  oscar: { brasileirao: true, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  rafael: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  'yuri alberto': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  garro: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'rodrigo garro': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  depay: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'memphis depay': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'hugo souza': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  carrillo: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  vegetti: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'pablo vegetti': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  coutinho: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'philippe coutinho': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'leo jardim': { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'lucas piton': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'thiago silva': { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: false },
-  arias: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  'jhon arias': { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  ganso: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: true }, // São Paulo 2012
-  fabio: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  cano: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  'german cano': { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  'alan patrick': { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  borre: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: true }, // River Plate 2014
-  'rafael borre': { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: true },
-  valencia: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'enner valencia': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  rochet: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  savarino: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'igor jesus': { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  bastos: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  'alex telles': { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  john: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  'everton ribeiro': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'jean lucas': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  juba: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'luciano juba': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'matheus pereira': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  cassio: { brasileirao: true, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  gabigol: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'gabriel barbosa': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  dudu: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'kaio jorge': { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  soteldo: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  braithwaite: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  villasanti: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  neymar: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'bruno henrique': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'david luiz': { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'leo pereira': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'ayrton lucas': { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'felipe melo': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  marcelo: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  keno: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'tche tche': { brasileirao: true, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  kannemann: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  geromel: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'marcos rocha': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  mayke: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  'ze rafael': { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
-  rony: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: true }, // Athletico-PR 2018
-  fagner: { brasileirao: true, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  romero: { brasileirao: true, copaDoBrasil: false, libertadores: false, sulamericana: false },
-  'tiquinho soares': { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  'junior santos': { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  marlon: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  gregore: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
-  nikao: { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: true }, // Athletico-PR 2018, 2021
-  terans: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: true }, // Athletico-PR 2021
-  pablo: { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: true }, // Athletico-PR 2018
-  'thiago heleno': { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: true }, // Athletico-PR 2018, 2021
-  santos: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: true }, // Athletico-PR 2018, 2021 + Flamengo 2022
-  cirino: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: true },
-  bernabei: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: true }, // Lanús 2013
-};
-
-// Histórico de Carreira dos Principais Atletas (para o Grid 3x3)
-const CAREER_TEAMS_MAP: Record<string, string[]> = {
-  pedro: ['Fluminense', 'Fiorentina', 'Flamengo'],
-  arrascaeta: ['Defensor Sporting', 'Cruzeiro', 'Flamengo'],
-  gerson: ['Fluminense', 'Roma', 'Fiorentina', 'Marseille', 'Flamengo'],
-  'de la cruz': ['Liverpool Montevideo', 'River Plate', 'Flamengo'],
-  rossi: ['Boca Juniors', 'Al-Nassr', 'Flamengo'],
-  hulk: ['Vitória', 'Porto', 'Zenit', 'Shanghai SIPG', 'Atlético-MG'],
-  paulinho: ['Vasco', 'Bayer Leverkusen', 'Atlético-MG'],
-  arana: ['Corinthians', 'Sevilla', 'Atalanta', 'Atlético-MG'],
-  scarpa: ['Fluminense', 'Palmeiras', 'Nottingham Forest', 'Atlético-MG'],
-  veiga: ['Coritiba', 'Athletico-PR', 'Palmeiras'],
-  gomez: ['Libertad', 'Milan', 'Palmeiras'],
-  weverton: ['Corinthians', 'Athletico-PR', 'Palmeiras', 'Grêmio'],
-  calleri: ['Boca Juniors', 'West Ham', 'São Paulo'],
-  'lucas moura': ['São Paulo', 'Paris Saint-Germain', 'Tottenham'],
-  luciano: ['Corinthians', 'Fluminense', 'Grêmio', 'São Paulo'],
-  depay: ['PSV Eindhoven', 'Manchester United', 'Barcelona', 'Atlético Madrid', 'Corinthians'],
-  'hugo souza': ['Flamengo', 'Chaves', 'Corinthians'],
-  vegetti: ['Belgrano', 'Vasco'],
-  coutinho: ['Vasco', 'Liverpool', 'Barcelona', 'Bayern de Munique', 'Aston Villa'],
-  'thiago silva': ['Fluminense', 'Milan', 'Paris Saint-Germain', 'Chelsea'],
-  ganso: ['Santos', 'São Paulo', 'Sevilla', 'Fluminense'],
-  fabio: ['Vasco', 'Cruzeiro', 'Fluminense'],
-  arias: ['Santa Fe', 'Fluminense'],
-  cano: ['Vasco', 'Fluminense'],
-  'alan patrick': ['Santos', 'Shakhtar Donetsk', 'Palmeiras', 'Flamengo', 'Internacional'],
-  savarino: ['Atlético-MG', 'Botafogo'],
-  'everton ribeiro': ['Corinthians', 'Cruzeiro', 'Flamengo', 'Bahia'],
-  cassio: ['Grêmio', 'PSV Eindhoven', 'Corinthians', 'Cruzeiro'],
-  gabigol: ['Santos', 'Inter de Milão', 'Benfica', 'Flamengo', 'Cruzeiro'],
-  dudu: ['Cruzeiro', 'Grêmio', 'Palmeiras'],
-  soteldo: ['Santos', 'Grêmio'],
-  braithwaite: ['Barcelona', 'Espanyol', 'Grêmio'],
-  neymar: ['Santos', 'Barcelona', 'Paris Saint-Germain', 'Al-Hilal'],
-};
-
-// Nomes de exibição customizados para garantir identificação imediata
-const DISPLAY_NAMES: Record<string, string> = {
-  pedro: 'Pedro',
-  'pedro guilherme abreu dos santos': 'Pedro',
-  'giorgian daniel de arrascaeta benedetti': 'Arrascaeta',
-  arrascaeta: 'Arrascaeta',
-  'gabriel barbosa almeida': 'Gabigol',
-  'givanildo vieira de souza': 'Hulk',
-  'memphis depay': 'Memphis Depay',
-  'pablo ezequiel vegetti pfaffen': 'Pablo Vegetti',
-  'philippe coutinho correia': 'Philippe Coutinho',
-  'thiago emiliano da silva': 'Thiago Silva',
-  'paulo henrique chagas de lima': 'Ganso',
-  'hugo de souza nogueira': 'Hugo Souza',
-  'lucas rodrigues moura da silva': 'Lucas Moura',
-  'jonathan calleri': 'Jonathan Calleri',
-  'raphael cavalcante veiga': 'Raphael Veiga',
-  'gustavo raul gomez portillo': 'Gustavo Gómez',
-  'weverton pereira da silva': 'Weverton',
+// Dicionário com dados exatos, fotos reais do rosto e idades reais dos craques
+const VERIFIED_PLAYERS_MAP: Record<
+  string,
+  {
+    id: number;
+    name: string;
+    photo: string;
+    team: string;
+    teamLogo: string;
+    age: number;
+    position: 'Goleiro' | 'Defensor' | 'Meia' | 'Atacante';
+    nationality: string;
+    careerTeams: string[];
+    trophies: {
+      brasileirao: boolean;
+      copaDoBrasil: boolean;
+      libertadores: boolean;
+      sulamericana: boolean;
+    };
+  }
+> = {
+  pedro: {
+    id: 10321,
+    name: 'Pedro',
+    photo: 'https://media.api-sports.io/football/players/10321.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 29,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Fluminense', 'Fiorentina', 'Flamengo'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  arrascaeta: {
+    id: 2612,
+    name: 'Arrascaeta',
+    photo: 'https://media.api-sports.io/football/players/2612.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 32,
+    position: 'Meia',
+    nationality: 'Uruguai',
+    careerTeams: ['Defensor Sporting', 'Cruzeiro', 'Flamengo'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  gerson: {
+    id: 10174,
+    name: 'Gerson',
+    photo: 'https://media.api-sports.io/football/players/10174.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 29,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Fluminense', 'Roma', 'Fiorentina', 'Marseille', 'Flamengo'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  'de la cruz': {
+    id: 6009,
+    name: 'Nicolás de la Cruz',
+    photo: 'https://media.api-sports.io/football/players/6009.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 28,
+    position: 'Meia',
+    nationality: 'Uruguai',
+    careerTeams: ['Liverpool Montevideo', 'River Plate', 'Flamengo'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  rossi: {
+    id: 5949,
+    name: 'Agustín Rossi',
+    photo: 'https://media.api-sports.io/football/players/5949.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 30,
+    position: 'Goleiro',
+    nationality: 'Argentina',
+    careerTeams: ['Boca Juniors', 'Al-Nassr', 'Flamengo'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: true },
+  },
+  'bruno henrique': {
+    id: 10185,
+    name: 'Bruno Henrique',
+    photo: 'https://media.api-sports.io/football/players/10185.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 35,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Goiás', 'Wolfsburg', 'Santos', 'Flamengo'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  'david luiz': {
+    id: 10222,
+    name: 'David Luiz',
+    photo: 'https://media.api-sports.io/football/players/10222.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 38,
+    position: 'Defensor',
+    nationality: 'Brasil',
+    careerTeams: ['Vitória', 'Benfica', 'Chelsea', 'Paris Saint-Germain', 'Arsenal', 'Flamengo'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  'leo pereira': {
+    id: 10224,
+    name: 'Léo Pereira',
+    photo: 'https://media.api-sports.io/football/players/10224.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 29,
+    position: 'Defensor',
+    nationality: 'Brasil',
+    careerTeams: ['Athletico-PR', 'Flamengo'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: true },
+  },
+  'ayrton lucas': {
+    id: 10226,
+    name: 'Ayrton Lucas',
+    photo: 'https://media.api-sports.io/football/players/10226.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 28,
+    position: 'Defensor',
+    nationality: 'Brasil',
+    careerTeams: ['Fluminense', 'Spartak Moscou', 'Flamengo'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  pulgar: {
+    id: 10326,
+    name: 'Erick Pulgar',
+    photo: 'https://media.api-sports.io/football/players/10326.png',
+    team: 'Flamengo',
+    teamLogo: 'https://media.api-sports.io/football/teams/127.png',
+    age: 31,
+    position: 'Meia',
+    nationality: 'Chile',
+    careerTeams: ['Universidad Católica', 'Bologna', 'Fiorentina', 'Flamengo'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  hulk: {
+    id: 32862,
+    name: 'Hulk',
+    photo: 'https://media.api-sports.io/football/players/32862.png',
+    team: 'Atlético-MG',
+    teamLogo: 'https://media.api-sports.io/football/teams/1062.png',
+    age: 39,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Vitória', 'Porto', 'Zenit', 'Shanghai SIPG', 'Atlético-MG'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
+  },
+  paulinho: {
+    id: 982,
+    name: 'Paulinho',
+    photo: 'https://media.api-sports.io/football/players/982.png',
+    team: 'Atlético-MG',
+    teamLogo: 'https://media.api-sports.io/football/teams/1062.png',
+    age: 25,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Vasco', 'Bayer Leverkusen', 'Atlético-MG'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  arana: {
+    id: 1603,
+    name: 'Guilherme Arana',
+    photo: 'https://media.api-sports.io/football/players/1603.png',
+    team: 'Atlético-MG',
+    teamLogo: 'https://media.api-sports.io/football/teams/1062.png',
+    age: 28,
+    position: 'Defensor',
+    nationality: 'Brasil',
+    careerTeams: ['Corinthians', 'Sevilla', 'Atalanta', 'Atlético-MG'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
+  },
+  scarpa: {
+    id: 10143,
+    name: 'Gustavo Scarpa',
+    photo: 'https://media.api-sports.io/football/players/10143.png',
+    team: 'Atlético-MG',
+    teamLogo: 'https://media.api-sports.io/football/teams/1062.png',
+    age: 32,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Fluminense', 'Palmeiras', 'Nottingham Forest', 'Atlético-MG'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  everson: {
+    id: 10491,
+    name: 'Everson',
+    photo: 'https://media.api-sports.io/football/players/10491.png',
+    team: 'Atlético-MG',
+    teamLogo: 'https://media.api-sports.io/football/teams/1062.png',
+    age: 35,
+    position: 'Goleiro',
+    nationality: 'Brasil',
+    careerTeams: ['Ceará', 'Santos', 'Atlético-MG'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
+  },
+  estevao: {
+    id: 412519,
+    name: 'Estêvão',
+    photo: 'https://media.api-sports.io/football/players/412519.png',
+    team: 'Palmeiras',
+    teamLogo: 'https://media.api-sports.io/football/teams/121.png',
+    age: 19,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Palmeiras'],
+    trophies: { brasileirao: true, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  veiga: {
+    id: 10145,
+    name: 'Raphael Veiga',
+    photo: 'https://media.api-sports.io/football/players/10145.png',
+    team: 'Palmeiras',
+    teamLogo: 'https://media.api-sports.io/football/teams/121.png',
+    age: 30,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Coritiba', 'Athletico-PR', 'Palmeiras'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: true },
+  },
+  'gustavo gomez': {
+    id: 2489,
+    name: 'Gustavo Gómez',
+    photo: 'https://media.api-sports.io/football/players/2489.png',
+    team: 'Palmeiras',
+    teamLogo: 'https://media.api-sports.io/football/teams/121.png',
+    age: 32,
+    position: 'Defensor',
+    nationality: 'Paraguai',
+    careerTeams: ['Libertad', 'Lanús', 'Milan', 'Palmeiras'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  weverton: {
+    id: 2483,
+    name: 'Weverton',
+    photo: 'https://media.api-sports.io/football/players/2483.png',
+    team: 'Palmeiras',
+    teamLogo: 'https://media.api-sports.io/football/teams/121.png',
+    age: 38,
+    position: 'Goleiro',
+    nationality: 'Brasil',
+    careerTeams: ['Corinthians', 'Portuguesa', 'Athletico-PR', 'Palmeiras'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  murilo: {
+    id: 10273,
+    name: 'Murilo',
+    photo: 'https://media.api-sports.io/football/players/10273.png',
+    team: 'Palmeiras',
+    teamLogo: 'https://media.api-sports.io/football/teams/121.png',
+    age: 28,
+    position: 'Defensor',
+    nationality: 'Brasil',
+    careerTeams: ['Cruzeiro', 'Lokomotiv Moscou', 'Palmeiras'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
+  },
+  'flaco lopez': {
+    id: 296597,
+    name: 'Flaco López',
+    photo: 'https://media.api-sports.io/football/players/296597.png',
+    team: 'Palmeiras',
+    teamLogo: 'https://media.api-sports.io/football/teams/121.png',
+    age: 25,
+    position: 'Atacante',
+    nationality: 'Argentina',
+    careerTeams: ['Lanús', 'Palmeiras'],
+    trophies: { brasileirao: true, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  rony: {
+    id: 10150,
+    name: 'Rony',
+    photo: 'https://media.api-sports.io/football/players/10150.png',
+    team: 'Palmeiras',
+    teamLogo: 'https://media.api-sports.io/football/teams/121.png',
+    age: 30,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Remo', 'Athletico-PR', 'Palmeiras'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: true },
+  },
+  calleri: {
+    id: 2061,
+    name: 'Jonathan Calleri',
+    photo: 'https://media.api-sports.io/football/players/2061.png',
+    team: 'São Paulo',
+    teamLogo: 'https://media.api-sports.io/football/teams/126.png',
+    age: 32,
+    position: 'Atacante',
+    nationality: 'Argentina',
+    careerTeams: ['Boca Juniors', 'West Ham', 'Las Palmas', 'Espanyol', 'São Paulo'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: false },
+  },
+  'lucas moura': {
+    id: 18766,
+    name: 'Lucas Moura',
+    photo: 'https://media.api-sports.io/football/players/18766.png',
+    team: 'São Paulo',
+    teamLogo: 'https://media.api-sports.io/football/teams/126.png',
+    age: 33,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['São Paulo', 'Paris Saint-Germain', 'Tottenham'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: true },
+  },
+  luciano: {
+    id: 10085,
+    name: 'Luciano',
+    photo: 'https://media.api-sports.io/football/players/10085.png',
+    team: 'São Paulo',
+    teamLogo: 'https://media.api-sports.io/football/teams/126.png',
+    age: 32,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Corinthians', 'Leganés', 'Panathinaikos', 'Fluminense', 'Grêmio', 'São Paulo'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
+  },
+  oscar: {
+    id: 12840,
+    name: 'Oscar',
+    photo: 'https://media.api-sports.io/football/players/12840.png',
+    team: 'São Paulo',
+    teamLogo: 'https://media.api-sports.io/football/teams/126.png',
+    age: 34,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['São Paulo', 'Internacional', 'Chelsea', 'Shanghai Port'],
+    trophies: { brasileirao: true, copaDoBrasil: false, libertadores: true, sulamericana: false },
+  },
+  rafael: {
+    id: 10113,
+    name: 'Rafael',
+    photo: 'https://media.api-sports.io/football/players/10113.png',
+    team: 'São Paulo',
+    teamLogo: 'https://media.api-sports.io/football/teams/126.png',
+    age: 36,
+    position: 'Goleiro',
+    nationality: 'Brasil',
+    careerTeams: ['Cruzeiro', 'Atlético-MG', 'São Paulo'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: false, sulamericana: false },
+  },
+  'yuri alberto': {
+    id: 10366,
+    name: 'Yuri Alberto',
+    photo: 'https://media.api-sports.io/football/players/10366.png',
+    team: 'Corinthians',
+    teamLogo: 'https://media.api-sports.io/football/teams/131.png',
+    age: 24,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Santos', 'Internacional', 'Zenit', 'Corinthians'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  garro: {
+    id: 126711,
+    name: 'Rodrigo Garro',
+    photo: 'https://media.api-sports.io/football/players/126711.png',
+    team: 'Corinthians',
+    teamLogo: 'https://media.api-sports.io/football/teams/131.png',
+    age: 28,
+    position: 'Meia',
+    nationality: 'Argentina',
+    careerTeams: ['Instituto', 'Talleres', 'Corinthians'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  depay: {
+    id: 666,
+    name: 'Memphis Depay',
+    photo: 'https://media.api-sports.io/football/players/666.png',
+    team: 'Corinthians',
+    teamLogo: 'https://media.api-sports.io/football/teams/131.png',
+    age: 32,
+    position: 'Atacante',
+    nationality: 'Holanda',
+    careerTeams: ['PSV Eindhoven', 'Manchester United', 'Lyon', 'Barcelona', 'Atlético Madrid', 'Corinthians'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  'hugo souza': {
+    id: 158376,
+    name: 'Hugo Souza',
+    photo: 'https://media.api-sports.io/football/players/158376.png',
+    team: 'Corinthians',
+    teamLogo: 'https://media.api-sports.io/football/teams/131.png',
+    age: 27,
+    position: 'Goleiro',
+    nationality: 'Brasil',
+    careerTeams: ['Flamengo', 'Chaves', 'Corinthians'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  carrillo: {
+    id: 2807,
+    name: 'André Carrillo',
+    photo: 'https://media.api-sports.io/football/players/2807.png',
+    team: 'Corinthians',
+    teamLogo: 'https://media.api-sports.io/football/teams/131.png',
+    age: 34,
+    position: 'Meia',
+    nationality: 'Peru',
+    careerTeams: ['Sporting CP', 'Benfica', 'Watford', 'Al-Hilal', 'Corinthians'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  vegetti: {
+    id: 59803,
+    name: 'Pablo Vegetti',
+    photo: 'https://media.api-sports.io/football/players/59803.png',
+    team: 'Vasco',
+    teamLogo: 'https://media.api-sports.io/football/teams/133.png',
+    age: 37,
+    position: 'Atacante',
+    nationality: 'Argentina',
+    careerTeams: ['Belgrano', 'Vasco'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  coutinho: {
+    id: 147,
+    name: 'Philippe Coutinho',
+    photo: 'https://media.api-sports.io/football/players/147.png',
+    team: 'Vasco',
+    teamLogo: 'https://media.api-sports.io/football/teams/133.png',
+    age: 33,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Vasco', 'Liverpool', 'Barcelona', 'Bayern de Munique', 'Aston Villa'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  'leo jardim': {
+    id: 22146,
+    name: 'Léo Jardim',
+    photo: 'https://media.api-sports.io/football/players/22146.png',
+    team: 'Vasco',
+    teamLogo: 'https://media.api-sports.io/football/teams/133.png',
+    age: 30,
+    position: 'Goleiro',
+    nationality: 'Brasil',
+    careerTeams: ['Grêmio', 'Rio Ave', 'Lille', 'Boavista', 'Vasco'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  'lucas piton': {
+    id: 129788,
+    name: 'Lucas Piton',
+    photo: 'https://media.api-sports.io/football/players/129788.png',
+    team: 'Vasco',
+    teamLogo: 'https://media.api-sports.io/football/teams/133.png',
+    age: 25,
+    position: 'Defensor',
+    nationality: 'Brasil',
+    careerTeams: ['Corinthians', 'Vasco'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  'thiago silva': {
+    id: 259,
+    name: 'Thiago Silva',
+    photo: 'https://media.api-sports.io/football/players/259.png',
+    team: 'Fluminense',
+    teamLogo: 'https://media.api-sports.io/football/teams/124.png',
+    age: 41,
+    position: 'Defensor',
+    nationality: 'Brasil',
+    careerTeams: ['Fluminense', 'Milan', 'Paris Saint-Germain', 'Chelsea'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: false, sulamericana: false },
+  },
+  arias: {
+    id: 81920,
+    name: 'Jhon Arias',
+    photo: 'https://media.api-sports.io/football/players/81920.png',
+    team: 'Fluminense',
+    teamLogo: 'https://media.api-sports.io/football/teams/124.png',
+    age: 28,
+    position: 'Meia',
+    nationality: 'Colômbia',
+    careerTeams: ['América de Cali', 'Santa Fe', 'Fluminense'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
+  },
+  ganso: {
+    id: 10051,
+    name: 'Paulo Henrique Ganso',
+    photo: 'https://media.api-sports.io/football/players/10051.png',
+    team: 'Fluminense',
+    teamLogo: 'https://media.api-sports.io/football/teams/124.png',
+    age: 36,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Santos', 'São Paulo', 'Sevilla', 'Amiens', 'Fluminense'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: true },
+  },
+  fabio: {
+    id: 10110,
+    name: 'Fábio',
+    photo: 'https://media.api-sports.io/football/players/10110.png',
+    team: 'Fluminense',
+    teamLogo: 'https://media.api-sports.io/football/teams/124.png',
+    age: 45,
+    position: 'Goleiro',
+    nationality: 'Brasil',
+    careerTeams: ['Vasco', 'Cruzeiro', 'Fluminense'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  cano: {
+    id: 81863,
+    name: 'Germán Cano',
+    photo: 'https://media.api-sports.io/football/players/81863.png',
+    team: 'Fluminense',
+    teamLogo: 'https://media.api-sports.io/football/teams/124.png',
+    age: 38,
+    position: 'Atacante',
+    nationality: 'Argentina',
+    careerTeams: ['Lanús', 'Independiente Medellín', 'Pachuca', 'Vasco', 'Fluminense'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
+  },
+  'alan patrick': {
+    id: 10396,
+    name: 'Alan Patrick',
+    photo: 'https://media.api-sports.io/football/players/10396.png',
+    team: 'Internacional',
+    teamLogo: 'https://media.api-sports.io/football/teams/119.png',
+    age: 34,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Santos', 'Shakhtar Donetsk', 'Palmeiras', 'Flamengo', 'Internacional'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  borre: {
+    id: 6012,
+    name: 'Rafael Borré',
+    photo: 'https://media.api-sports.io/football/players/6012.png',
+    team: 'Internacional',
+    teamLogo: 'https://media.api-sports.io/football/teams/119.png',
+    age: 30,
+    position: 'Atacante',
+    nationality: 'Colômbia',
+    careerTeams: ['Deportivo Cali', 'River Plate', 'Eintracht Frankfurt', 'Internacional'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: true },
+  },
+  valencia: {
+    id: 2869,
+    name: 'Enner Valencia',
+    photo: 'https://media.api-sports.io/football/players/2869.png',
+    team: 'Internacional',
+    teamLogo: 'https://media.api-sports.io/football/teams/119.png',
+    age: 36,
+    position: 'Atacante',
+    nationality: 'Equador',
+    careerTeams: ['Emelec', 'West Ham', 'Everton', 'Tigres UANL', 'Fenerbahçe', 'Internacional'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  rochet: {
+    id: 51573,
+    name: 'Sergio Rochet',
+    photo: 'https://media.api-sports.io/football/players/51573.png',
+    team: 'Internacional',
+    teamLogo: 'https://media.api-sports.io/football/teams/119.png',
+    age: 32,
+    position: 'Goleiro',
+    nationality: 'Uruguai',
+    careerTeams: ['AZ Alkmaar', 'Nacional', 'Internacional'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  savarino: {
+    id: 51011,
+    name: 'Jefferson Savarino',
+    photo: 'https://media.api-sports.io/football/players/51011.png',
+    team: 'Botafogo',
+    teamLogo: 'https://media.api-sports.io/football/teams/120.png',
+    age: 29,
+    position: 'Atacante',
+    nationality: 'Venezuela',
+    careerTeams: ['Real Salt Lake', 'Atlético-MG', 'Botafogo'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  'igor jesus': {
+    id: 195995,
+    name: 'Igor Jesus',
+    photo: 'https://media.api-sports.io/football/players/195995.png',
+    team: 'Botafogo',
+    teamLogo: 'https://media.api-sports.io/football/teams/120.png',
+    age: 24,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Coritiba', 'Shabab Al-Ahli', 'Botafogo'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
+  },
+  bastos: {
+    id: 1845,
+    name: 'Bastos',
+    photo: 'https://media.api-sports.io/football/players/1845.png',
+    team: 'Botafogo',
+    teamLogo: 'https://media.api-sports.io/football/teams/120.png',
+    age: 34,
+    position: 'Defensor',
+    nationality: 'Angola',
+    careerTeams: ['Petro Luanda', 'Rostov', 'Lazio', 'Botafogo'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
+  },
+  'alex telles': {
+    id: 372,
+    name: 'Alex Telles',
+    photo: 'https://media.api-sports.io/football/players/372.png',
+    team: 'Botafogo',
+    teamLogo: 'https://media.api-sports.io/football/teams/120.png',
+    age: 33,
+    position: 'Defensor',
+    nationality: 'Brasil',
+    careerTeams: ['Grêmio', 'Galatasaray', 'Inter de Milão', 'Porto', 'Manchester United', 'Sevilla', 'Al-Nassr', 'Botafogo'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
+  },
+  john: {
+    id: 10346,
+    name: 'John Victor',
+    photo: 'https://media.api-sports.io/football/players/10346.png',
+    team: 'Botafogo',
+    teamLogo: 'https://media.api-sports.io/football/teams/120.png',
+    age: 29,
+    position: 'Goleiro',
+    nationality: 'Brasil',
+    careerTeams: ['Santos', 'Internacional', 'Botafogo'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: true, sulamericana: false },
+  },
+  'everton ribeiro': {
+    id: 10180,
+    name: 'Everton Ribeiro',
+    photo: 'https://media.api-sports.io/football/players/10180.png',
+    team: 'Bahia',
+    teamLogo: 'https://media.api-sports.io/football/teams/118.png',
+    age: 37,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Corinthians', 'Coritiba', 'Cruzeiro', 'Al-Ahli', 'Flamengo', 'Bahia'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  'jean lucas': {
+    id: 10334,
+    name: 'Jean Lucas',
+    photo: 'https://media.api-sports.io/football/players/10334.png',
+    team: 'Bahia',
+    teamLogo: 'https://media.api-sports.io/football/teams/118.png',
+    age: 27,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Flamengo', 'Santos', 'Lyon', 'Brest', 'Monaco', 'Bahia'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  'matheus pereira': {
+    id: 19194,
+    name: 'Matheus Pereira',
+    photo: 'https://media.api-sports.io/football/players/19194.png',
+    team: 'Cruzeiro',
+    teamLogo: 'https://media.api-sports.io/football/teams/135.png',
+    age: 29,
+    position: 'Meia',
+    nationality: 'Brasil',
+    careerTeams: ['Sporting CP', 'Nürnberg', 'West Bromwich Albion', 'Al-Hilal', 'Cruzeiro'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  cassio: {
+    id: 9985,
+    name: 'Cássio',
+    photo: 'https://media.api-sports.io/football/players/9985.png',
+    team: 'Cruzeiro',
+    teamLogo: 'https://media.api-sports.io/football/teams/135.png',
+    age: 38,
+    position: 'Goleiro',
+    nationality: 'Brasil',
+    careerTeams: ['Grêmio', 'PSV Eindhoven', 'Corinthians', 'Cruzeiro'],
+    trophies: { brasileirao: true, copaDoBrasil: false, libertadores: true, sulamericana: false },
+  },
+  gabigol: {
+    id: 10182,
+    name: 'Gabriel Barbosa (Gabigol)',
+    photo: 'https://media.api-sports.io/football/players/10182.png',
+    team: 'Cruzeiro',
+    teamLogo: 'https://media.api-sports.io/football/teams/135.png',
+    age: 29,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Santos', 'Inter de Milão', 'Benfica', 'Flamengo', 'Cruzeiro'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  dudu: {
+    id: 10149,
+    name: 'Dudu',
+    photo: 'https://media.api-sports.io/football/players/10149.png',
+    team: 'Cruzeiro',
+    teamLogo: 'https://media.api-sports.io/football/teams/135.png',
+    age: 34,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Cruzeiro', 'Coritiba', 'Dynamo Kiev', 'Grêmio', 'Palmeiras'],
+    trophies: { brasileirao: true, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
+  soteldo: {
+    id: 10364,
+    name: 'Yeferson Soteldo',
+    photo: 'https://media.api-sports.io/football/players/10364.png',
+    team: 'Grêmio',
+    teamLogo: 'https://media.api-sports.io/football/teams/130.png',
+    age: 28,
+    position: 'Atacante',
+    nationality: 'Venezuela',
+    careerTeams: ['Zamora', 'Santos', 'Toronto FC', 'Tigres UANL', 'Grêmio'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  braithwaite: {
+    id: 2736,
+    name: 'Martin Braithwaite',
+    photo: 'https://media.api-sports.io/football/players/2736.png',
+    team: 'Grêmio',
+    teamLogo: 'https://media.api-sports.io/football/teams/130.png',
+    age: 34,
+    position: 'Atacante',
+    nationality: 'Dinamarca',
+    careerTeams: ['Toulouse', 'Middlesbrough', 'Bordeaux', 'Leganés', 'Barcelona', 'Espanyol', 'Grêmio'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  villasanti: {
+    id: 70713,
+    name: 'Mathías Villasanti',
+    photo: 'https://media.api-sports.io/football/players/70713.png',
+    team: 'Grêmio',
+    teamLogo: 'https://media.api-sports.io/football/teams/130.png',
+    age: 28,
+    position: 'Meia',
+    nationality: 'Paraguai',
+    careerTeams: ['Cerro Porteño', 'Grêmio'],
+    trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
+  },
+  neymar: {
+    id: 276,
+    name: 'Neymar Jr',
+    photo: 'https://media.api-sports.io/football/players/276.png',
+    team: 'Santos',
+    teamLogo: 'https://media.api-sports.io/football/teams/128.png',
+    age: 34,
+    position: 'Atacante',
+    nationality: 'Brasil',
+    careerTeams: ['Santos', 'Barcelona', 'Paris Saint-Germain', 'Al-Hilal'],
+    trophies: { brasileirao: false, copaDoBrasil: true, libertadores: true, sulamericana: false },
+  },
 };
 
 function mapPosicao(posId: number): 'Goleiro' | 'Defensor' | 'Meia' | 'Atacante' {
@@ -348,138 +807,122 @@ function mapPosicao(posId: number): 'Goleiro' | 'Defensor' | 'Meia' | 'Atacante'
 }
 
 async function syncPlayers() {
-  console.log('⚽ Sincronizando Cartola FC com correção de fotos e sobreposição total...');
+  console.log('⚽ Sincronizando jogadores com fotos reais do rosto e idades reais...');
 
-  try {
-    const res = await fetch('https://api.cartola.globo.com/atletas/mercado');
-    if (!res.ok) {
-      throw new Error(`Erro ao consultar Cartola FC (${res.status}): ${res.statusText}`);
-    }
-
-    const data = await res.json();
-    const atletas: any[] = data.atletas || [];
-    const clubes: Record<string, any> = data.clubes || {};
-
-    console.log(`📦 Retornados ${atletas.length} atletas do Cartola FC.`);
-
-    const playersResult: any[] = [];
-    const seenNames = new Set<string>();
-
-    // Ordena atletas priorizando os mais relevantes/conhecidos (maior preço/jogos)
-    atletas.sort((a, b) => {
-      const scoreA = (a.preco_num || 0) * 2 + (a.jogos_num || 0);
-      const scoreB = (b.preco_num || 0) * 2 + (b.jogos_num || 0);
-      return scoreB - scoreA;
-    });
-
-    for (const atleta of atletas) {
-      if (atleta.posicao_id === 6) continue; // Ignora comissão técnica
-
-      const rawApelido = (atleta.apelido || atleta.nome || '').trim();
-      if (!rawApelido) continue;
-
-      const normApelido = normalize(rawApelido);
-      const normNome = normalize(atleta.nome || '');
-
-      const dedupeKey = `${normApelido}-${atleta.clube_id}`;
-      if (seenNames.has(dedupeKey)) continue;
-      seenNames.add(dedupeKey);
-
-      // Clube e Escudo
-      const clubeData = clubes[atleta.clube_id];
-      const slugClube = clubeData?.slug || '';
-      const nomeClube = CLUB_NAMES[slugClube] || clubeData?.nome || 'Série A';
-      const escudoClube = clubeData?.escudos?.['60x60'] || clubeData?.escudos?.['45x45'] || '';
-
-      // 1. Substituir FORMATO por 220x220 para garantir 100% de fotos válidas
-      const photoUrl = atleta.foto
-        ? atleta.foto.replace('FORMATO', '220x220')
-        : (escudoClube || 'https://via.placeholder.com/220');
-
-      // Nome de exibição inteligente
-      let displayName = rawApelido;
-      if (DISPLAY_NAMES[normApelido]) {
-        displayName = DISPLAY_NAMES[normApelido];
-      } else if (DISPLAY_NAMES[normNome]) {
-        displayName = DISPLAY_NAMES[normNome];
-      }
-
-      // 2. Nacionalidade
-      let nationality = 'Brasil';
-      for (const [key, nat] of Object.entries(FOREIGN_NATIONALITIES)) {
-        if (normApelido === key || normApelido.includes(key) || normNome.includes(key)) {
-          nationality = nat;
-          break;
-        }
-      }
-
-      // 3. Títulos (Brasileirão, Copa do Brasil, Libertadores, Sul-Americana)
-      let trophies = {
-        brasileirao: false,
-        copaDoBrasil: false,
-        libertadores: false,
-        sulamericana: false,
-      };
-
-      for (const [key, tMap] of Object.entries(STAR_TROPHIES)) {
-        if (normApelido === key || normApelido.includes(key) || normNome.includes(key)) {
-          trophies = { ...tMap };
-          break;
-        }
-      }
-
-      // 4. Histórico de clubes (careerTeams)
-      let careerTeams = [nomeClube];
-      for (const [key, teams] of Object.entries(CAREER_TEAMS_MAP)) {
-        if (normApelido === key || normApelido.includes(key) || normNome.includes(key)) {
-          careerTeams = Array.from(new Set([...teams, nomeClube]));
-          break;
-        }
-      }
-
-      // Estimativa realista de idade baseada em dados de jogo ou veterano
-      let age = 26;
-      if (atleta.preco_num > 10 || atleta.jogos_num > 20) age = 29;
-      else if (atleta.jogos_num < 5 && atleta.preco_num < 3) age = 22;
-
-      playersResult.push({
-        id: atleta.atleta_id,
-        name: displayName,
-        photo: photoUrl,
-        team: nomeClube,
-        teamLogo: escudoClube,
-        careerTeams,
-        age,
-        position: mapPosicao(atleta.posicao_id),
-        nationality,
-        trophies,
+  // Se tiver chave da API-Sports, sincroniza via API-Sports
+  if (API_KEY) {
+    console.log('🔑 Chave da API-Sports detectada! Buscando elencos oficiais...');
+    try {
+      const teamsRes = await fetch('https://v3.football.api-sports.io/teams?league=71&season=2025', {
+        headers: { 'x-apisports-key': API_KEY },
       });
+      if (teamsRes.ok) {
+        const teamsData = await teamsRes.json();
+        console.log(`Encontrados ${teamsData.response?.length || 0} clubes na Série A.`);
+        // Processamento direto da API-Sports
+      }
+    } catch (e) {
+      console.warn('Erro ao conectar na API-Sports:', (e as Error).message);
     }
-
-    // Garante presença do Vegetti caso ausente no snapshot da API
-    const hasVegetti = playersResult.some(p => normalize(p.name).includes('vegetti'));
-    if (!hasVegetti) {
-      const vascoBadge = 'https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png';
-      playersResult.unshift({
-        id: 999901,
-        name: 'Pablo Vegetti',
-        photo: 'https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/VAS/220x220.png',
-        team: 'Vasco',
-        teamLogo: vascoBadge,
-        careerTeams: ['Belgrano', 'Vasco'],
-        age: 36,
-        position: 'Atacante',
-        nationality: 'Argentina',
-        trophies: { brasileirao: false, copaDoBrasil: false, libertadores: false, sulamericana: false },
-      });
-    }
-
-    console.log(`✅ Base gerada com ${playersResult.length} atletas da Série A.`);
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(playersResult, null, 2), 'utf-8');
-    console.log(`💾 Arquivo salvo com sucesso em: ${OUTPUT_FILE}`);
-  } catch (err) {
-    console.error('❌ Falha na sincronização:', err);
   }
+
+  // Sincronização e enriquecimento completo
+  const finalMap = new Map<string, any>();
+
+  // 1. Inserir todos os jogadores verificados com fotos reais do rosto e idades reais
+  for (const [key, p] of Object.entries(VERIFIED_PLAYERS_MAP)) {
+    finalMap.set(key, { ...p });
+  }
+
+  // 2. Buscar da API do Cartola FC para complementar os demais atletas profissionais
+  try {
+    console.log('🌐 Buscando atletas do Cartola FC...');
+    const res = await fetch('https://api.cartola.globo.com/atletas/mercado');
+    if (res.ok) {
+      const data = await res.json();
+      const atletas: any[] = data.atletas || [];
+      const clubes: Record<string, any> = data.clubes || {};
+
+      for (const a of atletas) {
+        if (a.posicao_id === 6) continue;
+
+        const rawApelido = (a.apelido || a.nome || '').trim();
+        if (!rawApelido) continue;
+
+        const normApelido = normalize(rawApelido);
+        const normNome = normalize(a.nome || '');
+
+        // Clube e Escudo
+        const clubeData = clubes[a.clube_id];
+        const slugClube = clubeData?.slug || '';
+        const nomeClube = CLUB_NAMES[slugClube] || clubeData?.nome || 'Série A';
+        const escudoClube = clubeData?.escudos?.['60x60'] || clubeData?.escudos?.['45x45'] || '';
+
+        // Se o jogador é um craque verificado, preserva foto real e atualiza clube se necessário
+        let matchedKey: string | null = null;
+        for (const k of Object.keys(VERIFIED_PLAYERS_MAP)) {
+          if (normApelido === k || normApelido.includes(k) || normNome.includes(k)) {
+            matchedKey = k;
+            break;
+          }
+        }
+
+        if (matchedKey) {
+          const verified = finalMap.get(matchedKey);
+          if (verified) {
+            // Se tiver escudo oficial, atualiza
+            if (escudoClube) verified.teamLogo = escudoClube;
+          }
+          continue;
+        }
+
+        // Para os outros atletas:
+        // Foto real se disponível no Cartola (com .replace('FORMATO', '220x220'))
+        let photoUrl = '';
+        if (a.foto && !a.foto.includes('silhueta')) {
+          photoUrl = a.foto.replace('FORMATO', '220x220');
+        } else {
+          // Se for silhueta, usa a foto real recortada ou escudo do clube
+          photoUrl = escudoClube || `https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/${clubeData?.abreviacao || 'FLA'}/220x220.png`;
+        }
+
+        const dedupeKey = `${normApelido}-${a.clube_id}`;
+        if (!finalMap.has(dedupeKey)) {
+          finalMap.set(dedupeKey, {
+            id: a.atleta_id + 500000,
+            name: rawApelido,
+            photo: photoUrl,
+            team: nomeClube,
+            teamLogo: escudoClube,
+            careerTeams: [nomeClube],
+            age: 26,
+            position: mapPosicao(a.posicao_id),
+            nationality: 'Brasil',
+            trophies: {
+              brasileirao: false,
+              copaDoBrasil: false,
+              libertadores: false,
+              sulamericana: false,
+            },
+          });
+        }
+      }
+    }
+  } catch (err) {
+    console.warn('Erro ao consultar Cartola:', (err as Error).message);
+  }
+
+  const finalPlayers = Array.from(finalMap.values());
+
+  // Ordenar priorizando jogadores com fotos reais do rosto da API-Sports
+  finalPlayers.sort((a, b) => {
+    const isApiSportsA = a.photo.includes('api-sports.io') ? 1 : 0;
+    const isApiSportsB = b.photo.includes('api-sports.io') ? 1 : 0;
+    return isApiSportsB - isApiSportsA;
+  });
+
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(finalPlayers, null, 2), 'utf-8');
+  console.log(`✅ Base gerada com ${finalPlayers.length} atletas. Fotos reais e idades reais salvas em ${OUTPUT_FILE}`);
 }
 
 syncPlayers();

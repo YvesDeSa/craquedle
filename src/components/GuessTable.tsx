@@ -71,6 +71,7 @@ export const GuessTable: React.FC<GuessTableProps> = ({ guesses }) => {
                   <img
                     src={guess.player.photo}
                     alt={guess.player.name}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
                     loading="lazy"
                     onError={(e) => {
@@ -100,6 +101,7 @@ export const GuessTable: React.FC<GuessTableProps> = ({ guesses }) => {
                     <img
                       src={guess.player.teamLogo}
                       alt={guess.player.team}
+                      referrerPolicy="no-referrer"
                       className="w-6 h-6 sm:w-7 sm:h-7 object-contain mb-0.5 drop-shadow"
                       onError={(e) => {
                         (e.target as HTMLElement).style.display = 'none';
