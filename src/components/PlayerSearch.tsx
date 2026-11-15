@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Search } from 'lucide-react';
 import type { Player } from '../types/player';
 import { normalizeText } from '../utils/gameLogic';
+import { getCountryFlagUrl } from '../utils/flags';
 import { PlayerAvatar } from './PlayerAvatar';
 
 interface PlayerSearchProps {
@@ -38,11 +39,9 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
     : [];
 
   useEffect(() => {
-    // Resetar índice selecionado ao mudar termo de busca
     setSelectedIndex(filteredPlayers.length > 0 ? 0 : -1);
   }, [searchTerm, filteredPlayers.length]);
 
-  // Fechar dropdown ao clicar fora
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
@@ -84,7 +83,6 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
     }
   };
 
-  // Rolar para o item selecionado pelo teclado
   useEffect(() => {
     if (listRef.current && selectedIndex >= 0) {
       const activeEl = listRef.current.children[selectedIndex] as HTMLElement;
@@ -95,8 +93,8 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
   }, [selectedIndex]);
 
   return (
-    <div ref={containerRef} className="relative w-full max-w-xl mx-auto my-4">
-      {/* Input de Busca estilo Arcade */}
+    <div ref={containerRef} className="relative w-full max-w-xl mx-auto my-2">
+      {/* Input de Busca estilo Brasil Arcade */}
       <div className="relative flex items-center">
         <input
           ref={inputRef}
@@ -105,7 +103,7 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
           disabled={disabled}
           placeholder={
             disabled
-              ? 'PARABÉNS! VOCÊ JÁ ACERTOU O CRAQUE DE HOJE!'
+              ? 'PARABÉNS! VOCÊ JÁ DESCOBRIU O CRAQUE DE HOJE!'
               : 'DIGITE O NOME DO JOGADOR...'
           }
           onChange={(e) => {
@@ -116,13 +114,13 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
             if (searchTerm.trim().length > 0) setIsOpen(true);
           }}
           onKeyDown={handleKeyDown}
-          className={`w-full bg-[#08091A] text-white border-2 border-[#6D28D9] focus:border-[#B8FF01] focus:ring-0 px-4 py-3.5 pl-11 font-display text-base tracking-wide uppercase placeholder:text-gray-500 placeholder:normal-case transition-all shadow-arcade outline-none ${
+          className={`w-full bg-[#04160E] text-white border-2 border-[#FFDF00] focus:border-[#00DF81] focus:ring-0 px-3.5 py-2.5 pl-10 font-display text-sm tracking-wide uppercase placeholder:text-gray-400 placeholder:normal-case transition-all shadow-arcade outline-none ${
             disabled ? 'opacity-60 cursor-not-allowed border-green-500 text-green-400' : ''
           }`}
         />
 
-        <div className="absolute left-3.5 text-[#38BDF8] pointer-events-none">
-          <Search size={20} strokeWidth={2.5} />
+        <div className="absolute left-3 text-[#FFDF00] pointer-events-none">
+          <Search size={18} strokeWidth={2.5} />
         </div>
 
         {searchTerm.length > 0 && !disabled && (
@@ -131,47 +129,58 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
               setSearchTerm('');
               setIsOpen(false);
             }}
-            className="absolute right-3.5 text-xs font-arcade text-gray-400 hover:text-[#B8FF01] px-2 py-1 bg-[#12163A] border border-black cursor-pointer"
+            className="absolute right-3 text-[10px] font-arcade text-gray-300 hover:text-[#FFDF00] px-1.5 py-0.5 bg-black/60 border border-black cursor-pointer"
           >
             ESC
           </button>
         )}
       </div>
 
-      {/* Dropdown com Foto e Nome */}
+      {/* Dropdown com Foto, Nome, Time e Bandeira */}
       {isOpen && !disabled && (
-        <div className="absolute left-0 right-0 mt-2 z-50 bg-[#08091A] border-2 border-[#6D28D9] shadow-arcade-lg max-h-72 overflow-y-auto">
+        <div className="absolute left-0 right-0 mt-1.5 z-50 bg-[#061A12] border-2 border-[#FFDF00] shadow-arcade-lg max-h-60 overflow-y-auto">
           {filteredPlayers.length > 0 ? (
-            <ul ref={listRef} className="divide-y divide-[#1D2152]">
+            <ul ref={listRef} className="divide-y divide-[#0A2E1C]">
               {filteredPlayers.map((player, idx) => {
                 const isSelected = idx === selectedIndex;
+                const flagUrl = getCountryFlagUrl(player.nationality);
+
                 return (
                   <li
                     key={player.id}
                     onClick={() => handleSelect(player)}
                     onMouseEnter={() => setSelectedIndex(idx)}
-                    className={`flex items-center justify-between px-3.5 py-2.5 cursor-pointer transition-colors ${
+                    className={`flex items-center justify-between px-3 py-2 cursor-pointer transition-colors ${
                       isSelected
-                        ? 'bg-[#B8FF01] text-black font-semibold'
-                        : 'text-white hover:bg-[#12163A]'
+                        ? 'bg-[#FFDF00] text-black font-semibold'
+                        : 'text-white hover:bg-[#0A2619]'
                     }`}
                   >
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-2.5">
                       <PlayerAvatar
                         photo={player.photo}
                         name={player.name}
-                        className="w-10 h-10 rounded-none shadow-sm"
+                        className="w-9 h-9 rounded-none shadow-sm"
                       />
                       <div>
-                        <div className="font-display font-bold text-base leading-tight">
+                        <div className="font-display font-bold text-sm leading-tight">
                           {player.name}
                         </div>
                         <div
-                          className={`text-xs ${
-                            isSelected ? 'text-black/80' : 'text-gray-400'
+                          className={`text-[11px] flex items-center gap-1.5 mt-0.5 ${
+                            isSelected ? 'text-black/80' : 'text-gray-300'
                           }`}
                         >
-                          {player.position} • {player.nationality}
+                          <img
+                            src={flagUrl}
+                            alt={player.nationality}
+                            className="w-3.5 h-2.5 object-cover border border-black/40"
+                          />
+                          <span>{player.nationality}</span>
+                          <span>•</span>
+                          <span>{player.position}</span>
+                          <span>•</span>
+                          <span>{player.age} anos</span>
                         </div>
                       </div>
                     </div>
@@ -181,17 +190,17 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
                         <img
                           src={player.teamLogo}
                           alt={player.team}
-                          className="w-6 h-6 object-contain"
+                          className="w-5 h-5 object-contain"
                           onError={(e) => {
                             (e.target as HTMLElement).style.display = 'none';
                           }}
                         />
                       )}
                       <span
-                        className={`text-xs font-arcade px-2 py-0.5 border ${
+                        className={`text-[10px] font-display font-bold px-1.5 py-0.5 border ${
                           isSelected
-                            ? 'bg-black text-[#B8FF01] border-black'
-                            : 'bg-[#15193B] text-[#38BDF8] border-[#6D28D9]'
+                            ? 'bg-black text-[#FFDF00] border-black'
+                            : 'bg-[#04160E] text-[#00DF81] border-[#00DF81]/40'
                         }`}
                       >
                         {player.team}
@@ -202,7 +211,7 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
               })}
             </ul>
           ) : searchTerm.trim().length > 0 ? (
-            <div className="p-4 text-center text-sm font-arcade text-gray-400">
+            <div className="p-3 text-center text-xs font-display text-gray-300">
               NENHUM JOGADOR ENCONTRADO
             </div>
           ) : null}

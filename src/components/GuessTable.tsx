@@ -1,7 +1,8 @@
 import React from 'react';
 import { ArrowUp, ArrowDown } from 'lucide-react';
 import type { GuessResult, MatchStatus } from '../types/player';
-import { formatTrophiesSummary } from '../utils/gameLogic';
+import { getCountryFlagUrl } from '../utils/flags';
+import { TrophyGroup } from './TrophyBadge';
 import { PlayerAvatar } from './PlayerAvatar';
 
 interface GuessTableProps {
@@ -23,25 +24,25 @@ function getBgColor(status: MatchStatus): string {
 export const GuessTable: React.FC<GuessTableProps> = ({ guesses }) => {
   if (guesses.length === 0) {
     return (
-      <div className="w-full text-center py-10 px-4 border-2 border-dashed border-[#6D28D9]/40 rounded my-4">
-        <p className="font-arcade text-xs sm:text-sm text-[#38BDF8] tracking-widest animate-pulse">
-          ▼ FAÇA SEU PRIMEIRO CHUTE ACIMA ▼
+      <div className="w-full text-center py-6 px-4 border-2 border-dashed border-[#FFDF00]/30 rounded my-2">
+        <p className="font-display font-bold text-xs sm:text-sm text-[#FFDF00] tracking-wider animate-pulse uppercase">
+          ▼ FAÇA SEU PRIMEIRO CHUTE NO CAMPO ACIMA ▼
         </p>
-        <p className="text-xs text-gray-400 font-sans mt-2">
-          Dica: Comece por um jogador experiente para calibrar o time, idade e posição!
+        <p className="text-[11px] text-gray-300 font-sans mt-1">
+          Dica: Comece por um atleta experiente para calibrar clube, idade e posição!
         </p>
       </div>
     );
   }
 
-  // Mostra os palpites mais recentes no topo
+  // Mais recentes no topo
   const reversedGuesses = [...guesses].reverse();
 
   return (
-    <div className="w-full overflow-x-auto pb-4 my-4">
-      <div className="min-w-[640px] flex flex-col gap-3">
-        {/* Cabeçalho da Tabela */}
-        <div className="grid grid-cols-6 gap-2 text-center font-arcade text-[10px] sm:text-xs text-[#B8FF01] tracking-wider py-1.5 border-b-2 border-[#6D28D9]">
+    <div className="w-full my-2">
+      <div className="min-w-[620px]">
+        {/* Cabeçalho da Tabela com Fonte Chakra Petch (suporta acentos perfeitamente) */}
+        <div className="grid grid-cols-6 gap-1.5 text-center font-display font-black text-xs text-[#FFDF00] tracking-wider py-1 border-b-2 border-[#FFDF00]/60 uppercase">
           <div>JOGADOR</div>
           <div>TIME</div>
           <div>IDADE</div>
@@ -50,129 +51,131 @@ export const GuessTable: React.FC<GuessTableProps> = ({ guesses }) => {
           <div>TÍTULOS</div>
         </div>
 
-        {/* Linhas de Palpites */}
-        {reversedGuesses.map((guess, rowIdx) => {
-          const isLatest = rowIdx === 0;
+        {/* Linhas de Palpites com Scroll Interno para Zero Scroll na Janela */}
+        <div className="max-h-[36vh] sm:max-h-[40vh] overflow-y-auto pr-1 space-y-1.5 mt-1.5">
+          {reversedGuesses.map((guess, rowIdx) => {
+            const isLatest = rowIdx === 0;
+            const flagUrl = getCountryFlagUrl(guess.player.nationality);
 
-          return (
-            <div
-              key={`${guess.player.id}-${guesses.length - rowIdx}`}
-              className="grid grid-cols-6 gap-2"
-            >
-              {/* 1. Jogador (Foto + Nome) */}
+            return (
               <div
-                style={{ animationDelay: isLatest ? '0ms' : '0ms' }}
-                className={`relative flex flex-col items-center justify-center p-2 bg-[#12163A] border-2 border-black shadow-arcade-sm h-24 ${
-                  isLatest ? 'animate-flip' : ''
-                }`}
+                key={`${guess.player.id}-${guesses.length - rowIdx}`}
+                className="grid grid-cols-6 gap-1.5"
               >
-                <PlayerAvatar
-                  photo={guess.player.photo}
-                  name={guess.player.name}
-                  className="w-12 h-12 object-cover border border-black shadow"
-                />
-                <span className="font-display font-bold text-xs text-center text-white truncate w-full mt-1">
-                  {guess.player.name}
-                </span>
-              </div>
-
-              {/* 2. Time */}
-              <div
-                style={{ animationDelay: isLatest ? '150ms' : '0ms' }}
-                className={`relative flex flex-col items-center justify-center p-2 border-2 border-black shadow-arcade-sm h-24 ${getBgColor(
-                  guess.teamMatch
-                )} ${isLatest ? 'animate-flip' : ''}`}
-              >
-                {guess.player.teamLogo && (
-                  <img
-                    src={guess.player.teamLogo}
-                    alt={guess.player.team}
-                    className="w-8 h-8 object-contain mb-1 drop-shadow"
-                    onError={(e) => {
-                      (e.target as HTMLElement).style.display = 'none';
-                    }}
+                {/* 1. Jogador (Foto + Nome) */}
+                <div
+                  style={{ animationDelay: isLatest ? '0ms' : '0ms' }}
+                  className={`relative flex flex-col items-center justify-center p-1 bg-[#0A2619] border-2 border-black shadow-arcade-sm h-16 sm:h-20 ${
+                    isLatest ? 'animate-flip' : ''
+                  }`}
+                >
+                  <PlayerAvatar
+                    photo={guess.player.photo}
+                    name={guess.player.name}
+                    className="w-8 h-8 sm:w-10 sm:h-10 object-cover border border-black shadow"
                   />
-                )}
-                <span className="font-display font-extrabold text-xs sm:text-sm text-center line-clamp-2 px-1">
-                  {guess.player.team}
-                </span>
-              </div>
-
-              {/* 3. Idade (com Seta Arcade) */}
-              <div
-                style={{ animationDelay: isLatest ? '300ms' : '0ms' }}
-                className={`relative flex flex-col items-center justify-center p-2 border-2 border-black shadow-arcade-sm h-24 overflow-hidden ${getBgColor(
-                  guess.ageMatch.status
-                )} ${isLatest ? 'animate-flip' : ''}`}
-              >
-                {/* Seta de fundo grande indicando se o segredo é mais velho ou mais novo */}
-                {guess.ageMatch.direction === 'HIGHER' && (
-                  <ArrowUp
-                    size={48}
-                    strokeWidth={3}
-                    className="absolute opacity-20 pointer-events-none"
-                  />
-                )}
-                {guess.ageMatch.direction === 'LOWER' && (
-                  <ArrowDown
-                    size={48}
-                    strokeWidth={3}
-                    className="absolute opacity-20 pointer-events-none"
-                  />
-                )}
-
-                <span className="font-display font-black text-2xl sm:text-3xl z-10 leading-none">
-                  {guess.player.age}
-                </span>
-                
-                {guess.ageMatch.direction !== 'EQUAL' && (
-                  <span className="text-[10px] font-arcade font-bold z-10 flex items-center mt-1">
-                    {guess.ageMatch.direction === 'HIGHER' ? 'MAIOR ↑' : 'MENOR ↓'}
+                  <span className="font-display font-bold text-[11px] sm:text-xs text-center text-white truncate w-full mt-0.5 px-0.5">
+                    {guess.player.name}
                   </span>
-                )}
-              </div>
+                </div>
 
-              {/* 4. Posição */}
-              <div
-                style={{ animationDelay: isLatest ? '450ms' : '0ms' }}
-                className={`flex items-center justify-center p-2 border-2 border-black shadow-arcade-sm h-24 text-center ${getBgColor(
-                  guess.positionMatch
-                )} ${isLatest ? 'animate-flip' : ''}`}
-              >
-                <span className="font-display font-bold text-xs sm:text-sm px-1">
-                  {guess.player.position}
-                </span>
-              </div>
+                {/* 2. Time */}
+                <div
+                  style={{ animationDelay: isLatest ? '150ms' : '0ms' }}
+                  className={`relative flex flex-col items-center justify-center p-1 border-2 border-black shadow-arcade-sm h-16 sm:h-20 ${getBgColor(
+                    guess.teamMatch
+                  )} ${isLatest ? 'animate-flip' : ''}`}
+                >
+                  {guess.player.teamLogo && (
+                    <img
+                      src={guess.player.teamLogo}
+                      alt={guess.player.team}
+                      className="w-6 h-6 sm:w-7 sm:h-7 object-contain mb-0.5 drop-shadow"
+                      onError={(e) => {
+                        (e.target as HTMLElement).style.display = 'none';
+                      }}
+                    />
+                  )}
+                  <span className="font-display font-extrabold text-[11px] sm:text-xs text-center line-clamp-1 px-1">
+                    {guess.player.team}
+                  </span>
+                </div>
 
-              {/* 5. Nacionalidade */}
-              <div
-                style={{ animationDelay: isLatest ? '600ms' : '0ms' }}
-                className={`flex items-center justify-center p-2 border-2 border-black shadow-arcade-sm h-24 text-center ${getBgColor(
-                  guess.nationalityMatch
-                )} ${isLatest ? 'animate-flip' : ''}`}
-              >
-                <span className="font-display font-bold text-xs sm:text-sm px-1">
-                  {guess.player.nationality}
-                </span>
-              </div>
+                {/* 3. Idade (com Seta Arcade) */}
+                <div
+                  style={{ animationDelay: isLatest ? '300ms' : '0ms' }}
+                  className={`relative flex flex-col items-center justify-center p-1 border-2 border-black shadow-arcade-sm h-16 sm:h-20 overflow-hidden ${getBgColor(
+                    guess.ageMatch.status
+                  )} ${isLatest ? 'animate-flip' : ''}`}
+                >
+                  {guess.ageMatch.direction === 'HIGHER' && (
+                    <ArrowUp
+                      size={36}
+                      strokeWidth={3}
+                      className="absolute opacity-20 pointer-events-none"
+                    />
+                  )}
+                  {guess.ageMatch.direction === 'LOWER' && (
+                    <ArrowDown
+                      size={36}
+                      strokeWidth={3}
+                      className="absolute opacity-20 pointer-events-none"
+                    />
+                  )}
 
-              {/* 6. Títulos */}
-              <div
-                style={{ animationDelay: isLatest ? '750ms' : '0ms' }}
-                className={`flex flex-col items-center justify-center p-2 border-2 border-black shadow-arcade-sm h-24 text-center ${getBgColor(
-                  guess.trophiesMatch.status
-                )} ${isLatest ? 'animate-flip' : ''}`}
-              >
-                <span className="font-display font-bold text-xs leading-tight">
-                  {formatTrophiesSummary(guess.player.trophies)}
-                </span>
-                <span className="text-[9px] font-arcade mt-1 opacity-75">
-                  BR • CdB • LIB
-                </span>
+                  <span className="font-display font-black text-xl sm:text-2xl z-10 leading-none">
+                    {guess.player.age}
+                  </span>
+
+                  {guess.ageMatch.direction !== 'EQUAL' && (
+                    <span className="text-[9px] font-display font-extrabold z-10 flex items-center mt-0.5">
+                      {guess.ageMatch.direction === 'HIGHER' ? 'MAIOR ↑' : 'MENOR ↓'}
+                    </span>
+                  )}
+                </div>
+
+                {/* 4. Posição */}
+                <div
+                  style={{ animationDelay: isLatest ? '450ms' : '0ms' }}
+                  className={`flex items-center justify-center p-1 border-2 border-black shadow-arcade-sm h-16 sm:h-20 text-center ${getBgColor(
+                    guess.positionMatch
+                  )} ${isLatest ? 'animate-flip' : ''}`}
+                >
+                  <span className="font-display font-extrabold text-[11px] sm:text-xs px-1">
+                    {guess.player.position}
+                  </span>
+                </div>
+
+                {/* 5. Nacionalidade (Bandeira + País) */}
+                <div
+                  style={{ animationDelay: isLatest ? '600ms' : '0ms' }}
+                  className={`flex flex-col items-center justify-center p-1 border-2 border-black shadow-arcade-sm h-16 sm:h-20 text-center ${getBgColor(
+                    guess.nationalityMatch
+                  )} ${isLatest ? 'animate-flip' : ''}`}
+                >
+                  <img
+                    src={flagUrl}
+                    alt={guess.player.nationality}
+                    className="w-6 sm:w-8 h-4 sm:h-5 object-cover border border-black/50 shadow-sm mb-0.5"
+                  />
+                  <span className="font-display font-bold text-[10px] sm:text-[11px] truncate w-full px-1">
+                    {guess.player.nationality}
+                  </span>
+                </div>
+
+                {/* 6. Títulos (Ícones de Taças Estilo Narutodle) */}
+                <div
+                  style={{ animationDelay: isLatest ? '750ms' : '0ms' }}
+                  className={`flex flex-col items-center justify-center p-1 border-2 border-black shadow-arcade-sm h-16 sm:h-20 text-center ${getBgColor(
+                    guess.trophiesMatch.status
+                  )} ${isLatest ? 'animate-flip' : ''}`}
+                >
+                  <TrophyGroup trophies={guess.player.trophies} size="sm" />
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );
