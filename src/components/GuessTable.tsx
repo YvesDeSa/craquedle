@@ -3,7 +3,6 @@ import { ArrowUp, ArrowDown } from 'lucide-react';
 import type { GuessResult, MatchStatus } from '../types/player';
 import { getCountryFlagUrl } from '../utils/flags';
 import { TrophyGroup } from './TrophyBadge';
-import { PlayerAvatar } from './PlayerAvatar';
 
 interface GuessTableProps {
   guesses: GuessResult[];
@@ -62,21 +61,32 @@ export const GuessTable: React.FC<GuessTableProps> = ({ guesses }) => {
                 key={`${guess.player.id}-${guesses.length - rowIdx}`}
                 className="grid grid-cols-6 gap-1.5"
               >
-                {/* 1. Jogador (Foto + Nome) */}
+                {/* 1. Jogador (Foto 100% Full-Bleed + Nome apenas no Hover estilo Narutodle) */}
                 <div
                   style={{ animationDelay: isLatest ? '0ms' : '0ms' }}
-                  className={`relative flex flex-col items-center justify-center p-1 bg-[#0A2619] border-2 border-black shadow-arcade-sm h-16 sm:h-20 ${
+                  className={`group relative overflow-hidden bg-[#04160E] border-2 border-black shadow-arcade-sm h-16 sm:h-20 ${
                     isLatest ? 'animate-flip' : ''
                   }`}
                 >
-                  <PlayerAvatar
-                    photo={guess.player.photo}
-                    name={guess.player.name}
-                    className="w-8 h-8 sm:w-10 sm:h-10 object-cover border border-black shadow"
+                  <img
+                    src={guess.player.photo}
+                    alt={guess.player.name}
+                    className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
+                    loading="lazy"
+                    onError={(e) => {
+                      if (guess.player.teamLogo) {
+                        (e.target as HTMLImageElement).src = guess.player.teamLogo;
+                        (e.target as HTMLImageElement).className = "w-full h-full object-contain p-2";
+                      }
+                    }}
                   />
-                  <span className="font-display font-bold text-[11px] sm:text-xs text-center text-white truncate w-full mt-0.5 px-0.5">
-                    {guess.player.name}
-                  </span>
+
+                  {/* Overlay escuro com nome do atleta apenas no Hover */}
+                  <div className="absolute inset-0 bg-black/85 flex items-center justify-center p-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-20">
+                    <span className="font-display font-black text-xs sm:text-sm text-[#FFDF00] text-center leading-tight drop-shadow px-1">
+                      {guess.player.name}
+                    </span>
+                  </div>
                 </div>
 
                 {/* 2. Time */}

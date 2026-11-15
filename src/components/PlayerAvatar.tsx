@@ -19,7 +19,7 @@ export const PlayerAvatar: React.FC<PlayerAvatarProps> = ({
   if (hasError || !photo) {
     return (
       <div
-        className={`flex items-center justify-center bg-[#15193B] border-2 border-black text-[#B8FF01] ${className}`}
+        className={`flex items-center justify-center bg-[#04160E] border border-black text-[#FFDF00] ${className}`}
         title={name}
       >
         <User size={fallbackSize} />
@@ -33,7 +33,7 @@ export const PlayerAvatar: React.FC<PlayerAvatarProps> = ({
       alt={name}
       onError={() => setHasError(true)}
       loading="lazy"
-      className={`object-cover bg-[#08091A] border-2 border-black ${className}`}
+      className={`object-cover bg-[#04160E] border border-black ${className}`}
     />
   );
 };
