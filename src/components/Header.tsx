@@ -2,8 +2,8 @@ import React from 'react';
 import { ArrowLeft, HelpCircle, BarChart2, Flame } from 'lucide-react';
 
 interface HeaderProps {
-  currentScreen: 'menu' | 'classic' | 'grid';
-  onNavigate: (screen: 'menu' | 'classic' | 'grid') => void;
+  currentScreen: 'menu' | 'classic' | 'grid' | 'career' | 'blur';
+  onNavigate: (screen: 'menu' | 'classic' | 'grid' | 'career' | 'blur') => void;
   onOpenHowToPlay: () => void;
   onOpenStats: () => void;
   streak: number;
@@ -47,6 +47,7 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       <div className="flex items-center gap-2">
+
         {/* Streak Counter */}
         <div
           className="flex items-center gap-1 px-2.5 py-1 bg-[#04160E] border-2 border-[#FFDF00] text-orange-400 font-arcade text-[10px] shadow-arcade-sm"

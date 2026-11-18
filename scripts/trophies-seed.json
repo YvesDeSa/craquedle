@@ -1,0 +1,7182 @@
+[
+ {
+  "name": "Pedro",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arrascaeta",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gerson",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nicolás de la Cruz",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Agustín Rossi",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": true
+  }
+ },
+ {
+  "name": "Bruno Henrique",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "David Luiz",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Pereira",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": true
+  }
+ },
+ {
+  "name": "Ayrton Lucas",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Erick Pulgar",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Hulk",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Paulinho",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Guilherme Arana",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Scarpa",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Everson",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Estêvão",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Raphael Veiga",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": true
+  }
+ },
+ {
+  "name": "Gustavo Gómez",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Weverton",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Murilo",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Flaco López",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rony",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": true
+  }
+ },
+ {
+  "name": "Jonathan Calleri",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Moura",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": true
+  }
+ },
+ {
+  "name": "Luciano",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Oscar",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rafael",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Yuri Alberto",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodrigo Garro",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Memphis Depay",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Hugo Souza",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "André Carrillo",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Pablo Vegetti",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Philippe Coutinho",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Jardim",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Piton",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thiago Silva",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jhon Arias",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Paulo Henrique Ganso",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": true
+  }
+ },
+ {
+  "name": "Fábio",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Germán Cano",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alan Patrick",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rafael Borré",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": true
+  }
+ },
+ {
+  "name": "Enner Valencia",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sergio Rochet",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jefferson Savarino",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Igor Jesus",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bastos",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alex Telles",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "John Victor",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Everton Ribeiro",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jean Lucas",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Pereira",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cássio",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": false,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Barbosa (Gabigol)",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Dudu",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": true,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Yeferson Soteldo",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Martin Braithwaite",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mathías Villasanti",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Neymar Jr",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": true,
+   "libertadores": true,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Walter",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Peralta",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Nascimento",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Dantas",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fabiano Souza",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ocampo",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Brítez",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Knesowitsch",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Edson Fernando",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Juan Ferreira",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Aragão",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Pochettino",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruninho",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Elias",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Batista",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Guido Herrera",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Victor Hugo",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cléber Lucas",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fernandinho",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Santos",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Herick",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Túlio Eduardo",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Emanuel",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Buta",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Monzón",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Warleson",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Miguel Bilong",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Mosquito",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fabricio Prado",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Filipe Sirio",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Paulo Roberto",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Vinicius",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Isac",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Heittor",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Cazonatti",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wellington",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jovane Cabral",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitor Lamounier",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kássio",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Tubarão",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thiago Borbas",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Zé Lucas",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fernando",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Diego Caito",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Calebe",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Domingos Andrade",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitor Tissi",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Krovinovic",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Felipe Morais",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Danilo Pereira",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wesley",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vargas",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Kempes",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alejandro",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Costa",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Colidio",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Santiago Sosa",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marquinhos",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodrigo",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eliasson",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fred",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Yago Felipe",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Danilo Barbosa",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marlon",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Castaño",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sanabria",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Miguel Carvalho",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alex Bruno",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno André",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "André Lucas",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Josmar",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Bertinato",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Euder",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Duarte",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luizinho",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Crepaldi",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Joaquín Freitas",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodrigo Gelado",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Khensane",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodinei",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rosivan",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wanderson",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Ibson",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Darlan Dutra",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arthur Chaves",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ziyech",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nicolás Fonseca",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lautaro López",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Athos",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Pereira",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Zé Roberto",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Viña",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Yago Melo",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ruan Sales",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bustos",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Inácio",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Samuel",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Andrés González",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Emanuel",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Guilherme Pires",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Baldini",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Werner",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fabiano",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Veneno",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wanderson",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jemmes",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Henrique Menke",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Cerci",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vinícius Almeida",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eric",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitor Hugo",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Erick",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Santos",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gleidson",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Loide Augusto",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Heitor",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Martinelli",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Pec",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arthur Cabral",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitinho",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Villalba",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Enzo Díaz",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alexander Barboza",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fabrício Bruno",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheuzinho",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ronaldo",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Carrascal",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gilberto",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Brazão",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cristian Olivera",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "David Duarte",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Iago",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Renan Lodi",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ademir",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Paulo",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alex Sandro",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Willian José",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Zé Guilherme",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Yago Pikachu",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodrigo Nestor",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Acevedo",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kanu",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Erick",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Caio Alexandre",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sanabria",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Michel Araújo",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kayke",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marçal",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ruan Pablo",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Victor Nascimento",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cauly",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauê Furquim",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fredi Lippert",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Danilo",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Artur",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Montoro",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Martins",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Allan",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mateo Ponte",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eduardo Sasha",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Newton",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cleiton",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cristhian Loor",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kadir",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kaio",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Juninho Capixaba",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Villalba",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Abdias",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Barrera",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luan Cândido",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eric Ramires",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Fernandes",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Laquintana",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Barbosa",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fabrício",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Marques",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Praxedes",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Isidro Pitta",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eduardo Santos",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sant'Anna",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vanderlan",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Andrés Hurtado",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alix Vinicius",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lyanco",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitor Hugo",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Henry Mosquera",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nathan Mendes",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavinho",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Guzmán Rodríguez",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ignacio Sosa",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Davi Gomes",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alan Franco",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vinicinho",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Reinier",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cuello",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alexsander",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Delfim",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ruan",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Henrique",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Igor Gomes",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "André Ramalho",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Júnior Santos",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Natanael",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Menino",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Patrick",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cacá",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Bidu",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Angileri",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Raniele",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitinho",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Breno Bidon",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Charles",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Félix Torres",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "André Luiz",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fagner",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kayky",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Romero",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jefté",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bahia",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bernard",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Dieguinho",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gui Negão",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Henrique",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arroyo",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Cunha",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Felipe Longo",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jonathan Jesus",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Silva",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "William",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Marcelo",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wanderson",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Walace",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Otávio",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sinisterra",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Villarreal",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marquinhos",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kaique Kenji",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jorginho",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Japa",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Varela",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rayan Lelis",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauã Moraes",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Samuel Lino",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Emerson Royal",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Danilo",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Ortiz",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luiz Araújo",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Saúl",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Everton",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Benedetti",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Allan",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wallace Yan",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Daniel Sales",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Evertton Araújo",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Dyogo Alves",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Nannetti",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Plata",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thiago Santos",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Douglas Telles",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Renê",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Igor Rabello",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Victor",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Joshua",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Samuel Xavier",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nonato",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Guga",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitor Eudes",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Hércules",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Freytes",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Everaldo",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Otávio",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Keno",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcelo Pitaluga",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tiago Volpi",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lima",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Edenílson",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ignácio",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marlon",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Serna",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Júlio Fidelis",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arthur Melo",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Riquelme Felipe",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcos Rocha",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Dodi",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kannemann",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Balbuena",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Carlos Vinícius",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Pavón",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Grando",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mercado",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Caio Paulista",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Juninho",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wagner Leonardo",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Larson",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitinho",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Riquelme",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Gomes",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Amuzu",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ivan",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Richard",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thiago Beltrame",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcelo Lomba",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Felipe Anderson",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Aguirre",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ronaldo",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thiago Maia",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Carlos Miguel",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Piquerez",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Raykkonen",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Anthoni",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Carbonero",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Victor Gabriel",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Maurício",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Fuchs",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Khellven",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Giay",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Evangelista",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marlon Freitas",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thomazella",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Daniel Borges",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Carlos Eduardo",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "André Luis",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Neto Moura",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Shaylon",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Victor",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Emiliano Martínez",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ygor Vinhas",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alesson",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Felipe Jonatan",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ramón Sosa",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Martins",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Ramon",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tiquinho Soares",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Negueba",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eduardo Melo",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Renato Marques",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Aldo Filho",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Schmidt",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Edson Carioca",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luan Peres",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Zé Ivaldo",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thaciano",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Igor Vinícius",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rollheiser",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Escobar",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arboleda",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Diógenes",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Bontempo",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wendell",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ferraresi",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vini Lira",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Coronel",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bobadilla",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alisson",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cédric Soares",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ferreira",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Danielzinho",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodriguinho",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sabino",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Young",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcos Antônio",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucca",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Pablo Maia",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Paulo Henrique",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thiago Mendes",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Daniel Fuzato",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ryan Francisco",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "André Silva",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Puma Rodríguez",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jair",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tchê Tchê",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Victor Luis",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Robert Renan",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Adson",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Andrés Gómez",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Carlos Cuesta",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheuzinho",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "David",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mateus Carvalho",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Osvaldo",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Arcanjo",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Barros",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Freitas",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Renato Kayzer",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nuno Moreira",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mateus Silva",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jamerson",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jadson",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Caíque",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Baralhas",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Camutanga",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Esquivel",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ramon",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mycael",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Benavídez",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Leozinho",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcos Alexandre",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rúben Ismael",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Aguirre",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Terán",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Renan Peixoto",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Batata",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Felipinho",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Cruz",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Renan Viana",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Viveros",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Derik",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alejandro García",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Zapelli",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Felipe Chiqueti",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Josué",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jacy",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Soares",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Portilla",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Maicon",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Melo",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Carlos Eduardo",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodrigo Moledo",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tinga",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tiago Cóser",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sebastián Gómez",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcelo Rangel",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lavega",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wallisson",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Ronier",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vini Paulista",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Benassi",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Edenílson",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Giovanni Augusto",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Thiago Azaf",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Taverna",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Dias",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcinho",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Willian Arão",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcelinho",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Chico Kim",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jáderson",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Lucas",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Zé Ricardo",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Victor",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Anderson",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Vieira",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Victor Caetano",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vinicius",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauan",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitão",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eduardo",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Paulo",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Camilo",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mancha",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Everton",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arthur Dias",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rubens",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Andreas Pereira",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bernabei",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "David",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Talles",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Reinaldo",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Robert",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitor Roque",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kaio Jorge",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Barreal",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Miguelito",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Caballero",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mateus Xavier",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Henrique",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcelo Eráclito",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rhuan Gabriel",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Willian Machado",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Enamorado",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nicolas Pontes",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Denilson",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Oliveira",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Saldivia",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Pacheco",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Johan Rojas",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitão",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Galeano",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cauê",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauã Pascini",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcelinho",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wallace Davi",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Phillipe Gabriel",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Maycon",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Andrew",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Preciado",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Noriega",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Román Gómez",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Igor Formiga",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Minda",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Villagra",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Breno Lopes",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Patrick",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marllon",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jacaré",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luiz Gustavo",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ararat",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Andrade",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tetê",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Paulista",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Emmanuel Martínez",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cassierra",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "José Welison",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gilberto Junior",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Riccieli",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Dell",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Picco",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fintelman",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marino Hinestroza",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Edu",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cissé",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Yuri Sena",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marinho",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tiaguinho",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arthur",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Belé",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Pablo Lúcio",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitor Bueno",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luis Pacheco",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Índio",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Brenner",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Allex",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Riquelme",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fabri",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alisson",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Fernando Pradella",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alerrandro",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Victor",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Paquetá",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Andrey Fernandes",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kaio César",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauan Toledo",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Vitor",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kadu",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arthur Izaque",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arthur Novaes",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Herrera",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Garcez",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Felipe",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Roger",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marquinhos",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Filipe Lima",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Diego",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tico",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cuiabano",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Victor Hugo",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eduardo Doma",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Silva",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Djhordney",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wesley Natã",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Bahia",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Reis",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nadson",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodrigo Rodrigues",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nardoni",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Spinelli",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Justino",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kainã",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luiz Gustavo",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jhoan Hernández",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Ananias",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Keven Samuel",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Medina",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Labyad",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tomás Pérez",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jajá",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jefinho",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Oliva",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jeferson",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Huguinho",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Reis",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luiz Felipe",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lucas Veríssimo",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Daniel Silva",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Keiller",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lingard",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tchamba",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Millán",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Anderson Pato",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodrigo Castillo",
+  "team": "Fluminense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bernardo Zortea",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marcos Victor",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Bruno Lopes",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wendel",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "David Martins",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Taliari",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nicolas",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Georgemy",
+  "team": "Mirassol",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauê",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Caio Valle",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vinícius Balieiro",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ryan Augusto",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Walace Falcão",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luis Eduardo",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tarzia",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Claudinho",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gean",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Renê",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sidney",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Zé Vitor",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Poveda",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Aurélio",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Matheus Alexandre",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Mayk",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Da Silva",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauan Jesus",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Osorio",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Anthony",
+  "team": "Botafogo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Avellar",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Tetê",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "David Braga",
+  "team": "Remo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kevin Ramírez",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "David",
+  "team": "Coritiba",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Cauã Soares",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jhuan Nunes",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Iago Machado",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Rodrigo Falcão",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Iuri",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Breno",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alex Santana",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Benjamin Arhin",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Igor Felisberto",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Samuel Pierri",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wendell",
+  "team": "Vitória",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Nícollas",
+  "team": "Corinthians",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Ramon Rique",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Luiz Felipe",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Arthur Monteiro",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitor Ramon",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Pablo",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gustavo Santana",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Vitinho",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Koné",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Lukas Zuccarello",
+  "team": "Vasco",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Davizinho",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "João Alencar",
+  "team": "Santos",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Sayago",
+  "team": "Flamengo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Weimar Palacios",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Rojas",
+  "team": "Cruzeiro",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Gabriel Menegon",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Yuri Alves",
+  "team": "Red Bull Bragantino",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Wallace",
+  "team": "Grêmio",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Victor Gabriel",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Jorge Rivaldo",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Eduardo",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Robert",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Maripán",
+  "team": "Internacional",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauan Lima",
+  "team": "Palmeiras",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Max",
+  "team": "Chapecoense",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Alejo Véliz",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Léo Duarte",
+  "team": "Atlético-MG",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Victor Sá",
+  "team": "São Paulo",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Marco Moreno",
+  "team": "Bahia",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ },
+ {
+  "name": "Kauan Alemão",
+  "team": "Athletico-PR",
+  "trophies": {
+   "brasileirao": false,
+   "copaDoBrasil": false,
+   "libertadores": false,
+   "sulamericana": false
+  }
+ }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Atlético-MG"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Fluminense"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Botafogo"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Grêmio"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Internacional"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Bahia"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Cruzeiro",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Atlético-MG",
+      "Fluminense"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Atlético-MG",
+      "Botafogo"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Atlético-MG",
+      "Grêmio"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Atlético-MG",
+      "Internacional"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Atlético-MG",
+      "Bahia"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Atlético-MG",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Atlético-MG",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Atlético-MG",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Fluminense",
+      "Botafogo"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Fluminense",
+      "Grêmio"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Fluminense",
+      "Internacional"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Fluminense",
+      "Bahia"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Fluminense",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Fluminense",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Fluminense",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Botafogo",
+      "Grêmio"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Botafogo",
+      "Internacional"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Botafogo",
+      "Bahia"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Botafogo",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Botafogo",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Botafogo",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Grêmio",
+      "Internacional"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Grêmio",
+      "Bahia"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Grêmio",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Grêmio",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Grêmio",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Internacional",
+      "Bahia"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Internacional",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Internacional",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Internacional",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Bahia",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Bahia",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Bahia",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Athletico-PR",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Athletico-PR",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Santos",
+      "Red Bull Bragantino",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Atlético-MG",
+      "Fluminense"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Atlético-MG",
+      "Botafogo"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Atlético-MG",
+      "Grêmio"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Atlético-MG",
+      "Internacional"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Atlético-MG",
+      "Bahia"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Atlético-MG",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Atlético-MG",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Atlético-MG",
+      "Barcelona"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Fluminense",
+      "Botafogo"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Fluminense",
+      "Grêmio"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Fluminense",
+      "Internacional"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Fluminense",
+      "Bahia"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Fluminense",
+      "Athletico-PR"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Fluminense",
+      "Red Bull Bragantino"
+    ]
+  },
+  {
+    "cols": [
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "rows": [
+      "Cruzeiro",
+      "Fluminense",
+      "Barcelona"
+    ]
+  }
+]

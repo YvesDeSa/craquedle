@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Search } from 'lucide-react';
 import type { Player } from '../types/player';
 import { normalizeText } from '../utils/gameLogic';
-import { getCountryFlagUrl } from '../utils/flags';
+import { PlayerAvatar } from './PlayerAvatar';
 
 interface PlayerSearchProps {
   players: Player[];
@@ -33,7 +33,13 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
         const normSearch = normalizeText(searchTerm);
         const normName = normalizeText(p.name);
         const normTeam = normalizeText(p.team);
-        return normName.includes(normSearch) || normTeam.includes(normSearch);
+        const matchesName = normName.includes(normSearch) || normSearch.includes(normName);
+        const matchesTeam = normTeam.includes(normSearch);
+        const matchesAlias = p.aliases?.some((a) => {
+          const normA = normalizeText(a);
+          return normA.includes(normSearch) || normSearch.includes(normA);
+        });
+        return matchesName || matchesTeam || matchesAlias;
       })
     : [];
 
@@ -142,68 +148,25 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
             <ul ref={listRef} className="divide-y divide-[#0A2E1C]">
               {filteredPlayers.map((player, idx) => {
                 const isSelected = idx === selectedIndex;
-                const flagUrl = getCountryFlagUrl(player.nationality);
 
                 return (
                   <li
                     key={player.id}
                     onClick={() => handleSelect(player)}
                     onMouseEnter={() => setSelectedIndex(idx)}
-                    className={`flex items-center justify-between px-3 py-2 cursor-pointer transition-colors ${
+                    className={`flex items-center px-3 py-2 cursor-pointer transition-colors min-h-[52px] ${
                       isSelected
                         ? 'bg-[#FFDF00] text-black font-semibold'
                         : 'text-white hover:bg-[#0A2619]'
                     }`}
                   >
-                    {/* Foto Real do Rosto + Nome Grande */}
-                    <div className="flex items-center gap-3">
-                      <img
-                        src={player.photo}
-                        alt={player.name}
-                        referrerPolicy="no-referrer"
-                        className="w-12 h-12 rounded-lg object-cover bg-[#061A12] border-2 border-black flex-shrink-0"
-                        onError={(e) => {
-                          if (player.teamLogo) {
-                            (e.target as HTMLImageElement).src = player.teamLogo;
-                            (e.target as HTMLImageElement).className = "w-12 h-12 rounded-lg object-contain bg-[#061A12] p-1 border-2 border-black flex-shrink-0";
-                          }
-                        }}
-                      />
-                      <div className="flex items-center gap-2">
-                        <span className="font-display font-black text-base sm:text-lg leading-tight">
-                          {player.name}
-                        </span>
-                        <img
-                          src={flagUrl}
-                          alt={player.nationality}
-                          referrerPolicy="no-referrer"
-                          className="w-4 h-3 object-cover border border-black/40 shadow-sm"
-                          title={player.nationality}
-                        />
+                    {/* Apenas Foto + Nome (sem nacionalidade nem time para dificultar) */}
+                    <div className="flex items-center gap-3 min-w-0 w-full">
+                      <div className="h-11 w-8.5 min-w-[34px] max-w-[34px] flex-shrink-0 aspect-[3/4] overflow-hidden bg-[#062c1a] border border-[#FFDF00] flex items-center justify-center shadow-sm">
+                        <PlayerAvatar id={player.id} photo={player.photo} name={player.name} className="w-full h-full border-0" />
                       </div>
-                    </div>
-
-                    {/* Escudo + Clube à Direita */}
-                    <div className="flex items-center gap-2">
-                      {player.teamLogo && (
-                        <img
-                          src={player.teamLogo}
-                          alt={player.team}
-                          referrerPolicy="no-referrer"
-                          className="w-5 h-5 object-contain"
-                          onError={(e) => {
-                            (e.target as HTMLElement).style.display = 'none';
-                          }}
-                        />
-                      )}
-                      <span
-                        className={`text-xs font-display font-extrabold px-2 py-0.5 border ${
-                          isSelected
-                            ? 'bg-black text-[#FFDF00] border-black'
-                            : 'bg-[#04160E] text-[#00DF81] border-[#00DF81]/40'
-                        }`}
-                      >
-                        {player.team}
+                      <span className="font-display font-black text-base leading-tight truncate">
+                        {player.name}
                       </span>
                     </div>
                   </li>

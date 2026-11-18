@@ -1,23 +1,27 @@
 import React from 'react';
-import { Play, Grid3X3, Shield, Eye, Flame, Trophy, Target, Sparkles } from 'lucide-react';
+import { Play, Grid3X3, Shield, Flame, Trophy, Target, Sparkles, EyeOff } from 'lucide-react';
 import type { GameStats } from '../types/player';
 
 interface MainMenuProps {
   onStartClassic: () => void;
   onStartGrid: () => void;
+  onStartCareer: () => void;
+  onStartBlur: () => void;
   stats: GameStats;
 }
 
 export const MainMenu: React.FC<MainMenuProps> = ({
   onStartClassic,
   onStartGrid,
+  onStartCareer,
+  onStartBlur,
   stats,
 }) => {
   return (
     <div className="flex flex-col items-center justify-center my-auto px-4 py-2 z-20 w-full max-w-xl">
       {/* Topo: Subtítulo e Logo Gigante CRAQUEDLE */}
-      <div className="text-center mb-4 select-none">
-        <div className="inline-flex items-center gap-1.5 px-3 py-0.5 bg-[#04160E] border border-[#FFDF00] text-[#00DF81] font-arcade text-[10px] sm:text-xs tracking-widest uppercase mb-2 shadow-arcade-sm">
+      <div className="text-center mb-3 select-none">
+        <div className="inline-flex items-center gap-1.5 px-3 py-0.5 bg-[#04160E] border border-[#FFDF00] text-[#00DF81] font-arcade text-[10px] sm:text-xs tracking-widest uppercase mb-1.5 shadow-arcade-sm">
           <Sparkles size={12} className="text-[#FFDF00] animate-spin" />
           ❖ EDIÇÃO BRASILEIRÃO SÉRIE A ❖
         </div>
@@ -45,18 +49,18 @@ export const MainMenu: React.FC<MainMenuProps> = ({
         <div className="absolute bottom-1 right-1 w-3 h-3 bg-[#00DF81]" />
 
         {/* Título da Seção */}
-        <div className="text-center mb-3">
+        <div className="text-center mb-2.5">
           <span className="font-arcade text-[11px] text-[#FFDF00] tracking-widest">
             ❖ MODOS DE JOGO ❖
           </span>
         </div>
 
         {/* Botões do Menu Arcade */}
-        <div className="space-y-2.5">
+        <div className="space-y-2">
           {/* MODO CLÁSSICO */}
           <button
             onClick={onStartClassic}
-            className="w-full group flex items-center justify-between p-3 bg-[#04160E] border-2 border-[#FFDF00] text-[#FFDF00] hover:bg-[#FFDF00] hover:text-black hover:border-black transition-all shadow-arcade active:translate-y-0.5 cursor-pointer"
+            className="w-full group flex items-center justify-between p-2.5 sm:p-3 bg-[#04160E] border-2 border-[#FFDF00] text-[#FFDF00] hover:bg-[#FFDF00] hover:text-black hover:border-black transition-all shadow-arcade active:translate-y-0.5 cursor-pointer"
           >
             <div className="flex items-center gap-3">
               <span className="text-base group-hover:translate-x-1 transition-transform text-[#00DF81] group-hover:text-black">
@@ -80,7 +84,7 @@ export const MainMenu: React.FC<MainMenuProps> = ({
           {/* GRID DO BRASILEIRÃO */}
           <button
             onClick={onStartGrid}
-            className="w-full group flex items-center justify-between p-3 bg-[#04160E] border-2 border-[#FFDF00] text-[#FFDF00] hover:bg-[#FFDF00] hover:text-black hover:border-black transition-all shadow-arcade active:translate-y-0.5 cursor-pointer"
+            className="w-full group flex items-center justify-between p-2.5 sm:p-3 bg-[#04160E] border-2 border-[#FFDF00] text-[#FFDF00] hover:bg-[#FFDF00] hover:text-black hover:border-black transition-all shadow-arcade active:translate-y-0.5 cursor-pointer"
           >
             <div className="flex items-center gap-3">
               <span className="text-base group-hover:translate-x-1 transition-transform text-[#00DF81] group-hover:text-black">
@@ -96,7 +100,7 @@ export const MainMenu: React.FC<MainMenuProps> = ({
                   </span>
                 </div>
                 <div className="font-sans text-[11px] text-gray-300 group-hover:text-black font-normal">
-                  Cruze clubes e atributos no Grid 3x3 estilo Futbol11
+                  Cruzamento exclusivo de clubes no estilo Immaculate Grid
                 </div>
               </div>
             </div>
@@ -106,45 +110,67 @@ export const MainMenu: React.FC<MainMenuProps> = ({
             />
           </button>
 
-          {/* QUEM É O ESCUDO? (Em breve) */}
-          <div className="w-full flex items-center justify-between p-2.5 bg-[#04160E]/60 border-2 border-dashed border-[#FFDF00]/30 text-gray-400 cursor-not-allowed">
+          {/* QUEM É ESSE JOGADOR? (Trajetória de Transferências Viral) */}
+          <button
+            onClick={onStartCareer}
+            className="w-full group flex items-center justify-between p-2.5 sm:p-3 bg-[#04160E] border-2 border-[#FFDF00] text-[#FFDF00] hover:bg-[#FFDF00] hover:text-black hover:border-black transition-all shadow-arcade active:translate-y-0.5 cursor-pointer"
+          >
             <div className="flex items-center gap-3">
-              <Shield size={16} className="text-gray-400" />
+              <span className="text-base group-hover:translate-x-1 transition-transform text-[#00DF81] group-hover:text-black">
+                ▶
+              </span>
               <div className="text-left">
-                <div className="font-arcade text-[11px] tracking-wider text-gray-400">
-                  QUEM É O ESCUDO?
+                <div className="flex items-center gap-2">
+                  <span className="font-arcade text-xs sm:text-sm font-bold tracking-wider text-white group-hover:text-black">
+                    QUEM É ESSE JOGADOR?
+                  </span>
+                  <span className="font-arcade text-[8px] px-1.5 py-0.5 bg-[#FFDF00] text-black font-bold border border-black animate-pulse">
+                    4 NÍVEIS
+                  </span>
                 </div>
-                <div className="font-sans text-[10px] text-gray-400">
-                  Adivinhe o clube pelo brasão estilizado
+                <div className="font-sans text-[11px] text-gray-300 group-hover:text-black font-normal">
+                  4 desafios em sequência por dificuldade (Fácil, Médio, Difícil e Extremo)
                 </div>
               </div>
             </div>
-            <span className="font-arcade text-[8px] px-1.5 py-0.5 bg-black text-gray-400 border border-gray-700">
-              EM BREVE
-            </span>
-          </div>
+            <Shield
+              size={18}
+              className="text-[#00DF81] group-hover:text-black"
+            />
+          </button>
 
-          {/* FOTO PIXELADA (Em breve) */}
-          <div className="w-full flex items-center justify-between p-2.5 bg-[#04160E]/60 border-2 border-dashed border-[#FFDF00]/30 text-gray-400 cursor-not-allowed">
+          {/* CRAQUE EM FOCO (Foto Embaçada) */}
+          <button
+            onClick={onStartBlur}
+            className="w-full group flex items-center justify-between p-2.5 sm:p-3 bg-[#04160E] border-2 border-[#FFDF00] text-[#FFDF00] hover:bg-[#FFDF00] hover:text-black hover:border-black transition-all shadow-arcade active:translate-y-0.5 cursor-pointer"
+          >
             <div className="flex items-center gap-3">
-              <Eye size={16} className="text-gray-400" />
+              <span className="text-base group-hover:translate-x-1 transition-transform text-[#00DF81] group-hover:text-black">
+                ▶
+              </span>
               <div className="text-left">
-                <div className="font-arcade text-[11px] tracking-wider text-gray-400">
-                  FOTO PIXELADA
+                <div className="flex items-center gap-2">
+                  <span className="font-arcade text-xs sm:text-sm font-bold tracking-wider text-white group-hover:text-black">
+                    CRAQUE EM FOCO
+                  </span>
+                  <span className="font-arcade text-[8px] px-1.5 py-0.5 bg-[#EF4444] text-white font-bold border border-black">
+                    NOVO
+                  </span>
                 </div>
-                <div className="font-sans text-[10px] text-gray-400">
-                  Identifique o atleta com blur progressivo
+                <div className="font-sans text-[11px] text-gray-300 group-hover:text-black font-normal">
+                  Descubra o craque pela foto embaçada (Normal ou Hard)
                 </div>
               </div>
             </div>
-            <span className="font-arcade text-[8px] px-1.5 py-0.5 bg-black text-gray-400 border border-gray-700">
-              EM BREVE
-            </span>
-          </div>
+            <EyeOff
+              size={18}
+              className="text-[#00DF81] group-hover:text-black"
+            />
+          </button>
         </div>
 
         {/* Seção Inferior: SEU STATUS */}
-        <div className="mt-4 pt-3 border-t-2 border-[#FFDF00]/40">
+        <div className="mt-3.5 pt-2.5 border-t-2 border-[#FFDF00]/40">
           <div className="text-center mb-2">
             <span className="font-arcade text-[9px] text-[#00DF81] tracking-widest">
               ❖ SEU STATUS ❖

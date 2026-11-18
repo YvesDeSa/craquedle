@@ -58,7 +58,6 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({ isOpen, onClose 
               <div>
                 <strong className="text-[#EAB308]">AMARELO (PARCIAL):</strong>
                 <div className="text-[11px] text-gray-300">
-                  • <strong>Idade:</strong> Diferença de apenas 1 ou 2 anos.<br />
                   • <strong>Títulos:</strong> Tem pelo menos 1 troféu em comum.
                 </div>
               </div>
@@ -79,10 +78,10 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({ isOpen, onClose 
                 <ArrowDown size={14} />
               </div>
               <div>
-                <strong className="text-[#FFDF00]">SETAS DE IDADE:</strong>
+                <strong className="text-[#FFDF00]">SETAS (IDADE E ALTURA):</strong>
                 <div className="text-[11px] text-gray-300">
-                  <ArrowUp size={11} className="inline mr-1 text-[#FFDF00]" /> Segredo é <strong>mais velho</strong>.<br />
-                  <ArrowDown size={11} className="inline mr-1 text-[#FFDF00]" /> Segredo é <strong>mais novo</strong>.
+                  <ArrowUp size={11} className="inline mr-1 text-[#FFDF00]" /> O craque secreto tem valor <strong>MAIOR</strong> (mais velho ou mais alto).<br />
+                  <ArrowDown size={11} className="inline mr-1 text-[#FFDF00]" /> O craque secreto tem valor <strong>MENOR</strong> (mais novo ou mais baixo).
                 </div>
               </div>
             </div>

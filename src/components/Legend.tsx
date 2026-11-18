@@ -14,7 +14,7 @@ export const Legend: React.FC = () => {
       <div className="flex items-center gap-1.5">
         <div className="w-2.5 h-2.5 bg-[#EAB308] border border-black" />
         <span className="text-gray-200">
-          <strong className="text-white">Amarelo:</strong> Parcial (±2 anos / Título)
+          <strong className="text-white">Amarelo:</strong> Parcial (Título)
         </span>
       </div>
 
@@ -31,7 +31,7 @@ export const Legend: React.FC = () => {
           <ArrowDown size={12} strokeWidth={3} />
         </div>
         <span className="text-gray-200">
-          <strong className="text-white">Setas:</strong> Idade Maior/Menor
+          <strong className="text-white">Setas:</strong> Idade / Altura (Maior/Menor)
         </span>
       </div>
     </div>

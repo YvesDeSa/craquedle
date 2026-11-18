@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import playersData from './data/players.json';
-import type { Player, GuessResult, GameStats } from './types/player';
+import type { Player, GameStats } from './types/player';
 import {
-  getDailySecretPlayer,
   compareGuess,
-  loadDailyGuesses,
-  saveDailyGuesses,
-  loadDailyWon,
-  saveDailyWon,
   loadGameStats,
+  recordGamePlayed,
   updateGameStatsOnWin,
 } from './utils/gameLogic';
+import {
+  getBrasiliaDateString,
+  getDailyChallenges,
+  loadDateClassicProgress,
+  saveDateClassicProgress,
+} from './utils/dailySchedule';
 import { Header } from './components/Header';
 import { MainMenu } from './components/MainMenu';
 import { PlayerSearch } from './components/PlayerSearch';
@@ -20,36 +22,76 @@ import { WinModal } from './components/WinModal';
 import { StatsModal } from './components/StatsModal';
 import { HowToPlayModal } from './components/HowToPlayModal';
 import { GridMode } from './components/GridMode';
+import { GuessThePlayerBanner } from './components/GuessThePlayerBanner';
+import { BlurGame } from './components/BlurGame';
+import { ArcadeFilterDefs } from './components/PlayerAvatar';
 
 export const App: React.FC = () => {
-  const [currentScreen, setCurrentScreen] = useState<'menu' | 'classic' | 'grid'>('menu');
-  const [secretPlayer, setSecretPlayer] = useState<Player>(() => getDailySecretPlayer());
-  const [guesses, setGuesses] = useState<GuessResult[]>(() => loadDailyGuesses());
-  const [isWon, setIsWon] = useState<boolean>(() => loadDailyWon());
+  const todayStr = getBrasiliaDateString();
+  const activeDate = todayStr;
+  const isToday = true;
+
+  const [currentScreen, setCurrentScreen] = useState<'menu' | 'classic' | 'grid' | 'career' | 'blur'>('menu');
+
+  // Desafios diários determinísticos para a data ativa
+  const daily = useMemo(() => {
+    return getDailyChallenges(activeDate, playersData as Player[]);
+  }, [activeDate]);
+
+  const secretPlayer = daily.classicPlayer;
+
+  // Estado do Modo Clássico persistido por data
+  const [classicState, setClassicState] = useState(() =>
+    loadDateClassicProgress(activeDate)
+  );
+  const guesses = classicState.guesses;
+  const isWon = classicState.isWon;
+
+  // Recarrega o progresso do Modo Clássico quando a data mudar
+  useEffect(() => {
+    setClassicState(loadDateClassicProgress(activeDate));
+  }, [activeDate]);
+
   const [stats, setStats] = useState<GameStats>(() => loadGameStats());
+
+  // Sincroniza estatísticas na inicialização caso haja vitórias ou partidas prévias salvas
+  useEffect(() => {
+    if (classicState.isWon && stats.gamesWon === 0) {
+      setStats(updateGameStatsOnWin(classicState.guesses.length));
+    } else if (classicState.guesses.length > 0 && stats.gamesPlayed === 0) {
+      setStats(recordGamePlayed());
+    }
+  }, [classicState.isWon, classicState.guesses.length, stats.gamesWon, stats.gamesPlayed]);
 
   const [isWinModalOpen, setIsWinModalOpen] = useState(false);
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false);
   const [isHowToPlayOpen, setIsHowToPlayOpen] = useState(false);
 
-  useEffect(() => {
-    const dailySecret = getDailySecretPlayer(playersData as Player[]);
-    setSecretPlayer(dailySecret);
-  }, []);
-
   const handleSelectPlayer = (player: Player) => {
     if (isWon) return;
 
+    // Registra início de jogo
+    const currentStats = recordGamePlayed();
+    setStats(currentStats);
+
     const result = compareGuess(player, secretPlayer);
     const updatedGuesses = [...guesses, result];
-    setGuesses(updatedGuesses);
-    saveDailyGuesses(updatedGuesses);
+    const updatedWon = result.isCorrect;
+
+    const nextState = {
+      guesses: updatedGuesses,
+      isWon: updatedWon,
+    };
+
+    setClassicState(nextState);
+    saveDateClassicProgress(activeDate, nextState);
 
     if (result.isCorrect) {
-      setIsWon(true);
-      saveDailyWon(true);
-      const updatedStats = updateGameStatsOnWin(updatedGuesses.length);
-      setStats(updatedStats);
+      if (isToday) {
+        // Atualiza stats globais apenas no dia corrente
+        const updatedStats = updateGameStatsOnWin(updatedGuesses.length);
+        setStats(updatedStats);
+      }
       setIsWinModalOpen(true);
     }
   };
@@ -58,6 +100,7 @@ export const App: React.FC = () => {
 
   return (
     <div className="relative h-screen overflow-hidden flex flex-col justify-between text-white font-sans-body selection:bg-[#FFDF00] selection:text-black">
+      <ArcadeFilterDefs />
       {/* Imagem de Fundo Fixa do Pebolim + Vinheta Escura Verde Floresta */}
       <div
         className="fixed inset-0 z-0 bg-cover bg-center bg-fixed pointer-events-none"
@@ -87,6 +130,8 @@ export const App: React.FC = () => {
             <MainMenu
               onStartClassic={() => setCurrentScreen('classic')}
               onStartGrid={() => setCurrentScreen('grid')}
+              onStartCareer={() => setCurrentScreen('career')}
+              onStartBlur={() => setCurrentScreen('blur')}
               stats={stats}
             />
           )}
@@ -101,10 +146,16 @@ export const App: React.FC = () => {
                 <div className="absolute bottom-1 left-1 w-3 h-3 bg-[#FFFFFF]" />
                 <div className="absolute bottom-1 right-1 w-3 h-3 bg-[#00DF81]" />
 
-                {/* Título do Painel */}
-                <div className="text-center mb-1 select-none">
+                {/* Título do Painel com Data */}
+                <div className="flex items-center justify-between mb-1 select-none">
+                  <span className="font-arcade text-[9px] text-gray-400">
+                    DIA #{daily.dayNumber}
+                  </span>
                   <span className="font-arcade text-[10px] sm:text-xs text-[#00DF81] tracking-widest uppercase">
-                    ❖ ADIVINHE O CRAQUE DE HOJE! ❖
+                    ❖ {isToday ? 'ADIVINHE O CRAQUE DE HOJE!' : `CRAQUE DE ${activeDate}`} ❖
+                  </span>
+                  <span className="font-arcade text-[9px] text-[#FFDF00]">
+                    {activeDate}
                   </span>
                 </div>
 
@@ -140,6 +191,27 @@ export const App: React.FC = () => {
           {currentScreen === 'grid' && (
             <GridMode
               players={playersData as Player[]}
+              gridMatrix={daily.gridMatrix}
+              activeDate={activeDate}
+              onBack={() => setCurrentScreen('menu')}
+            />
+          )}
+
+          {currentScreen === 'blur' && (
+            <BlurGame
+              players={playersData as Player[]}
+              secretPlayer={daily.blurPlayer}
+              activeDate={activeDate}
+              dayNumber={daily.dayNumber}
+            />
+          )}
+
+          {currentScreen === 'career' && (
+            <GuessThePlayerBanner
+              players={playersData as Player[]}
+              dailyPlayers={daily.careerPlayers}
+              careerDifficulties={daily.careerDifficulties}
+              activeDate={activeDate}
               onBack={() => setCurrentScreen('menu')}
             />
           )}

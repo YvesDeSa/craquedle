@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1568045,
+    "name": "Lucas Emanuel",
+    "team": "Botafogo"
+  },
+  {
+    "id": 939793,
+    "name": "Rosivan",
+    "team": "Chapecoense"
+  },
+  {
+    "id": 1102308,
+    "name": "Tulio Eduardo",
+    "team": "Chapecoense"
+  },
+  {
+    "id": 1497709,
+    "name": "Iago Machado",
+    "team": "Corinthians"
+  },
+  {
+    "id": 417084,
+    "name": "Keiller",
+    "team": "Coritiba"
+  },
+  {
+    "id": 346065,
+    "name": "Keno",
+    "team": "Coritiba"
+  },
+  {
+    "id": 462070,
+    "name": "Nicolás Fonseca",
+    "team": "Coritiba"
+  },
+  {
+    "id": 1089181,
+    "name": "Paulo Roberto",
+    "team": "Coritiba"
+  },
+  {
+    "id": 985351,
+    "name": "Renato Marques",
+    "team": "Coritiba"
+  },
+  {
+    "id": 530737,
+    "name": "Richard",
+    "team": "Coritiba"
+  },
+  {
+    "id": 1014555,
+    "name": "Rodrigo Gelado",
+    "team": "Coritiba"
+  },
+  {
+    "id": 1365157,
+    "name": "Tissi",
+    "team": "Coritiba"
+  },
+  {
+    "id": 661270,
+    "name": "Fabrizio Peralta",
+    "team": "Cruzeiro"
+  },
+  {
+    "id": 974374,
+    "name": "Anthony Valencia",
+    "team": "Flamengo"
+  },
+  {
+    "id": 992534,
+    "name": "Jhonny",
+    "team": "Fluminense"
+  },
+  {
+    "id": 1219751,
+    "name": "Léo Jance",
+    "team": "Fluminense"
+  },
+  {
+    "id": 1084666,
+    "name": "Luis Fernando",
+    "team": "Fluminense"
+  },
+  {
+    "id": 984365,
+    "name": "Yago Ferreira",
+    "team": "Fluminense"
+  },
+  {
+    "id": 1219676,
+    "name": "Athos Thawan",
+    "team": "Grêmio"
+  },
+  {
+    "id": 601011,
+    "name": "Caio Paulista",
+    "team": "Grêmio"
+  },
+  {
+    "id": 273438,
+    "name": "Danilo Barbosa",
+    "team": "Grêmio"
+  },
+  {
+    "id": 1092620,
+    "name": "Diego Caito",
+    "team": "Grêmio"
+  },
+  {
+    "id": 261988,
+    "name": "Filip Krovinovic",
+    "team": "Grêmio"
+  },
+  {
+    "id": 448466,
+    "name": "Jovane Cabral",
+    "team": "Grêmio"
+  },
+  {
+    "id": 743594,
+    "name": "Matheus Nascimento",
+    "team": "Grêmio"
+  },
+  {
+    "id": 1219466,
+    "name": "Wallace",
+    "team": "Grêmio"
+  },
+  {
+    "id": 371996,
+    "name": "Alerrandro",
+    "team": "Internacional"
+  },
+  {
+    "id": 234523,
+    "name": "Antonio Sanabria",
+    "team": "Internacional"
+  },
+  {
+    "id": 798114,
+    "name": "Calebe",
+    "team": "Internacional"
+  },
+  {
+    "id": 468174,
+    "name": "Félix Torres",
+    "team": "Internacional"
+  },
+  {
+    "id": 249730,
+    "name": "Guillermo Maripán",
+    "team": "Internacional"
+  },
+  {
+    "id": 668265,
+    "name": "Kayky",
+    "team": "Internacional"
+  },
+  {
+    "id": 876739,
+    "name": "Matheus Cunha",
+    "team": "Internacional"
+  },
+  {
+    "id": 251813,
+    "name": "Niclas Eliasson",
+    "team": "Internacional"
+  },
+  {
+    "id": 657220,
+    "name": "Rodrigo Villagra",
+    "team": "Internacional"
+  },
+  {
+    "id": 670965,
+    "name": "Vitinho",
+    "team": "Internacional"
+  },
+  {
+    "id": 480225,
+    "name": "Alesson",
+    "team": "Mirassol"
+  },
+  {
+    "id": 871427,
+    "name": "Bruno Santos",
+    "team": "Mirassol"
+  },
+  {
+    "id": 794925,
+    "name": "Edson Carioca",
+    "team": "Mirassol"
+  },
+  {
+    "id": 525510,
+    "name": "Elias",
+    "team": "Mirassol"
+  },
+  {
+    "id": 442818,
+    "name": "Fernandinho",
+    "team": "Mirassol"
+  },
+  {
+    "id": 995883,
+    "name": "Gabriel",
+    "team": "Mirassol"
+  },
+  {
+    "id": 520457,
+    "name": "Gustavo Cazonatti",
+    "team": "Mirassol"
+  },
+  {
+    "id": 636314,
+    "name": "Gustavo Silva",
+    "team": "Mirassol"
+  },
+  {
+    "id": 432157,
+    "name": "Japa",
+    "team": "Mirassol"
+  },
+  {
+    "id": 742073,
+    "name": "Wallisson",
+    "team": "Mirassol"
+  },
+  {
+    "id": 305428,
+    "name": "Zé Roberto",
+    "team": "Mirassol"
+  },
+  {
+    "id": 379752,
+    "name": "Alexander Barboza",
+    "team": "Palmeiras"
+  },
+  {
+    "id": 323929,
+    "name": "Bruno Bertinato",
+    "team": "Palmeiras"
+  },
+  {
+    "id": 1268048,
+    "name": "Luis Pacheco",
+    "team": "Palmeiras"
+  },
+  {
+    "id": 977465,
+    "name": "Gustavo Marques",
+    "team": "Red Bull Bragantino"
+  },
+  {
+    "id": 1082625,
+    "name": "Patrick",
+    "team": "Red Bull Bragantino"
+  },
+  {
+    "id": 1082602,
+    "name": "Wallace Yan",
+    "team": "Red Bull Bragantino"
+  },
+  {
+    "id": 491599,
+    "name": "Antonio Galeano",
+    "team": "Remo"
+  },
+  {
+    "id": 358738,
+    "name": "Cristian Tassano",
+    "team": "Remo"
+  },
+  {
+    "id": 686332,
+    "name": "Edson Fernando",
+    "team": "Remo"
+  },
+  {
+    "id": 1095628,
+    "name": "Edson Kauã",
+    "team": "Remo"
+  },
+  {
+    "id": 833886,
+    "name": "Franco Catarozzi",
+    "team": "Remo"
+  },
+  {
+    "id": 592346,
+    "name": "Gabriel Poveda",
+    "team": "Remo"
+  },
+  {
+    "id": 672292,
+    "name": "João Lucas",
+    "team": "Remo"
+  },
+  {
+    "id": 443721,
+    "name": "Marlon",
+    "team": "Remo"
+  },
+  {
+    "id": 617687,
+    "name": "Matheus Alexandre",
+    "team": "Remo"
+  },
+  {
+    "id": 882916,
+    "name": "Matheus Felipe",
+    "team": "Remo"
+  },
+  {
+    "id": 333159,
+    "name": "Patrick",
+    "team": "Remo"
+  },
+  {
+    "id": 1095630,
+    "name": "Tico",
+    "team": "Remo"
+  },
+  {
+    "id": 484848,
+    "name": "Zé Ivaldo",
+    "team": "Remo"
+  },
+  {
+    "id": 816149,
+    "name": "Andrey Quintino",
+    "team": "Santos"
+  },
+  {
+    "id": 362842,
+    "name": "Arthur Melo",
+    "team": "Santos"
+  },
+  {
+    "id": 321239,
+    "name": "Everton",
+    "team": "Santos"
+  },
+  {
+    "id": 608216,
+    "name": "Gabriel Menino",
+    "team": "Santos"
+  },
+  {
+    "id": 891672,
+    "name": "Gustavo Caballero",
+    "team": "Santos"
+  },
+  {
+    "id": 1116832,
+    "name": "João Fernandes",
+    "team": "Santos"
+  },
+  {
+    "id": 275412,
+    "name": "João Paulo",
+    "team": "Santos"
+  },
+  {
+    "id": 387611,
+    "name": "Lima",
+    "team": "Santos"
+  },
+  {
+    "id": 1005585,
+    "name": "Pepê Fermino",
+    "team": "Santos"
+  },
+  {
+    "id": 80444,
+    "name": "Philippe Coutinho",
+    "team": "Santos"
+  },
+  {
+    "id": 185966,
+    "name": "Rodinei",
+    "team": "Santos"
+  },
+  {
+    "id": 440658,
+    "name": "Artur",
+    "team": "São Paulo"
+  },
+  {
+    "id": 258039,
+    "name": "Aurélio Buta",
+    "team": "São Paulo"
+  },
+  {
+    "id": 162812,
+    "name": "Cauly",
+    "team": "São Paulo"
+  },
+  {
+    "id": 257376,
+    "name": "Domingos Duarte",
+    "team": "São Paulo"
+  },
+  {
+    "id": 1095834,
+    "name": "Gustavo Santana",
+    "team": "São Paulo"
+  },
+  {
+    "id": 520468,
+    "name": "Iago",
+    "team": "São Paulo"
+  },
+  {
+    "id": 1096506,
+    "name": "Isac",
+    "team": "São Paulo"
+  },
+  {
+    "id": 1202380,
+    "name": "João Pedro",
+    "team": "São Paulo"
+  },
+  {
+    "id": 811219,
+    "name": "Newton",
+    "team": "São Paulo"
+  },
+  {
+    "id": 1193867,
+    "name": "Pedro Lima",
+    "team": "São Paulo"
+  },
+  {
+    "id": 381724,
+    "name": "Victor Sá",
+    "team": "São Paulo"
+  },
+  {
+    "id": 991134,
+    "name": "Alan Lescano",
+    "team": "Vasco"
+  },
+  {
+    "id": 598629,
+    "name": "Bruno Duarte",
+    "team": "Vasco"
+  },
+  {
+    "id": 474589,
+    "name": "Carlos Cuesta",
+    "team": "Vasco"
+  },
+  {
+    "id": 891353,
+    "name": "Cuiabano",
+    "team": "Vasco"
+  },
+  {
+    "id": 1159259,
+    "name": "Euder",
+    "team": "Vasco"
+  },
+  {
+    "id": 491705,
+    "name": "Facundo Colidio",
+    "team": "Vasco"
+  },
+  {
+    "id": 742095,
+    "name": "Gabriel Pereira",
+    "team": "Vasco"
+  },
+  {
+    "id": 1083969,
+    "name": "Guilherme Estrella",
+    "team": "Vasco"
+  },
+  {
+    "id": 974652,
+    "name": "Johan Rojas",
+    "team": "Vasco"
+  },
+  {
+    "id": 696693,
+    "name": "Loide Augusto",
+    "team": "Vasco"
+  },
+  {
+    "id": 1082692,
+    "name": "Paulinho",
+    "team": "Vasco"
+  },
+  {
+    "id": 643119,
+    "name": "Riquelme",
+    "team": "Vasco"
+  },
+  {
+    "id": 958598,
+    "name": "Robert Renan",
+    "team": "Vasco"
+  },
+  {
+    "id": 576026,
+    "name": "Santiago Sosa",
+    "team": "Vasco"
+  },
+  {
+    "id": 979994,
+    "name": "Alex Bruno",
+    "team": "Vitória"
+  },
+  {
+    "id": 603122,
+    "name": "Cacá",
+    "team": "Vitória"
+  },
+  {
+    "id": 1316690,
+    "name": "Darlan",
+    "team": "Vitória"
+  },
+  {
+    "id": 1225755,
+    "name": "Diego Tarzia",
+    "team": "Vitória"
+  },
+  {
+    "id": 262851,
+    "name": "Emanuel Brítez",
+    "team": "Vitória"
+  },
+  {
+    "id": 657387,
+    "name": "Fabiano",
+    "team": "Vitória"
+  },
+  {
+    "id": 577407,
+    "name": "Ignacio Laquintana",
+    "team": "Vitória"
+  },
+  {
+    "id": 613641,
+    "name": "Jamerson",
+    "team": "Vitória"
+  },
+  {
+    "id": 432166,
+    "name": "Luan Cândido",
+    "team": "Vitória"
+  },
+  {
+    "id": 608943,
+    "name": "Lucas Silva",
+    "team": "Vitória"
+  },
+  {
+    "id": 887801,
+    "name": "Nathan Mendes",
+    "team": "Vitória"
+  },
+  {
+    "id": 663578,
+    "name": "Ramon",
+    "team": "Vitória"
+  },
+  {
+    "id": 1093951,
+    "name": "Renê",
+    "team": "Vitória"
+  },
+  {
+    "id": 646677,
+    "name": "Riccieli",
+    "team": "Vitória"
+  },
+  {
+    "id": 348354,
+    "name": "Tomás Pochettino",
+    "team": "Vitória"
+  },
+  {
+    "id": 323954,
+    "name": "Walace",
+    "team": "Vitória"
+  },
+  {
+    "id": 323850,
+    "name": "Zé Marcos",
+    "team": "Vitória"
+  },
+  {
+    "id": 825780,
+    "name": "Zé Vitor",
+    "team": "Vitória"
+  }
+]
